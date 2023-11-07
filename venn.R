@@ -124,6 +124,15 @@ Trubetskoy_2022_prioritised_coding <- length(Trubetskoy_2022_prioritised_coding)
 Trubetskoy_broad_db_cross <- matchingValues(Trubetskoy_2022_broad_coding, HumanEntrezDB)
 Trubetskoy_broad_db_cross_total <- runningTotalMatching(Trubetskoy_2022_broad_coding, HumanEntrezDB)
 
-draw.pairwise.venn(area1 = Trubetskoy_2022_broad_coding_total, area2 = dbTotal,
-                   cross.area = Trubetskoy_broad_db_cross_total, fill = c('red','blue'),
-                   category = c("Trubetskoy_2022_broad_coding_total","Synaptic DB"))
+
+Trubetskoy_prioritised_db_cross <- matchingValues(Trubetskoy_2022_prioritised_coding, HumanEntrezDB)
+Trubetskoy_prioritised_db_cross_total <- runningTotalMatching(Trubetskoy_prioritised_db_cross, HumanEntrezDB)
+
+# draw.pairwise.venn(area1 = Trubetskoy_2022_broad_coding_total, area2 = dbTotal,
+#                    cross.area = Trubetskoy_broad_db_cross_total, fill = c('red','blue'),
+#                    category = c("Trubetskoy_2022_broad_coding_total","Synaptic DB"))
+
+
+draw.pairwise.venn(area1 = Trubetskoy_2022_prioritised_coding_total, area2 = dbTotal,
+                   cross.area = Trubetskoy_prioritised_db_cross_total, fill = c('red','blue'),
+                   category = c("Trubetskoy_2022_prioritised_coding_total","Synaptic DB"))
