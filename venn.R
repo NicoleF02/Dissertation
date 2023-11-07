@@ -72,46 +72,58 @@ dbData <- dbGetQuery(db, query)
 # we trubetskoyFile and dbData venn diagrams.
 grid.newpage()
 
-# -1 as it has headers \\double check
-dbTotal <- nrow(dbData) - 1
-
 # Only do the coding ones, broad coding and prioritised coding.
 # Compare both of them seperately with the 3 current data sets, to get two venn diagrams from them.
 # As soon as they are compared, find which pre,post will have more schizophrenia genes for it. Another set with in syn go and not in syn go. Another venn diagram with the database
 
-find_totals <- function(header_name, table_data){
-  # Find the index of the specified header in the column names
-  header_index <- which(names(table_data) == header_name)
-  # Check if the header exists
-  if (length(header_index) > 0) {
-    # Calculate the total number of non-NA items for the specified header, -1 to remove header in calc
-    total_items_for_header <- sum(!is.na(table_data[-1, header_index]))
-    return(total_items_for_header)
+extractColumnAsList <- function(data_frame, column_header) {
+  if (column_header %in% names(data_frame)) {
+    column_data <- data_frame[[column_header]]
+    column_data <- as.integer(column_data)
+    return(column_data)
   } else {
-    cat("Header", header_name, "not found in the table.\n")
+    cat("Column header not found in the table.\n")
+    return(NULL)
   }
 }
 
-matching_values_total <- function(header_name, table_data, dbData){
+runningTotalMatching <- function(list1, list2){
   total <- 0
-  for (i in 1:nrow(dbData)){
-    value <- dbData[i,0]
-    if (any(which(names(table_data) == header_name) == value, na.rm = TRUE)){
+  for (value in list1){
+    if (any(list2 == value, na.rm = TRUE)){
       total <- total + 1
-      cat("matching value is ",value)
     }
+
   }
   return(total)
+}
+
+matchingValues <- function(list1, list2){
+  matching_list <- vector("numeric")
+  for (value in list1){
+    if (any(list2 == value, na.rm = TRUE)){
+      matching_list <- c(matching_list,value)
+    }
+  }
+  return(matching_list)
 }
 
 
 # Just join gene and disease
 # Extract list and filter it for non null, make sure its just for human.
-Trubetskoy_2022_broad_coding <- find_totals("Trubetskoy_2022_broad_coding", trubetskoyFile)
-Trubetskoy_2022_prioritised_coding <- find_totals("Trubetskoy_2022_prioritised_coding", trubetskoyFile)
+Trubetskoy_2022_broad_coding <- na.omit(extractColumnAsList(trubetskoyFile, "Trubetskoy_2022_broad_coding"))
+Trubetskoy_2022_prioritised_coding <- na.omit(extractColumnAsList(trubetskoyFile, "Trubetskoy_2022_prioritised_coding"))
+HumanEntrezDB <- na.omit(extractColumnAsList(dbData, "HumanEntrez"))
 
+dbTotal <- length(HumanEntrezDB)
 
-Trubetskoy_broad_db_cross = matching_values_total("Trubetskoy_2022_broad_coding", trubetskoyFile, dbData)
-print(Trubetskoy_broad_db_cross)
+Trubetskoy_2022_broad_coding_total <- length(Trubetskoy_2022_broad_coding)
 
-draw.pairwise.venn(area1 = Trubetskoy_2022_broad_coding_total, area2 = dbTotal, cross.area = Trubetskoy_broad_db_cross)
+Trubetskoy_2022_prioritised_coding <- length(Trubetskoy_2022_prioritised_coding)
+
+Trubetskoy_broad_db_cross <- matchingValues(Trubetskoy_2022_broad_coding, HumanEntrezDB)
+Trubetskoy_broad_db_cross_total <- runningTotalMatching(Trubetskoy_2022_broad_coding, HumanEntrezDB)
+
+draw.pairwise.venn(area1 = Trubetskoy_2022_broad_coding_total, area2 = dbTotal,
+                   cross.area = Trubetskoy_broad_db_cross_total, fill = c('red','blue'),
+                   category = c("Trubetskoy_2022_broad_coding_total","Synaptic DB"))
