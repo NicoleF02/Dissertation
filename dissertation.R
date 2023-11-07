@@ -41,6 +41,7 @@ syn = sum(synapseDB$syn)
 #
 #TODO check synaptosome name
 
+
 draw.triple.venn(area1 = psd, area2 = pres, area3= syn,
                  n12 = psdpres, n23= pressyn, n13 = psdsyn, n123=psdpressyn,
                  fill = c('yellow','brown','blue'),
