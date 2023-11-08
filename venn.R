@@ -1,3 +1,4 @@
+
 # library(DBI)
 #
 # mydb <- dbConnect(RSQLite::SQLite(), "synaptic.proteome_SR_20210408.db")
@@ -7,8 +8,6 @@ library(data.table)
 library(RSQLite)
 library(DBI)
 library(VennDiagram)
-install.packages("ggplot2")
-install.packages("dplyr")
 library(ggplot2)
 library(dplyr)
 
@@ -142,6 +141,17 @@ filteredSynGo <- function(totalDB, dbSynList){
   return(matching_rows)
 }
 
+
+barchart <- function(dataFrame, titleName, xLabel){
+  data_count <- dataFrame %>%
+    group_by(SynGO) %>%
+    summarize(count = n())
+
+  ggplot(data_count, aes(x = GOID, y = count)) +
+    geom_bar(stat = "identity") +
+    labs(title = titleName, x = xLabel, y = "Count")
+}
+
 # Just join gene and disease
 # Extract list and filter it for non null, make sure its just for human.
 Trubetskoy_2022_broad_coding <- na.omit(extractColumnAsList(trubetskoyFile, "Trubetskoy_2022_broad_coding"))
@@ -179,9 +189,38 @@ tableSynapseBroadOverlap <- matchingValuesSynapse(Trubetskoy_2022_broad_coding, 
 # Want to compare Full_DB_Rat and full database
 
 query <- "SELECT distinct HumanEntrez
-FROM FullGeneFullDisease"
+FROM Gene
+WHERE SynGO is not NULL"
 
-dbDataFull <- extractColumnAsList(dbGetQuery(db, query), "HumanEntrez")
+dbDataFullSynGO <- dbGetQuery(db, query)
+
+# this is a list and not what we want, we want all columns
+# My to-do is all venns having more than one circle
+broadSynGOCross <- filteredSynGo(dbDataFullSynGO, Trubetskoy_2022_broad_coding)
+
+dataFrame <- broadSynGOCross
+
+
+#dataFrame, titleName, xLabel, groubByValue
+data_count <- dataFrame %>%
+  group_by(SynGO) %>%
+  summarize(count = n())
+
+ggplot(data_count, aes(x = GOID, y = count)) +
+  geom_bar(stat = "identity") +
+  labs(title = titleName, x = xLabel, y = "Count")
+
+
+
+# dbDataFullSynGO <- extractColumnAsList(dbGetQuery(db, query), "HumanEntrez")
+#
+#
+# broadSynGOCross <- matchingValues(dbDataFullSynGO, Trubetskoy_2022_broad_coding)
+#
+# draw.pairwise.venn(area1 = length(dbDataFullSynGO), area2 = length(Trubetskoy_2022_broad_coding),
+#                    cross.area = length(broadSynGOCross), fill = c('red','blue'),
+#                    category = c("Synaptic SynGO","Trubetskoy_2022_broad_coding"))
+
 
 
 # We don't want distinct HumanEntrez as SynGO can be accosciated with more than one
@@ -199,31 +238,27 @@ dbDataFull <- extractColumnAsList(dbGetQuery(db, query), "HumanEntrez")
 
 #crossSynapseDBRAT <- matchingValuesSynapse(dbDataFull, synapseDB)
 
-query <- "SELECT a.GeneID, b.HumanEntrez, a.GOID
-FROM GOGene a
-LEFT JOIN Gene b on a.GeneID=b.ID
-WHERE GOID is NOT NULL"
+# query <- "SELECT a.GeneID, b.HumanEntrez, a.GOID
+# FROM GOGene a
+# LEFT JOIN Gene b on a.GeneID=b.ID
+# WHERE GOID is NOT NULL"
+#
+# dbDataGo <- dbGetQuery(db, query)
+# dbDataGoList <- extractColumnAsList(dbDataSynGo, "HumanEntrez")
+# # broadGOCross <- matchingValues(dbDataGoList, Trubetskoy_2022_broad_coding)
+# # # TODO possible bar on what GO associations
+# # draw.pairwise.venn(area1 = Trubetskoy_2022_broad_coding_total, area2 = length(dbDataGoList),
+# #                    cross.area = length(broadGOCross), fill = c('red','blue'),
+# #                    category = c("Trubetskoy_2022_broad_coding","GO Genes"))
+#
+#
+# prioristiedGOCross <- filteredSynGo(dbDataGo, Trubetskoy_2022_prioritised_coding)
 
-dbDataGo <- dbGetQuery(db, query)
-dbDataGoList <- extractColumnAsList(dbDataSynGo, "HumanEntrez")
-# broadGOCross <- matchingValues(dbDataGoList, Trubetskoy_2022_broad_coding)
-# # TODO possible bar on what GO associations
-# draw.pairwise.venn(area1 = Trubetskoy_2022_broad_coding_total, area2 = length(dbDataGoList),
-#                    cross.area = length(broadGOCross), fill = c('red','blue'),
-#                    category = c("Trubetskoy_2022_broad_coding","GO Genes"))
-
-
-prioristiedGOCross <- filteredSynGo(dbDataGoList, Trubetskoy_2022_prioritised_coding)
 
 
 
-data_count <- prioristiedGOCross %>%
-  group_by(GOID) %>%
-  summarize(count = n())
 
-ggplot(data_count, aes(x = GOID, y = count)) +
-  geom_bar(stat = "identity") +
-  labs(title = "Bar Chart of GOID Occurrences", x = "GOID", y = "Count")
+
 
 
 
