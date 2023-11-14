@@ -136,7 +136,7 @@ vennSynapse <- function(vennSynapse){
 }
 
 filteredSynGo <- function(totalDB, dbSynList){
-  key <- "HumanEntrez"
+  key <- "EntrezID_Human"
   matching_rows <- totalDB[totalDB[, key] %in% dbSynList, ]
   return(matching_rows)
 }
@@ -184,42 +184,52 @@ synapsePriortisedCompleteOverlap <- runningTotalMatching(Trubetskoy_broad_db_cro
 tableSynapsePriortisedOverlap <- matchingValuesSynapse(Trubetskoy_2022_prioritised_coding, synapseDB)
 tableSynapseBroadOverlap <- matchingValuesSynapse(Trubetskoy_2022_broad_coding, synapseDB)
 
+SynGOFile <- "Files/SynGO.txt"
+SynGO <- read.table(file=SynGOFile, sep="\t", header=TRUE)
+
+
+
+broadSynGOCross <- filteredSynGo(SynGO, Trubetskoy_2022_prioritised_coding)
+#unique(data$Product)
+
+
+draw.pairwise.venn(area1 = length(unique(SynGO$EntrezID_Human)), area2 = length(Trubetskoy_2022_prioritised_coding),
+                   cross.area = length(unique(broadSynGOCross$EntrezID_Human)), fill = c('red','blue'),
+                   category = c("Synaptic SynGO","Trubetskoy_2022_prioritised_coding"))
+
+
 #vennSynapse(tableSynapsePriortisedOverlap)
 
 # Want to compare Full_DB_Rat and full database
 
-query <- "SELECT distinct HumanEntrez
-FROM Gene
-WHERE SynGO is not NULL"
+# query <- "SELECT HumanEntrez
+# FROM Gene
+# WHERE SynGO is not NULL"
+#
+# dbDataFullSynGO <- dbGetQuery(db, query)
+#
+# # this is a list and not what we want, we want all columns
+# # My to-do is all venns having more than one circle
+# broadSynGOCross <- filteredSynGo(dbDataFullSynGO, Trubetskoy_2022_broad_coding)
 
-dbDataFullSynGO <- dbGetQuery(db, query)
-
-# this is a list and not what we want, we want all columns
-# My to-do is all venns having more than one circle
-broadSynGOCross <- filteredSynGo(dbDataFullSynGO, Trubetskoy_2022_broad_coding)
-
-dataFrame <- broadSynGOCross
-
-
-#dataFrame, titleName, xLabel, groubByValue
-data_count <- dataFrame %>%
-  group_by(SynGO) %>%
-  summarize(count = n())
-
-ggplot(data_count, aes(x = GOID, y = count)) +
-  geom_bar(stat = "identity") +
-  labs(title = titleName, x = xLabel, y = "Count")
+# dataFrame <- broadSynGOCross
+#
+#
+# #dataFrame, titleName, xLabel, groubByValue
+# data_count <- dataFrame %>%
+#   group_by(SynGO) %>%
+#   summarize(count = n())
+#
+# ggplot(data_count, aes(x = GOID, y = count)) +
+#   geom_bar(stat = "identity") +
+#   labs(title = titleName, x = xLabel, y = "Count")
 
 
 
 # dbDataFullSynGO <- extractColumnAsList(dbGetQuery(db, query), "HumanEntrez")
 #
 #
-# broadSynGOCross <- matchingValues(dbDataFullSynGO, Trubetskoy_2022_broad_coding)
-#
-# draw.pairwise.venn(area1 = length(dbDataFullSynGO), area2 = length(Trubetskoy_2022_broad_coding),
-#                    cross.area = length(broadSynGOCross), fill = c('red','blue'),
-#                    category = c("Synaptic SynGO","Trubetskoy_2022_broad_coding"))
+
 
 
 

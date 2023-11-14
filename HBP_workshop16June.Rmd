@@ -1,0 +1,316 @@
+---
+title: "HBP workshop"
+author: "Oksana Sorokina"
+date: "2023-06-13"
+output: pdf_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  comment = "#>"
+)
+```
+
+```{r setup, echo=FALSE}
+library(knitr)
+library(BioNAR)
+library(synaptome.db)
+library(ggplot2)
+library(pander)
+library(ggrepel)
+library(randomcoloR)
+```
+
+# Using BioNAR and Synaptome.db packages for analysis of synaptic PPI networks
+## Loading the network
+
+BioNAR implements networks as R data frames, where each row corresponds to a vertex interactor pair and where each vertex has a unique vertex_ID. Therefore, a network can be directly uploaded as a data frame in this format. Alternatively, a network can be imported from most standard graph file formats including gml, or other formats supported by the igraph R package. BioNAR also allows network import for synaptic protein sets/synaptic compartments/brain regions directly from the synaptome.db package (Sorokina et al., 2022).
+From synaptome.db, in turn, you can extract the PPI network for: a) set of genes; b) whole compartment/brain region; c) selected genes from the region with predefined confidence level.
+
+## Network from table
+
+```{r load_fromTable}
+setwd("~/Documents/Synaptic_Database_tutorial/")
+
+t <- read.table("PSD_PPI.txt", sep = "\t", header = T, stringsAsFactors = F)#load graph from data frame
+head(t)
+gt <- buildNetwork(t)
+summary(gt)
+```
+
+## Network from graph file
+
+```{r load_fromGraph}
+gi <- igraph::read.graph("PSDnetwork.gml",format="gml") #graph from gml
+summary(gi)
+```
+
+## Network from Synaptome.db 
+### Whole compartment
+
+```{r load_fromSynaptomeComp}
+cid<-match("Postsynaptic", getCompartments()$Name)
+cid
+t<-getAllGenes4Compartment(cid) 
+dim(t)
+head(t)
+gp<-buildFromSynaptomeByEntrez(t$HumanEntrez) 
+summary(gp)
+```
+
+### Network with predefined confidence
+
+```{r load_fromSynaptomeConf}
+cp <- findGeneByCompartmentPaperCnt(3)#graph from synaptome.db for genes found >=3 times
+postgp <- cp[cp$Localisation == "Postsynaptic",]
+dim(postgp)
+head(postgp)
+g<-buildFromSynaptomeGeneTable(postgp)
+summary(g)
+```
+
+## Annotate network. 
+
+Vertices are typically annotated with categorical or continuous metadata. Annotations are usually handled in a three-column data frame format, where the first column contains the annotation term ID, the second - annotation term name, and the third column – associated vertex_ID. All annotation terms for the same vertex_ID are collected and converted into semicolon-separated lists to store all annotations of the vertex held as a string in the vertex annotation. For example, if a protein is annotated with two different molecular functions A and B, in vertex annotation it will be stored as ‘A; B’.  
+
+### Annotate gene names
+
+```{r annotate_names}
+g<-annotateGeneNames(g)
+any(is.na(V(g)$GeneName))
+idx<-which(is.na(V(g)$GeneName))
+idx
+V(g)$GeneName[idx]<-'AKAP2'
+summary(g)
+```
+
+### Annotate diseases and GO
+
+```{r annotate_dis&GO}
+afile<-system.file("extdata", "flatfile_human_gene2HDO.csv", package = "BioNAR")
+dis <- read.table(afile,sep="\t",skip=1,header=FALSE,strip.white=TRUE,quote="")
+g <- annotateTopOntoOVG(g, dis)
+g <- annotateGOont(g)
+summary(g)
+```
+
+
+### Customised annotation
+
+```{r annotate_custom}
+sg <- read.table("SynGO.txt", sep = "\t", header = T, stringsAsFactors = F)
+head(sg)
+g <- annotateVertex(g, name = "syngo", values = sg, idatt = "name")
+summary(g)
+```
+## Network properties.
+### Network degree distribution.
+
+To assess any network model for biological plausibility, we often want to test a network's degree distribution for evidence of scale-free structure and compare it against an equivalent randomised network model. The assumption here is that a network based on noisy data will have more random architecture whereas biological networks typically tend towards a more scale-free structure.
+```{r power_Law}
+pFit <- fitDegree(as.vector(igraph::degree(graph=g)), Nsim=10,
+plot=TRUE,WIDTH=2480, HEIGHT=2480)
+pwr <- slot(pFit,'alpha')
+```
+
+### Compare degree distribution to the randomised graphs.
+
+To enable comparison of an observed network’s vertex centrality values to those of an equivalently sized randomised graph, we enabled three randomisation models including G(n,p) Erdos-Renyi model (Erdos & Renyi, 1959) (‘gnp’, illustrated in example below), Barabasi-Albert preferential attachment model (Barabási & Albert, 1999) (‘pa’), and the derivation of a new randomised graph from a given graph by iteratively and randomly adding/removing (‘cgnp’) or rewiring edges (‘rw’).
+
+#lrgnp <- list()
+#alphaGNP <- c()
+#system.time(
+#for(i in 1:5000){
+#rgnp <- BioNAR:::getGNP(g)
+#pFit <- fitDegree(as.vector(igraph::degree(graph=rgnp)),
+#Nsim=10, plot=FALSE,threads=5)
+#p <- slot(pFit,'alpha')
+#lrgnp[[i]] <- rgnp
+#alphaGNP[i] <- p
+#})
+#qplot(alphaGNP)+geom_vline(xintercept = pwr)
+```{r PL_random,cache=TRUE}
+load("alphaGNP.Rdat")
+qplot(alphaGNP)+geom_vline(xintercept = pwr)
+```
+
+### Graph centrality measures.
+
+BioNAR directly supports the calculation of the following network vertex centrality measures. Some are implemented via igraph (Gabor & Tamas, 2006): degree (DEG), betweenness (BET), clustering coefficient (CC), page rank (PR) (see igraph manual for details). Other measures appear only in BioNAR: semilocal centrality (SL), mean shortest path (mnSP) and standard deviation of the shortest path (sdSP). 
+Calculated vertex centrality values can be added as vertex attributes (calcCentrality) or returned as an R matrix (getCentralityMatrix), depending on user preference. Any other numerical characteristics, calculated for vertices and represented in a matrix form, can also be stored as a vertex attribute (applyMatrixToGraph). 
+
+```{r graph_centrality}
+g <- calcCentrality(g)
+summary(g)
+```
+## Clustering.
+
+The network  can be split into communities using a non-exhaustive set of commonly used clustering algorithms for molecular networks. These include Modularity-Maximisation based algorithms, such as the popular agglomerative 'Fast-Greedy Community' algorithm (fc) (Clauset et al., 2004), process driven agglomerative random walk algorithm 'Walktrap' (wt) (Pons & Latapy, 2006), and coupled Potts/Simulated Annealing algorithm 'SpinGlass' (sg) (Reichardt & Bornholdt, 2006; Traag & Bruggeman, 2009), the divisive spectral based 'Leading-Eigenvector' (lec) (Newman, 2006) and fine-tuning (Spectral) (McLean et al., 2016) algorithms, and the hierarchical agglomerative 'Louvain' algorithm (louvain) (Blondel et al., 2008). We also included a non-modularity information-theory based algorithm ‘InfoMAP' (infomap) (Rosvall et al., 2009; Rosvall & Bergstrom, 2008). All algorithm implementations, apart from Spectral, are imported from R’s igraph package (Gabor & Tamas, 2006). The Spectral algorithm (McLean et al., 2016) was written in  C++ and wrapped in R within a satellite CRAN package rSpectral, (https://cran.r-project.org/web/packages/rSpectral/index.html), linked to BioNAR (see Supplementary Methods). Default parameters used in the fc, lec, sg, wt and lourvain algorithms were chosen to maximise the measure Modularity (Newman & Girvan, 2004); infomap seeks the optimal community structure in the data by maximising the objective function called the Minimum Description Length (Rissanen, 1978; Grwald et al., 2005).
+
+### Clustering with selected method
+
+```{r clustering_one}
+g <- calcClustering(g, alg = "louvain")
+summary(g)
+```
+### Community structure visualisation
+
+```{r clust_visualsation}
+library(randomcoloR)
+mem.df<-data.frame(names=V(g)$name,membership=as.numeric(V(g)$louvain))
+palette <- distinctColorPalette(max(as.numeric(mem.df$membership)))
+lay<-layoutByCluster(g,mem.df,layout = layout_nicely)
+plot(g,vertex.size=3,layout=lay, vertex.label=NA,  vertex.color=palette[as.numeric(mem.df$membership)],edge.color='grey95')
+      legend('topright',legend=names(table(mem.df$membership)), col=palette,pch=19,ncol = 2)
+
+```
+
+### Reclustering
+
+```{r recluster}
+remem<-calcReclusterMatrix(g,mem.df,alg = "louvain",10)
+head(remem)
+lay<-layoutByRecluster(g,remem,layout_nicely)
+plot(g,vertex.size=3,layout=lay,
+        vertex.label=NA,
+        vertex.color=palette[as.numeric(mem.df$membership)],
+        edge.color='grey95')
+legend('topright',legend=names(table(mem.df$membership)),
+        col=palette,pch=19,ncol = 2)
+
+```
+
+### Clustering with all methods and clustering summary.
+
+To compare across different clustering algorithms on a network, a summary matrix is created, consisting of: the maximum Modularity obtained (mod), the number of detected communities (C), the number of singlet communities (Cn1), the number of communities with size >= 100 (Cn100), the fraction of edges lying between communities (mu), the size of the smallest community (Min. C) and the largest community (Max. C), the average (Mean C), median (Median C), first quartile (1st Qu. C), and third quartile (3rd Qu. C) of community size 
+```{#r clustering_all,cache=TRUE}
+g <- calcAllClustering(g)
+summary(g)
+```
+
+```{r load_clustered_network}
+file <- system.file("extdata", "PSD_annot_cls.gml", package = "BioNAR")
+gg <- igraph::read.graph(file,format="gml") #graph from gml
+summary(gg)
+m <- clusteringSummary(gg)
+pander(m)
+```
+
+## Community overrepresentation analysis
+
+Over-representation analysis (ORA) is a common approach to identify annotation terms that are significantly over- or under-represented in a given set of vertices compared to a random distribution. In biological networks GeneOntology terms and Pathway names are amongst the most frequently used. We represent the results of ORA as an R data frame, with rows representing the combination of annotation term and cluster and columns – the enrichment characteristics, including size of the cluster (Cn), number of annotated vertices in the graph (Fn), number of annotated vertices in the cluster (Mu), odds ratio (OR) and its 95% Confidence interval (CIl and CIu), Fold enrichment (Fe and FC).
+
+```{r ORA_GOMF_louvain}
+ora<- clusterORA(gg, 'louvain', name = 'syngo', 
+                         vid = "name", alpha = 1, col = COLLAPSE)
+head(ora)
+```
+
+## Consensus matrix
+
+The consensus matrix is produced by creating smaller network by randomly keeping a proportion (by default 80%) of the network edges (type=1) or vertices (type=2) and rerunning the clustering algorithm on largest connected component of that network. This is then repeated to produce a distribution (matrix) of clustered networks (by default set to 500 times).
+```{r consensus_matrix}
+conmat <- makeConsensusMatrix(gg, N=5,
+                                alg = "louvain", type = 2, 
+                                mask = 10, reclust = FALSE, 
+                                Cnmax = 10)
+
+```
+
+## Cluster robustness
+
+Next the robustness of discovered communities will be tested, assigning to each cluster a value in a range from 0, indicating no confidence in the community existing, to 1, indicating absolute confidence in the cluster existing, thus evaluating the "goodness" of a chosen clustering algorithm.
+This will return a table (15x5), where each of the 15 clusters obtain by Louvain algorithm has the following values: C (cluster number), Cn (cluster size), Crob (cluster robustness), and CrobScaled (0-1, Crob after scaling). CrobScaled should be used to indicate cluster robustness. It can be seen in the example that the most robust cluster is Cl9 (CrobScaled = 1) and the least robust is Cl15 (CrobScaled = 0).
+
+```{r cluster_robustness}
+clrob<-getRobustness(gg, alg = "louvain", conmat)
+pander(clrob)
+```
+
+## Bridgeness
+
+Bridgeness metric reflects the probability that a vertex could belong to more than one community at the same time, thus providing a useful measure to rank the vertices based on their topological influence and form linkages between clusters in the network model (Nepusz et al., 2008; Nepusz et al., 2012).
+```{r get_bridgeness}
+br<-getBridgeness(gg,alg = "louvain", conmat)
+head(br)
+gg<-calcBridgeness(gg,alg = "louvain", conmat)
+vertex_attr_names(gg)
+```
+
+### Plot bridgeness against the semi-local centrality.
+
+Although useful itself as a measure of a “global” network importance, bridgeness becomes more informative when combined with other vertex centrality measures, e.g., semi-local centrality. Semi-local centrality considers the nearest and next to the nearest vertex neighbours, so reflects the “local” importance of the protein. It also lies between 0 and 1 indicating whether the vertex is likely to have local influence. Plotting bridgeness against semi-local centrality, allows us to categorise both the local and global influence of each vertex within a network given only the network structure. 
+By plotting bridgeness against semi-local centrality (Figure 8) we have categorised the influence each protein found in our network has on the overall network structure: 
+•	Region 1 (top left), proteins having a 'global' rather than 'local' influence in the network (vertices in this region have also been referred to as bottle-neck bridges, connector or kinless hubs (0<SL<0.5; 0.5<B<1). 
+•	Region 2 (top right), proteins having 'global' and 'local' influence (0.5<SL<1, 0.5<B<1). 
+•	Region 3 (bottom left), proteins centred within the community they belong to, but also communicating with a few other specific communities (0<SL<0.5; 0<B<0.5). 
+•	Region 4 (bottom right) proteins with 'local' impact, primarily restricted to just one or two communities (also referred to as local or party hubs, 0.5<SL<1, 0<B<0.5).
+```{r highlight_genes}
+sfile<-system.file("extdata", "SCH_flatfile.csv", package = "BioNAR")
+shan<- read.table(sfile,sep="\t",skip=1,header=FALSE,strip.white=TRUE,quote="")
+head(shan)
+table(shan$V2)
+shan[shan$V2 =="Protein_cluster",] -> prCl
+dim(prCl)
+gg <- calcCentrality(gg)
+plotBridgeness(gg,alg = "louvain",
+VIPs=prCl$V3,
+Xatt='SL',
+Xlab = "Semilocal Centrality (SL)",
+Ylab = "Bridgeness (B)",
+bsize = 3,
+spsize =7,
+MainDivSize = 0.8,
+xmin = 0,
+xmax = 1,
+ymin = 0,
+ymax = 1,
+baseColor="royalblue2",
+SPColor="royalblue2")
+
+```
+
+## Disease pairs.
+
+within large-scale molecular networks, disease associated genes are often found closely linked to one another (referred to as disease modules by (Menche et al., 2015) and based on the shortest path in the network linking the disease terms) and the composition of these modules can be compared across different diseases. Disease annotations which tend to overlap in these modules also tend to show significant similarities at the level of gene co-expression patterns, clinical phenotype, and comorbidity. Conversely disease annotations residing in separated network neighbourhoods appear to be more phenotypically distinct. 
+
+This phenomenon is not restricted to diseases and can be generalised so that given two annotations distributed across a network, a common query would be to find the points of intersection where the two annotation sets overlap (or segregate). To support such queries , we implemented the algorithm from (Menche et al., 2015), which tests if the observed mean shortest paths between two distinct annotation sets, superimposed on a network, is significant compared to a randomly annotated network.
+
+The BioNAR command calcDiseasePairs calculates the observed overlap between two annotation sets on a network, and compares this to a single instance of the network with annotations randomly permuted; this is useful for a qualitative estimate of how likely an overlap is simply a random occurrence.
+The following example shows the estimation of disease separation for a manually selected set of diseases: DOID:10652 (Alzheimer's_disease), DOID:3312 (Bipolar_disorder), DOID:14330 (Parkinson’s disease), DOID:0060041 (Autistic Spectrum disorder), DOID:1826 (Epilepsy syndrome), DOID:5419 (Schizophrenia), DOID:9255 (Frontotemporal Dementia), DOID:1059 (Intellectual Disability). 
+
+```{r disease_pairs}
+p <- calcDiseasePairs(
+    gg,
+    name = "TopOntoOVGHDOID",
+    diseases = c("DOID:10652","DOID:3312", "DOID:14330", "DOID:0060041", "DOID:1826",  "DOID:5419", "DOID:9255", "DOID:1059"),
+    permute = "r"
+)
+pander(p$disease_separation)
+```
+
+## Singificane of disease pairs overlap
+
+To calculate the significance of observed overlaps (or separations) the observed annotation pairs on the network the command runPermDisease should be used. This compares the overlap against multiple permutations of the network (where the user can define the number of permutations). Executing this command may take considerable time depending on the number of permutations chosen. It generates a results table containing the overlap of each annotation pair with p-value, p.adjusted by Bonferroni test, and q-value.
+We selected 100 permutations in our simple example below, but for better significance there should be 10000 permutations (~ 1 hour of computing time for this size of network and this set of annotations).
+Here we take only two diseases: DOID:10652 (Alzheimer's_disease), DOID:3312 (Bipolar_disorder).
+
+```{r disease_pairs_significance}
+r <- runPermDisease(
+    gg,
+    name = "TopOntoOVGHDOID",
+    diseases = c("DOID:10652","DOID:3312"),
+    Nperm = 100,
+    alpha = c(0.05, 0.01, 0.001)
+)
+pander(r$Disease_overlap_sig)
+```
+
+
+```{r session.infor}
+sessionInfo()
+```
+
