@@ -1,4 +1,3 @@
-
 # library(DBI)
 #
 # mydb <- dbConnect(RSQLite::SQLite(), "synaptic.proteome_SR_20210408.db")
