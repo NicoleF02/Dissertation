@@ -14,28 +14,32 @@ library(dplyr)
 # then do networks
 # do refined network
 
-#
-# cid <- match("Postsynaptic",getCompartments()$Name)
-#
-# #\"DOID:5419\""
-#
-# tablePostsynaptic <- getAllGenes4Compartment(cid)
 
 
-narrowGeneList <- findGeneByCompartmentPaperCnt(cnt = 2)
+initGeneTable <- function(count=2, localisation="Postsynaptic", diseasehdoid="DOID:5419"){
+  narrowGeneList <- findGeneByCompartmentPaperCnt(cnt = count)
 
-tablePostsynaptic <- filter(narrowGeneList, Localisation == "Presynaptic")
+  tablePostsynaptic <- filter(narrowGeneList, Localisation == localisation)
 
-columnGenes <- tablePostsynaptic$HumanEntrez
+  columnGenes <- tablePostsynaptic$HumanEntrez
 
-# then we want to get all genediease, then filter. Maybe check own db rather then their own?
+  # then we want to get all genediease, then filter. Maybe check own db rather then their own?
 
-tableDisease <- getGeneDiseaseByEntres(columnGenes)
+  tableDisease <- getGeneDiseaseByEntres(columnGenes)
 
-# if its been identified 2 or more, times, not nescessarily for schizophrenia !!!!
-tableCountNarrow <- findGeneByPaperCnt(cnt = 2)
+  # if its been identified 2 or more, times, not nescessarily for schizophrenia !!!! double check!!
 
+  tableNarrowDisease <- filter(tableDisease, HDOID == diseasehdoid)
 
-tableSchizophrenicNarrow <- filter(tableDisease, HDOID == "DOID:5419")
+  return(tableNarrowDisease)
+}
 
+tableSchizophrenicNarrow <- initGeneTable()
+tableSchizophrenicBroad <- initGeneTable(count=1)
 
+#consider running both with other compartments and removing overlap.
+
+system.file(package = "BioNAR")
+
+# ggb <- buildFromSynaptomeGeneTable(tableSchizophrenicNarrow, type="limited")
+# write_graph(ggb, file="PostsynapticNetworkBroad/PSDSchizphreniaNetwork.gml", format="gml")
