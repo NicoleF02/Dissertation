@@ -15,29 +15,20 @@ library(org.Hs.eg.db)
 # then do networks
 # do refined network
 
-
-
 initGeneTable <- function(count=2, localisation="Postsynaptic", diseasehdoid="DOID:5419"){
   narrowGeneList <- findGeneByCompartmentPaperCnt(cnt = count)
-
-  tablePostsynaptic <- filter(narrowGeneList, Localisation == localisation)
-
-  columnGenes <- tablePostsynaptic$HumanEntrez
-
+  tableSynaptic <- filter(narrowGeneList, Localisation == localisation)
   # then we want to get all genediease, then filter. Maybe check own db rather then their own?
 
-  tableDisease <- getGeneDiseaseByEntres(columnGenes)
-
   # if its been identified 2 or more, times, not nescessarily for schizophrenia !!!! double check!!
-
-  tableNarrowDisease <- filter(tableDisease, HDOID == diseasehdoid)
-
-  return(tableNarrowDisease)
+  if (!is.null(diseasehdoid)){
+    columnGenes <- tableSynaptic$HumanEntrez
+    tableDisease <- getGeneDiseaseByEntres(columnGenes)
+    tableNarrowDisease <- filter(tableDisease, HDOID == diseasehdoid)
+    return(tableNarrowDisease)
+  }
+  return(tableSynaptic)
 }
-
-tableSchizophrenicNarrow <- initGeneTable()
-tableSchizophrenicBroad <- initGeneTable(count=1)
-
 
 networkSetup <- function(PPIList){
   network <- buildNetwork(PPIList)
@@ -57,19 +48,88 @@ networkSetup <- function(PPIList){
   trubetskoyPriortised<- read.table("Files/Trubetskoy_2022_priortised_coding.txt", sep = "\t", header = T, stringsAsFactors = F)
   network <- annotateVertex(network, name="Trubetskoy_2022_priortised_coding", values = trubetskoyPriortised, idatt = "name")
 
+  reducedRatDB <- read.table("Files/ReducedRatDB.txt", sep="\t", header= T, stringsAsFactors = F)
+  network <- annotateVertex(network, name="Synapse Locations", values =reducedRatDB , idatt="name")
+
+  priortisedSchizophreniaDB <- read.table("Files/SchizphreniaPriortisedDB.txt", sep="\t", header= T, stringsAsFactors = F)
+  network <- annotateVertex(network, name="SchizophreniaGeneCount", values =priortisedSchizophreniaDB , idatt="name")
+
   return(network)
 }
 
-ppiNarrow <- getPPIbyEntrez(tableSchizophrenicNarrow$HumanEntrez, type = "limited")
-networkNarrow <- networkSetup(ppiNarrow)
+generateGraph <- function(count=2, localisation="Postsynaptic", diseasehdoid="DOID:5419", filename){
+  geneTable <- initGeneTable(count, localisation, diseasehdoid)
+  ppiGene <- getPPIbyEntrez(geneTable$HumanEntrez, type = "limited")
+  networkGene <- networkSetup(ppiGene)
+  write_graph(networkGene, file=filename, format="gml")
+}
 
 
-ppiBroad <- getPPIbyEntrez(tableSchizophrenicBroad$HumanEntrez, type = "limited")
-networkBroad <- networkSetup(ppiBroad)
+networkProperties <- function(network){
+  # Nsim will make slower, 100 is default, 1000 will take a few mins
+  pFit <- fitDegree(as.vector(igraph::degree(graph=g)), Nsim=100, plot=TRUE, WIDTH=2480, HEIGHT=2480)
+  pwr <- slot(pFit, 'alpha')
 
 
-write_graph(networkNarrow, file="PostsynapticNetwork/NarrowPSDSchizphreniaNetwork.gml", format="gml")
 
-write_graph(networkBroad, file="PostsynapticNetwork/BroadPSDSchizphreniaNetwork.gml", format="gml")
+}
+
+compareNetwork <- function(network){
+
+
+  lrgnp<-list()
+  alphaGNP<-c()
+  for(i in 1:5000){
+    rgnp<-BioNAR:::getGNP(network)
+    pFit <- fitDegree( as.vector(igraph::degree(graph=rgnp)),
+                       Nsim=10, plot=FALSE,threads=5,
+                       p <- slot(pFit,'alpha'),
+                       lrgnp[[i]]<-rgnp,
+                       alphaGNP[i]<-p)
+  }
+  qplot(alphaGNP)+geom_vline(xintercept = pwr)
+
+
+}
+
+
+# Postsynaptic Graphs
+
+# Graph for Schziphrenia Genes that appear >= 2 that are Postsynaptic
+# generateGraph(file="PostsynapticNetwork/NarrowPSDSchizphreniaNetwork.gml")
+
+# Graph for all Schziphrenia Genes that appear that are Postsynaptic
+# generateGraph(count=1, file="PostsynapticNetwork/NarrowPSDSchizphreniaNetwork.gml")
+
+# Graph for Genes that appear >= 2 that are Postsynaptic
+#generateGraph(diseasehdoid = NULL, filename="PostsynapticNetwork/NarrowPSDDBNetwork.gml")
+
+# Graph for all Genes that appear that are Postsynaptic
+#generateGraph(count = 1, diseasehdoid = NULL, filename="PostsynapticNetwork/BroadPSDDBNetwork.gml")
+
+g <- igraph::read.graph("PostsynapticNetwork/BroadPSDDBNetwork.gml", format= "gml")
+
+g <- calcCentrality(g)
+summary(g)
+
+# Presynaptic Graphs
+
+# Graph for Schziphrenia Genes that appear >= 2 that are Presynaptic
+# generateGraph(file="PostsynapticNetwork/NarrowPSDSchizphreniaNetwork.gml", localisation="Presynaptic")
+#
+# # Graph for all Schziphrenia Genes that appear that are Presynaptic
+# generateGraph(count=1, file="PostsynapticNetwork/NarrowPSDSchizphreniaNetwork.gml", localisation="Presynaptic")
+#
+# # Graph for Genes that appear >= 2 that are Presynaptic
+# generateGraph(diseasehdoid = NULL, filename="PostsynapticNetwork/NarrowPSDDBNetwork.gml", localisation="Presynaptic")
+#
+# # Graph for all Genes that appear that are Presynaptic
+# generateGraph(count = 1, diseasehdoid = NULL, filename="PostsynapticNetwork/BroadPSDDBNetwork.gml", localisation="Presynaptic")
+
+
+# need to get priortised schizophrenia here. Get from synaptomdb
+
+
+
 
 
