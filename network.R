@@ -20,7 +20,7 @@ initGeneTable <- function(count=2, localisation="Postsynaptic", diseasehdoid="DO
   tableSynaptic <- filter(narrowGeneList, Localisation == localisation)
   # then we want to get all genediease, then filter. Maybe check own db rather then their own?
 
-  # if its been identified 2 or more, times, not nescessarily for schizophrenia !!!! double check!!
+  # if its been identified 2 or more times, consider maybe specifiying diff papers?
   if (!is.null(diseasehdoid)){
     columnGenes <- tableSynaptic$HumanEntrez
     tableDisease <- getGeneDiseaseByEntres(columnGenes)
@@ -64,7 +64,6 @@ generateGraph <- function(count=2, localisation="Postsynaptic", diseasehdoid="DO
   write_graph(networkGene, file=filename, format="gml")
 }
 
-
 networkProperties <- function(network){
   # Nsim will make slower, 100 is default, 1000 will take a few mins
   pFit <- fitDegree(as.vector(igraph::degree(graph=g)), Nsim=100, plot=TRUE, WIDTH=2480, HEIGHT=2480)
@@ -95,39 +94,36 @@ compareNetwork <- function(network){
 
 # Postsynaptic Graphs
 
-# Graph for Schziphrenia Genes that appear >= 2 that are Postsynaptic
+# # Graph for Schziphrenia Genes that appear >= 2 that are Postsynaptic
 # generateGraph(file="PostsynapticNetwork/NarrowPSDSchizphreniaNetwork.gml")
-
-# Graph for all Schziphrenia Genes that appear that are Postsynaptic
+#
+# # Graph for all Schziphrenia Genes that appear that are Postsynaptic
 # generateGraph(count=1, file="PostsynapticNetwork/NarrowPSDSchizphreniaNetwork.gml")
+#
+# # Graph for Genes that appear >= 2 that are Postsynaptic
+# generateGraph(diseasehdoid = NULL, filename="PostsynapticNetwork/ConsensusPSDDBNetwork.gml")
+#
+# # Graph for all Genes that appear that are Postsynaptic
+# generateGraph(count = 1, diseasehdoid = NULL, filename="PostsynapticNetwork/FullPSDDBNetwork.gml")
 
-# Graph for Genes that appear >= 2 that are Postsynaptic
-#generateGraph(diseasehdoid = NULL, filename="PostsynapticNetwork/NarrowPSDDBNetwork.gml")
-
-# Graph for all Genes that appear that are Postsynaptic
-#generateGraph(count = 1, diseasehdoid = NULL, filename="PostsynapticNetwork/BroadPSDDBNetwork.gml")
-
-g <- igraph::read.graph("PostsynapticNetwork/BroadPSDDBNetwork.gml", format= "gml")
+g <- igraph::read.graph("PostsynapticNetwork/FullPSDDBNetwork.gml", format= "gml")
 
 g <- calcCentrality(g)
 summary(g)
 
 # Presynaptic Graphs
 
-# Graph for Schziphrenia Genes that appear >= 2 that are Presynaptic
+# # Graph for Schziphrenia Genes that appear >= 2 that are Presynaptic
 # generateGraph(file="PostsynapticNetwork/NarrowPSDSchizphreniaNetwork.gml", localisation="Presynaptic")
 #
 # # Graph for all Schziphrenia Genes that appear that are Presynaptic
 # generateGraph(count=1, file="PostsynapticNetwork/NarrowPSDSchizphreniaNetwork.gml", localisation="Presynaptic")
 #
 # # Graph for Genes that appear >= 2 that are Presynaptic
-# generateGraph(diseasehdoid = NULL, filename="PostsynapticNetwork/NarrowPSDDBNetwork.gml", localisation="Presynaptic")
+# generateGraph(diseasehdoid = NULL, filename="PostsynapticNetwork/ConsensusPSDDBNetwork.gml", localisation="Presynaptic")
 #
 # # Graph for all Genes that appear that are Presynaptic
-# generateGraph(count = 1, diseasehdoid = NULL, filename="PostsynapticNetwork/BroadPSDDBNetwork.gml", localisation="Presynaptic")
-
-
-# need to get priortised schizophrenia here. Get from synaptomdb
+# generateGraph(count = 1, diseasehdoid = NULL, filename="PostsynapticNetwork/FullPSDDBNetwork.gml", localisation="Presynaptic")
 
 
 
