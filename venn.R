@@ -59,7 +59,7 @@ ReadTrubetskoyFile <- function(){
 }
 
 
-ReadDatabase <- function (dbName="Database/DS_10283_3877/synaptic.proteome_SR_20210408.db.sqlite", query){
+ReadDatabase <- function (query){
   db <- dbConnect(SQLite(), dbname = "Database/DS_10283_3877/synaptic.proteome_SR_20210408.db.sqlite")
   dbData <- dbGetQuery(db, query)
 
@@ -148,8 +148,6 @@ Barchart <- function(dataFrame, titleName, xLabel){
 
 
 dbFile <- file.path("Files/Full_DB_Rat_Aut22.txt")
-HumanEntrezDB <- na.omit(ExtractColumnAsList(dbData, "HumanEntrez"))
-dbTotal <- length(HumanEntrezDB)
 
 
 synapseDB <- read.table(file=dbFile, sep="\t", header=TRUE)
@@ -161,11 +159,13 @@ FROM FullGeneFullDisease
 WHERE HDOID = \"DOID:5419\""
 
 dbData <- ReadDatabase(query=query)
+HumanEntrezDB <- na.omit(ExtractColumnAsList(dbData, "HumanEntrez"))
+dbTotal <- length(HumanEntrezDB)
 
 # Just join gene and disease
 
 
-TrubetskoyFile <- ReadTrubetskoyFile()
+trubetskoyFile <- ReadTrubetskoyFile()
 # Extract list and filter it for non null, make sure its just for human.
 Trubetskoy_2022_broad_coding <- na.omit(ExtractColumnAsList(trubetskoyFile, "Trubetskoy_2022_broad_coding"))
 Trubetskoy_2022_prioritised_coding <- na.omit(ExtractColumnAsList(trubetskoyFile, "Trubetskoy_2022_prioritised_coding"))
