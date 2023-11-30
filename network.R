@@ -69,8 +69,6 @@ networkProperties <- function(network){
   pFit <- fitDegree(as.vector(igraph::degree(graph=g)), Nsim=100, plot=TRUE, WIDTH=2480, HEIGHT=2480)
   pwr <- slot(pFit, 'alpha')
 
-
-
 }
 
 compareNetwork <- function(network){

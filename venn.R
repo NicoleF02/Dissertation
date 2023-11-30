@@ -1,14 +1,10 @@
-# library(DBI)
-#
-# mydb <- dbConnect(RSQLite::SQLite(), "synaptic.proteome_SR_20210408.db")
-#
-# dbListTables(mydb)
 library(data.table)
 library(RSQLite)
 library(DBI)
 library(VennDiagram)
 library(ggplot2)
 library(dplyr)
+library(synaptome.db)
 
 
 ReadTrubetskoyFile <- function(){
@@ -155,8 +151,7 @@ synapseDB <- read.table(file=dbFile, sep="\t", header=TRUE)
 grid.newpage()
 
 query <- "SELECT distinct HumanEntrez
-FROM FullGeneFullDisease
-WHERE HDOID = \"DOID:5419\""
+FROM Gene"
 
 dbData <- ReadDatabase(query=query)
 HumanEntrezDB <- na.omit(ExtractColumnAsList(dbData, "HumanEntrez"))
@@ -185,6 +180,22 @@ dbFile <- file.path("Files/Full_DB_Rat_Aut22.txt")
 synapseDB <- read.table(file=dbFile, sep="\t", header=TRUE)
 
 synapseList <- na.omit(ExtractColumnAsList(synapseDB, "HUMAN.ENTREZ.ID"))
+
+ratDBDiff <- synapseList[!(synapseList %in% HumanEntrezDB)]
+
+
+missingValues <- synapseDB[synapseDB$HUMAN.ENTREZ.ID %in% ratDBDiff, ]
+
+listSynaptombeDB <- findGenesByEntrez(ratDBDiff)
+
+temp <- listSynaptombeDB$HumanEntrez
+
+syntombeDiff <- ratDBDiff[!(ratDBDiff %in% temp)]
+
+file_name <- "Files/FlatFileExtraGenes.txt"
+write.table(missingValues, file = file_name, sep= "\t", quote=FALSE, row.names = FALSE)
+
+
 
 synapsePriortisedCompleteOverlap <- RunningTotalMatching(Trubetskoy_broad_db_cross, synapseList)
 
@@ -225,9 +236,14 @@ data_frame <- data.frame("EntrezID_Human" = Trubetskoy_2022_prioritised_coding, 
 # Append the numbers to the file
 write.table(data_frame, file = file_name, sep= "\t", quote=TRUE, row.names = FALSE)
 
-
+file_name <- "Files/Trubetskoy_broad_db_cross.txt"
+data_frame <- data.frame("EntrezID_Human" = Trubetskoy_broad_db_cross, "Trubetskoy_broad_db_cross" = TRUE)
+write.table(data_frame, file = file_name, sep= "\t", quote=TRUE, row.names = FALSE)
 
 #vennSynapse(tableSynapsePriortisedOverlap)
+file_name <- "Files/Trubetskoy_prioritised_db_cross.txt"
+data_frame <- data.frame("EntrezID_Human" = Trubetskoy_prioritised_db_cross, "Trubetskoy_prioritised_db_cross" = TRUE)
+write.table(data_frame, file = file_name, sep= "\t", quote=TRUE, row.names = FALSE)
 
 # Want to compare Full_DB_Rat and full database
 
