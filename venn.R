@@ -1,4 +1,3 @@
-
 # library(DBI)
 #
 # mydb <- dbConnect(RSQLite::SQLite(), "synaptic.proteome_SR_20210408.db")
@@ -196,6 +195,27 @@ broadSynGOCross <- filteredSynGo(SynGO, Trubetskoy_2022_prioritised_coding)
 draw.pairwise.venn(area1 = length(unique(SynGO$EntrezID_Human)), area2 = length(Trubetskoy_2022_prioritised_coding),
                    cross.area = length(unique(broadSynGOCross$EntrezID_Human)), fill = c('red','blue'),
                    category = c("Synaptic SynGO","Trubetskoy_2022_prioritised_coding"))
+
+
+
+
+file_name <- "Files/Trubetskoy_2022_broad_coding.txt"
+
+# Write the header to the file
+
+data_frame <- data.frame("EntrezID_Human" = Trubetskoy_2022_broad_coding, "Trubetskoy_Broad_coding" = TRUE)
+
+# Append the numbers to the file
+write.table(data_frame, file = file_name, sep = "\t", quote = FALSE, row.names = FALSE)
+
+file_name <- "Files/Trubetskoy_2022_priortised_coding.txt"
+
+# Write the header to the file
+data_frame <- data.frame("EntrezID_Human" = Trubetskoy_2022_prioritised_coding, "Trubetskoy_Priortised_coding" = TRUE)
+
+# Append the numbers to the file
+write.table(data_frame, file = file_name, sep= "\t", quote=TRUE, row.names = FALSE)
+
 
 
 #vennSynapse(tableSynapsePriortisedOverlap)
