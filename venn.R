@@ -141,27 +141,25 @@ Barchart <- function(dataFrame, titleName, xLabel){
     labs(title = titleName, x = xLabel, y = "Count")
 }
 
-
-
-dbFile <- file.path("Files/Full_DB_Rat_Aut22.txt")
-
-
-synapseDB <- read.table(file=dbFile, sep="\t", header=TRUE)
-
 grid.newpage()
 
+# Get HumanEntrez ones from Database
 query <- "SELECT distinct HumanEntrez
 FROM Gene"
-
 dbData <- ReadDatabase(query=query)
 HumanEntrezDB <- na.omit(ExtractColumnAsList(dbData, "HumanEntrez"))
 dbTotal <- length(HumanEntrezDB)
 
-# Just join gene and disease
+
+# Gets the Data from the flat file
+dbFile <- file.path("Files/Full_DB_Rat_Aut22.txt")
+synapseDB <- read.table(file=dbFile, sep="\t", header=TRUE)
+synapseList <- na.omit(ExtractColumnAsList(synapseDB, "HUMAN.ENTREZ.ID"))
 
 
+# Trubetskoy Files
 trubetskoyFile <- ReadTrubetskoyFile()
-# Extract list and filter it for non null, make sure its just for human.
+
 Trubetskoy_2022_broad_coding <- na.omit(ExtractColumnAsList(trubetskoyFile, "Trubetskoy_2022_broad_coding"))
 Trubetskoy_2022_prioritised_coding <- na.omit(ExtractColumnAsList(trubetskoyFile, "Trubetskoy_2022_prioritised_coding"))
 
@@ -175,31 +173,21 @@ Trubetskoy_prioritised_db_cross <- MatchingValues(Trubetskoy_2022_prioritised_co
 Trubetskoy_prioritised_db_cross_total <- RunningTotalMatching(Trubetskoy_prioritised_db_cross, HumanEntrezDB)
 
 
-# This has the entire database as a flat file, we will use this to check for overlapping genes in general
-dbFile <- file.path("Files/Full_DB_Rat_Aut22.txt")
-synapseDB <- read.table(file=dbFile, sep="\t", header=TRUE)
 
-synapseList <- na.omit(ExtractColumnAsList(synapseDB, "HUMAN.ENTREZ.ID"))
 
+
+# Finds missing values
 ratDBDiff <- synapseList[!(synapseList %in% HumanEntrezDB)]
-
-
 missingValues <- synapseDB[synapseDB$HUMAN.ENTREZ.ID %in% ratDBDiff, ]
-
 listSynaptombeDB <- findGenesByEntrez(ratDBDiff)
-
 temp <- listSynaptombeDB$HumanEntrez
-
 syntombeDiff <- ratDBDiff[!(ratDBDiff %in% temp)]
-
-file_name <- "Files/FlatFileExtraGenes.txt"
-write.table(missingValues, file = file_name, sep= "\t", quote=FALSE, row.names = FALSE)
+# file_name <- "Files/FlatFileExtraGenes.txt"
+# write.table(missingValues, file = file_name, sep= "\t", quote=FALSE, row.names = FALSE)
 
 
 
 synapsePriortisedCompleteOverlap <- RunningTotalMatching(Trubetskoy_broad_db_cross, synapseList)
-
-
 tableSynapsePriortisedOverlap <- MatchingValuesSynapse(Trubetskoy_2022_prioritised_coding, synapseDB)
 tableSynapseBroadOverlap <- MatchingValuesSynapse(Trubetskoy_2022_broad_coding, synapseDB)
 

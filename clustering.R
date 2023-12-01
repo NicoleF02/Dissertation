@@ -7,7 +7,8 @@ library(ggrepel)
 library(randomcoloR)
 library(RSQLite)
 library(synaptome.db)
+library(igraph)
 
 
-# In this one we want to read the graph file in
+
 

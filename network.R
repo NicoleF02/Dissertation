@@ -8,6 +8,7 @@ library(randomcoloR)
 library(dplyr)
 require(BioNAR)
 library(org.Hs.eg.db)
+library(randomcoloR)
 # We need to split this up
 # No. 1. get all schizophrenia genes
 # get them for postsynaptic
@@ -62,6 +63,14 @@ generateGraph <- function(count=2, localisation="Postsynaptic", diseasehdoid="DO
   ppiGene <- getPPIbyEntrez(geneTable$HumanEntrez, type = "limited")
   networkGene <- networkSetup(ppiGene)
   write_graph(networkGene, file=filename, format="gml")
+  return (networkGene)
+}
+
+generateGraphNew <- function(count=1, localisation="Postsynaptic", diseasehdoid=NULL, filename){
+  geneTable <- initGeneTable(count, localisation, diseasehdoid)
+  ppiGene <- getPPIbyEntrez(geneTable$HumanEntrez, type = "induced")
+  networkGene <- networkSetup(ppiGene)
+  write_graph(networkGene, file=filename, format="gml")
 }
 
 networkProperties <- function(network){
@@ -90,6 +99,7 @@ compareNetwork <- function(network){
 }
 
 
+
 # Postsynaptic Graphs
 
 # # Graph for Schziphrenia Genes that appear >= 2 that are Postsynaptic
@@ -99,15 +109,36 @@ compareNetwork <- function(network){
 # generateGraph(count=1, file="PostsynapticNetwork/NarrowPSDSchizphreniaNetwork.gml")
 #
 # # Graph for Genes that appear >= 2 that are Postsynaptic
-# generateGraph(diseasehdoid = NULL, filename="PostsynapticNetwork/ConsensusPSDDBNetwork.gml")
+consensusGraph <- generateGraphNew(count = 2,diseasehdoid = NULL, filename="PostsynapticInduced/ConsensusPSDDBNetworkInduced.gml")
 #
 # # Graph for all Genes that appear that are Postsynaptic
-# generateGraph(count = 1, diseasehdoid = NULL, filename="PostsynapticNetwork/FullPSDDBNetwork.gml")
+fullGraph <- generateGraphNew(count = 1, diseasehdoid = NULL, filename="PostsynapticInduced/FullPSDDBNetworkInduced.gml")
 
-g <- igraph::read.graph("PostsynapticNetwork/FullPSDDBNetwork.gml", format= "gml")
 
-g <- calcCentrality(g)
-summary(g)
+consensusGraph <- calcAllClustering(consensusGraph)
+summary(consensusGraph)
+
+
+fullGraph <- calcAllClustering(fullGraph)
+summary(fullGraph)
+
+
+consensusM <- clusteringSummary(consensusGraph)
+fullM <- clusteringSummary(fullGraph)
+
+View(consensusM)
+View(fullM)
+
+
+# geneList <- findGeneByCompartmentPaperCnt(cnt = 1)
+# fullGraph <- read.graph("PostsynapticNetwork/FullPSDDBNetwork.gml", format = "gml")
+# node_info <- as_data_frame(id = V(fullGraph)$id, gene = V(fullGraph)$name)
+#
+#
+# trubetskoyPriortisedDBCross <- read.table(Trubetskoy_broad_db_crossfile="Files/Trubetskoy_broad_db_cross.txt", sep="\t", header=TRUE)
+#
+# matchingList <- node_info[node_info$name %in% trubetskoyPriortisedDBCross]
+
 
 # Presynaptic Graphs
 
