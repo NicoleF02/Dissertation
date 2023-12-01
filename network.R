@@ -109,19 +109,19 @@ compareNetwork <- function(network){
 # generateGraph(count=1, file="PostsynapticNetwork/NarrowPSDSchizphreniaNetwork.gml")
 #
 # # Graph for Genes that appear >= 2 that are Postsynaptic
-consensusGraph <- generateGraphNew(count = 2,diseasehdoid = NULL, filename="PostsynapticInduced/ConsensusPSDDBNetworkInduced.gml")
+consensusGraph <- generateGraph(count = 2,diseasehdoid = NULL, filename="PostsynapticNetwork/ConsensusPSDDBNetwork.gml")
 #
 # # Graph for all Genes that appear that are Postsynaptic
-fullGraph <- generateGraphNew(count = 1, diseasehdoid = NULL, filename="PostsynapticInduced/FullPSDDBNetworkInduced.gml")
+fullGraph <- generateGraph(count = 1, diseasehdoid = NULL, filename="PostsynapticNetwork/FullPSDDBNetwork.gml")
 
 
 consensusGraph <- calcAllClustering(consensusGraph)
 summary(consensusGraph)
-
+write_graph(consensusGraph, file="PostsynapticNetwork/ConsensusPSDDBNetwork.gml", format="gml")
 
 fullGraph <- calcAllClustering(fullGraph)
 summary(fullGraph)
-
+write_graph(fullGraph, file="PostsynapticNetwork/FullPSDDBNetwork.gml", format="gml")
 
 consensusM <- clusteringSummary(consensusGraph)
 fullM <- clusteringSummary(fullGraph)
