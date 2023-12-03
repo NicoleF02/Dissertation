@@ -6,51 +6,49 @@ trubetskoyBroad = []
 trubetskoyBroadCross = []
 result_list = []
 
-file_path = "Files/Trubetskoy_2022_broad_coding.txt"
-with open(file_path, 'r') as file:
-    next(file)
 
-    for line in file:
-        try:
-            value = int(line.split('\t')[0])
-            trubetskoyBroad.append(value)
-        except (ValueError, IndexError):
-            pass
+def readTrubetskoy(file_path):
+    trubetskoyList = []
+    with open(file_path, 'r') as file:
+        next(file)
 
-
-file_path = "Files/Trubetskoy_broad_db_cross.txt"
-with open(file_path, 'r') as file:
-    next(file)
-
-    for line in file:
-        try:
-            value = int(line.split('\t')[0])
-            trubetskoyBroadCross.append(value)
-        except (ValueError, IndexError):
-            pass
-
-
-file_path = "PostsynapticNetwork/FullPSDDBNetwork.gml"
-with open(file_path, 'r') as file:
-    for line in file:
-        if 'name' in line:
+        for line in file:
             try:
-                value = int(line.split('"')[1])
-                graphFile.append(value)
+                value = int(line.split('\t')[0])
+                trubetskoyList.append(value)
             except (ValueError, IndexError):
                 pass
+
+    return trubetskoyList
+
+
+def readGraph(file_path):
+    graphNodes = []
+    with open(file_path, 'r') as file:
+        for line in file:
+            if 'name' in line:
+                try:
+                    value = int(line.split('"')[1])
+                    graphNodes.append(value)
+                except (ValueError, IndexError):
+                    pass
+
+    return graphNodes
 
 
 graphFile2 = []
 file_path = "PostsynapticNetwork/PSD_FULL_clustered.gml"
-with open(file_path, 'r') as file:
-    for line in file:
-        if 'name' in line:
-            try:
-                value = int(line.split('"')[1])
-                graphFile2.append(value)
-            except (ValueError, IndexError):
-                pass
+fullGraphNodesWorking = readGraph(file_path)
+
+file_path = "Files/Trubetskoy_2022_broad_coding.txt"
+trubetskoyBroadList = readTrubetskoy(file_path)
+
+file_path = "Files/Trubetskoy_broad_db_cross.txt"
+trubetskoyBroadCrossList = readTrubetskoy(file_path)
+
+file_path = "PostsynapticNetwork/FullPSDDBNetwork.gml"
+fullGraphNodes = readGraph(file_path)
+
 
 file_path = "Files/geneTable.txt"
 geneTable = pd.read_csv(file_path, sep=' ')
@@ -58,36 +56,23 @@ geneTable = geneTable.dropna(subset=['HumanEntrez'])
 
 entrezGeneTableList = [int(value) for value in geneTable["HumanEntrez"].tolist()]
 
-missingFromGraph = [item for item in entrezGeneTableList if item not in graphFile]
 
-temp = []
-for node in graphFile:
-    if node in entrezGeneTableList:
-        temp.append(node)
-
-temp2 = []
-
-for value in entrezGeneTableList:
-    if value in graphFile:
-        temp2.append(value)
-
-# Find the differences
-
-# Print the differences
-
-myGraphSet = set(graphFile)
-otherGraphSet = set(graphFile2)
-
-trubetskoyBroadSet = set(trubetskoyBroad)
+fullDB = pd.read_csv("Files/Full_DB_Rat_Aut22.txt", sep="\t")
 
 
-print("No unique nodes of my graph ", len(myGraphSet))
-print("No unique nodes of your graph ", len(otherGraphSet))
-print("No. same nodes", len(myGraphSet.intersection(otherGraphSet)))
-print("My graph trubetskoy matching ", len(myGraphSet.intersection(trubetskoyBroadSet)))
-print("your graph trubetskoy matching ", len(otherGraphSet.intersection(trubetskoyBroadSet)))
+print("Set of nodes for broken network ", len(set(fullGraphNodes)))
+print("Set of nodes for unbroken network ", len(set(fullGraphNodesWorking)))
+
+print("Intersection of sets ", len(set(fullGraphNodes).intersection(set(fullGraphNodesWorking))))
+
+uniqueFull = sorted(list(set(fullGraphNodes) - set(fullGraphNodesWorking)))
+uniqueFullWorking = sorted(list(set(fullGraphNodesWorking) - set(fullGraphNodes)))
 
 
 
 
-#%%
+uniqueFullDFCross = fullDB[fullDB["HUMAN.ENTREZ.ID"].isin(uniqueFullWorking)]
+print(len(uniqueFullDFCross))
+
+
+

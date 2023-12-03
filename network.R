@@ -108,6 +108,12 @@ compareNetwork <- function(network){
 
 
 
+dbFlat <- read.table(file = "Files/Full_DB_Rat_Aut22.txt", sep="\t", header=TRUE)
+geneList <-dbFlat$HUMAN.ENTREZ.ID[dbFlat$psd == 1]
+ppiGene <- getPPIbyEntrez(geneList, type = "limited")
+networkGene <- networkSetup(ppiGene)
+write_graph(networkGene, file="flatFileGraph.gml", format="gml")
+
 # Postsynaptic Graphs
 
 # # Graph for Schziphrenia Genes that appear >= 2 that are Postsynaptic

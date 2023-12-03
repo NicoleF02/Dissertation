@@ -238,6 +238,8 @@ write.table(data_frame, file = file_name, sep= "\t", quote=TRUE, row.names = FAL
 # query <- "SELECT HumanEntrez
 # FROM Gene
 # WHERE SynGO is not NULL"
+
+
 #
 # dbDataFullSynGO <- dbGetQuery(db, query)
 #
