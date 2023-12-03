@@ -16,9 +16,16 @@ library(randomcoloR)
 # then do networks
 # do refined network
 
+
+# Table: each cluster, cluster size, how many genes are schizophrenic, test for fisher test to check for overpresentation
+# annotation will be trubetskoy to check enrichment, it will show which ones are enriched, do it for all algorithms.
+# also do the same for presynaptic.
+# Keep p value and adjusted p value using ORA
+#
+
 initGeneTable <- function(count=2, localisation="Postsynaptic", diseasehdoid="DOID:5419"){
-  narrowGeneList <- findGeneByCompartmentPaperCnt(cnt = count)
-  tableSynaptic <- filter(narrowGeneList, Localisation == localisation)
+  cid<-match("Postsynaptic", getCompartments()$Name)
+  t<-getAllGenes4Compartment(cid)
   # then we want to get all genediease, then filter. Maybe check own db rather then their own?
 
   # if its been identified 2 or more times, consider maybe specifiying diff papers?
@@ -28,7 +35,8 @@ initGeneTable <- function(count=2, localisation="Postsynaptic", diseasehdoid="DO
     tableNarrowDisease <- filter(tableDisease, HDOID == diseasehdoid)
     return(tableNarrowDisease)
   }
-  return(tableSynaptic)
+
+  return(t)
 }
 
 networkSetup <- function(PPIList){
@@ -44,16 +52,16 @@ networkSetup <- function(PPIList){
   network <- annotateVertex(network, name = "syngo", values = sg, idatt = "name")
 
   trubetskoyBroad<- read.table("Files/Trubetskoy_2022_broad_coding.txt", sep = "\t", header = T, stringsAsFactors = F)
-  network <- annotateVertex(network, name="Trubetskoy_2022_broad_coding", values = trubetskoyBroad, idatt = "name")
+  network <- annotateVertex(network, name="Trubetskoy_2022_broad_coding", trubetskoyBroad[,c(1,2)])
 
   trubetskoyPriortised<- read.table("Files/Trubetskoy_2022_priortised_coding.txt", sep = "\t", header = T, stringsAsFactors = F)
-  network <- annotateVertex(network, name="Trubetskoy_2022_priortised_coding", values = trubetskoyPriortised, idatt = "name")
+  network <- annotateVertex(network, "Trubetskoy_2022_priortised_coding", trubetskoyPriortised[,c(1,2)])
 
   reducedRatDB <- read.table("Files/ReducedRatDB.txt", sep="\t", header= T, stringsAsFactors = F)
   network <- annotateVertex(network, name="Synapse Locations", values =reducedRatDB , idatt="name")
 
   priortisedSchizophreniaDB <- read.table("Files/SchizphreniaPriortisedDB.txt", sep="\t", header= T, stringsAsFactors = F)
-  network <- annotateVertex(network, name="SchizophreniaGeneCount", values =priortisedSchizophreniaDB , idatt="name")
+  network <- annotateVertex(network, "SchizophreniaGeneCount", priortisedSchizophreniaDB[,c(1,2)])
 
   return(network)
 }
@@ -109,25 +117,47 @@ compareNetwork <- function(network){
 # generateGraph(count=1, file="PostsynapticNetwork/NarrowPSDSchizphreniaNetwork.gml")
 #
 # # Graph for Genes that appear >= 2 that are Postsynaptic
-consensusGraph <- generateGraph(count = 2,diseasehdoid = NULL, filename="PostsynapticNetwork/ConsensusPSDDBNetwork.gml")
+#consensusGraph <- generateGraph(count = 2,diseasehdoid = NULL, filename="PostsynapticNetwork/ConsensusPSDDBNetwork.gml")
 #
 # # Graph for all Genes that appear that are Postsynaptic
-fullGraph <- generateGraph(count = 1, diseasehdoid = NULL, filename="PostsynapticNetwork/FullPSDDBNetwork.gml")
+#fullGraph <- generateGraph(count = 1, diseasehdoid = NULL, filename="PostsynapticNetwork/FullPSDDBNetwork.gml")
+#
+# consensusGraph <- read.graph("PostsynapticNetwork/ConsensusPSDDBNetwork.gml", type="gml")
+#
+# consensusGraph <- calcAllClustering(consensusGraph)
+# summary(consensusGraph)
+# write_graph(consensusGraph, file="PostsynapticNetwork/ConsensusPSDDBNetwork.gml", format="gml")
+#
+# fullGraph <- calcAllClustering(fullGraph)
+# summary(fullGraph)
+# write_graph(fullGraph, file="PostsynapticNetwork/FullPSDDBNetwork.gml", format="gml")
+#
+# consensusM <- clusteringSummary(consensusGraph)
+# fullM <- clusteringSummary(fullGraph)
+#
+# View(consensusM)
+# View(fullM)
 
+# cid<-match("Postsynaptic", getCompartments()$Name)
+# t<-getAllGenes4Compartment(cid)
+# ggb<-buildNetwork(getPPIbyEntrez(t$HumanEntrez, type = "limited"))
+#
+# papercnt <- findGeneByPaperCnt(1)
+# papercptcnt <- findGeneByCompartmentPaperCnt(1)
+#
+# papercntG <- buildNetwork(getPPIbyEntrez(papercnt$HumanEntrez, type = "limited"))
+# papercptcntG <- buildNetwork(getPPIbyEntrez(papercptcnt$HumanEntrez, type= "limited"))
+#
+# m <- read.table("Files/Trub_broad.txt", sep = "\t", header = T, stringsAsFactors = F)
+#
+# papercntG <- applpMatrixToGraph(papercntG, m)
+# papercptcntG <- applpMatrixToGraph(papercptcntG, m)
+# gg <- applpMatrixToGraph(ggb, m)
 
-consensusGraph <- calcAllClustering(consensusGraph)
-summary(consensusGraph)
-write_graph(consensusGraph, file="PostsynapticNetwork/ConsensusPSDDBNetwork.gml", format="gml")
+# g <- igraph::read.graph("PostsynapticNetwork/PSD_FULL_clustered.gml",format="gml")
+# m <- read.table("Files/Trub_broad.txt", sep = "\t", header = T, stringsAsFactors = F)
+# network <- annotateVertex(network, "TrubBroad", trubetskoyBroad[,c(1,2)])
 
-fullGraph <- calcAllClustering(fullGraph)
-summary(fullGraph)
-write_graph(fullGraph, file="PostsynapticNetwork/FullPSDDBNetwork.gml", format="gml")
-
-consensusM <- clusteringSummary(consensusGraph)
-fullM <- clusteringSummary(fullGraph)
-
-View(consensusM)
-View(fullM)
 
 
 # geneList <- findGeneByCompartmentPaperCnt(cnt = 1)
