@@ -23,24 +23,20 @@ library(randomcoloR)
 # Keep p value and adjusted p value using ORA
 #
 
-initGeneTable <- function(count=2, localisation="Postsynaptic", diseasehdoid="DOID:5419"){
-  cid<-match("Postsynaptic", getCompartments()$Name)
-  t<-getAllGenes4Compartment(cid)
-  # then we want to get all genediease, then filter. Maybe check own db rather then their own?
+initGeneTable <- function(count, localisation="Postsynaptic"){
+  if (count != 1){
+    gp <- findGeneByCompartmentPaperCnt(count)
+    t <- filter(gp, Localisation == localisation)
 
-  # if its been identified 2 or more times, consider maybe specifiying diff papers?
-  if (!is.null(diseasehdoid)){
-    columnGenes <- tableSynaptic$HumanEntrez
-    tableDisease <- getGeneDiseaseByEntres(columnGenes)
-    tableNarrowDisease <- filter(tableDisease, HDOID == diseasehdoid)
-    return(tableNarrowDisease)
+  }else{
+    cid<-match(localisation, getCompartments()$Name)
+    t<-getAllGenes4Compartment(cid)
   }
 
   return(t)
 }
 
-networkSetup <- function(PPIList){
-  network <- buildNetwork(PPIList)
+networkSetup <- function(network){
   network <- annotateGeneNames(network)
   network <- annotateGOont(network)
 
@@ -66,19 +62,12 @@ networkSetup <- function(PPIList){
   return(network)
 }
 
-generateGraph <- function(count=2, localisation="Postsynaptic", diseasehdoid="DOID:5419", filename){
-  geneTable <- initGeneTable(count, localisation, diseasehdoid)
-  ppiGene <- getPPIbyEntrez(geneTable$HumanEntrez, type = "limited")
-  networkGene <- networkSetup(ppiGene)
+generateGraph <- function(count=1, localisation="Postsynaptic", filename){
+  geneTable <- initGeneTable(count=count, localisation=localisation)
+  g <- graphFromSynaptomeByEntrez(geneTable$HumanEntrez)
+  networkGene <- networkSetup(g)
   write_graph(networkGene, file=filename, format="gml")
   return (networkGene)
-}
-
-generateGraphNew <- function(count=1, localisation="Postsynaptic", diseasehdoid=NULL, filename){
-  geneTable <- initGeneTable(count, localisation, diseasehdoid)
-  ppiGene <- getPPIbyEntrez(geneTable$HumanEntrez, type = "induced")
-  networkGene <- networkSetup(ppiGene)
-  write_graph(networkGene, file=filename, format="gml")
 }
 
 networkProperties <- function(network){
@@ -107,13 +96,6 @@ compareNetwork <- function(network){
 }
 
 
-
-dbFlat <- read.table(file = "Files/Full_DB_Rat_Aut22.txt", sep="\t", header=TRUE)
-geneList <-dbFlat$HUMAN.ENTREZ.ID[dbFlat$psd == 1]
-ppiGene <- getPPIbyEntrez(geneList, type = "limited")
-networkGene <- networkSetup(ppiGene)
-write_graph(networkGene, file="flatFileGraph.gml", format="gml")
-
 # Postsynaptic Graphs
 
 # # Graph for Schziphrenia Genes that appear >= 2 that are Postsynaptic
@@ -122,25 +104,50 @@ write_graph(networkGene, file="flatFileGraph.gml", format="gml")
 # # Graph for all Schziphrenia Genes that appear that are Postsynaptic
 # generateGraph(count=1, file="PostsynapticNetwork/NarrowPSDSchizphreniaNetwork.gml")
 #
-# # Graph for Genes that appear >= 2 that are Postsynaptic
-#consensusGraph <- generateGraph(count = 2,diseasehdoid = NULL, filename="PostsynapticNetwork/ConsensusPSDDBNetwork.gml")
-#
-# # Graph for all Genes that appear that are Postsynaptic
-#fullGraph <- generateGraph(count = 1, diseasehdoid = NULL, filename="PostsynapticNetwork/FullPSDDBNetwork.gml")
-#
+
+
+
+
+# Graph for all Genes that appear that are Postsynaptic
+fullGraph <- generateGraph(count = 1, filename="PostsynapticNetwork/FullPSDDBNetwork.gml")
+fullGraph <- findLCC(fullGraph)
+# Graph for Genes that appear >= 2 that are Postsynaptic
+consensusGraph <- generateGraph(count = 2, filename="PostsynapticNetwork/ConsensusPSDDBNetwork.gml")
+consensusGraph <- findLCC(consensusGraph)
 # consensusGraph <- read.graph("PostsynapticNetwork/ConsensusPSDDBNetwork.gml", type="gml")
 #
-# consensusGraph <- calcAllClustering(consensusGraph)
-# summary(consensusGraph)
-# write_graph(consensusGraph, file="PostsynapticNetwork/ConsensusPSDDBNetwork.gml", format="gml")
+consensusGraph <- calcAllClustering(consensusGraph)
+#Warning in getClustering(gg, alg, weights = weights) :
+# Clustering calculations for algorithm "sgG1" failed. NULL is returned
+# Warning in getClustering(gg, alg, weights = weights) :
+# Clustering calculations for algorithm "sgG2" failed. NULL is returned
+# Warning in getClustering(gg, alg, weights = weights) :
+# Clustering calculations for algorithm "sgG5" failed. NULL is returned
+
+
+summary(consensusGraph)
+write_graph(consensusGraph, file="PostsynapticNetwork/ConsensusPSDDBNetwork.gml", format="gml")
+
+fullGraph <- calcAllClustering(fullGraph)
+summary(fullGraph)
+write_graph(fullGraph, file="PostsynapticNetwork/FullPSDDBNetwork.gml", format="gml")
+
+# Warning in igraph::leading.eigenvector.community(ugg, weights = weights) :
+# At core/linalg/arpack.c:805 : ARPACK solver failed to converge (10001 iterations, 0/1 eigenvectors converged).
+# Warning in getClustering(gg, alg, weights = weights) :
+# Clustering calculations for algorithm "lec" failed. NULL is returned
+# Warning in getClustering(gg, alg, weights = weights) :
+# Clustering calculations for algorithm "sgG1" failed. NULL is returned
+# Warning in getClustering(gg, alg, weights = weights) :
+# Clustering calculations for algorithm "sgG2" failed. NULL is returned
+# Warning in getClustering(gg, alg, weights = weights) :
+# Clustering calculations for algorithm "sgG5" failed. NULL is returned
+
+
 #
-# fullGraph <- calcAllClustering(fullGraph)
-# summary(fullGraph)
-# write_graph(fullGraph, file="PostsynapticNetwork/FullPSDDBNetwork.gml", format="gml")
-#
-# consensusM <- clusteringSummary(consensusGraph)
-# fullM <- clusteringSummary(fullGraph)
-#
+consensusM <- clusteringSummary(consensusGraph)
+fullM <- clusteringSummary(fullGraph)
+
 # View(consensusM)
 # View(fullM)
 
