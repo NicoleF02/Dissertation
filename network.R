@@ -9,13 +9,6 @@ library(dplyr)
 require(BioNAR)
 library(org.Hs.eg.db)
 library(randomcoloR)
-# We need to split this up
-# No. 1. get all schizophrenia genes
-# get them for postsynaptic
-# get them for only postsynaptic only
-# then do networks
-# do refined network
-
 
 # Table: each cluster, cluster size, how many genes are schizophrenic, test for fisher test to check for overpresentation
 # annotation will be trubetskoy to check enrichment, it will show which ones are enriched, do it for all algorithms.
@@ -105,7 +98,11 @@ compareNetwork <- function(network){
 # generateGraph(count=1, file="PostsynapticNetwork/NarrowPSDSchizphreniaNetwork.gml")
 #
 
-
+#
+# Warning in igraph::leading.eigenvector.community(ugg, weights = weights) :
+# At core/linalg/arpack.c:805 : ARPACK solver failed to converge (10001 iterations, 0/1 eigenvectors converged).
+# Warning in getClustering(gg, alg, weights = weights) :
+# Clustering calculations for algorithm "lec" failed. NULL is returned
 
 
 # Graph for all Genes that appear that are Postsynaptic
