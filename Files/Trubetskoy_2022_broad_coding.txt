@@ -1,4 +1,4 @@
-"EntrezID_Human"	"Trubetskoy_Broad_coding"
+EntrezID_Human	Trubetskoy_Broad_coding
 4352	TRUE
 1630	TRUE
 65979	TRUE

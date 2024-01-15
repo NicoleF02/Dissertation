@@ -26,13 +26,13 @@ synapseDB <- read.table(file=dbFile, sep="\t", header=TRUE)
 grid.newpage()
 
 
-psdpres = sum(subset(synapseDB, psd == 1 & pres == 1)$psd)
-pressyn = sum(subset(synapseDB, syn == 1 & pres == 1)$syn)
-psdsyn = sum(subset(synapseDB, psd == 1 & syn == 1)$psd)
-psdpressyn = sum(subset(synapseDB, psd == 1 & pres == 1 & syn == 1)$psd)
-psd = sum(synapseDB$psd)
-pres = sum(synapseDB$pres)
-syn = sum(synapseDB$syn)
+psdpres <- sum(subset(synapseDB, psd == 1 & pres == 1)$psd)
+pressyn <- sum(subset(synapseDB, syn == 1 & pres == 1)$syn)
+psdsyn <- sum(subset(synapseDB, psd == 1 & syn == 1)$psd)
+psdpressyn <- sum(subset(synapseDB, psd == 1 & pres == 1 & syn == 1)$psd)
+psd <- sum(synapseDB$psd)
+pres <- sum(synapseDB$pres)
+syn <- sum(synapseDB$syn)
 
 # draw.triple.venn(area1 = psd, area2 = pres, area3= syn,
 #                  n12 = psdpres, n23= pressyn, n13 = psdsyn, n123=psdpressyn,
