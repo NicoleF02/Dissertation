@@ -1,42 +1,61 @@
-import re
+import networkx as nx
+
 
 def read_gml_file(file_path):
     with open(file_path, 'r') as file:
         data = file.read()
-    return data
+    G = nx.parse_gml(data, label="name")  # Specify the attribute used as the 'name' category
+    return G
 
-def parse_data(data):
-    gene_entries = re.findall(r'node\s*\[\s*id (\d+).*?wt "(\d+)".*?fc "(\d+)".*?infomap "(\d+)".*?louvain "(\d+)".*?sgG1 "(\d+)".*?sgG2 "(\d+)".*?sgG5 "(\d+)".*?spectral "(\d+)".*?Trubetskoy2022broadcoding "(.*?)".*\s*\]', data, re.DOTALL)
 
-    return gene_entries
+def find_max_value_for_category(G, category):
+    return max((int(node_data[category]) for node_data in G.nodes.values() if category in node_data), default=None)
 
-def print_table(gene_entries):
-    algorithms = ['wt', 'fc', 'infomap', 'louvain', 'sgG1', 'sgG2', 'sgG5', 'spectral']
 
-    # Initialize variables for maximum communities and true broad coding
-    max_communities = {alg: 0 for alg in algorithms}
-    true_broad_coding = {alg: 0 for alg in algorithms}
+def find_no_trubetskoy(G, algorithm, community):
+    totalTrubetskoy = 0
+    #print(community)
 
-    # Process each gene entry
-    for entry in gene_entries:
-        for i, alg in enumerate(algorithms):
-            community_count = int(entry[i + 1])  # Skip gene id
-            # Update maximum communities
-            max_communities[alg] = max(max_communities[alg], community_count)
+    for node_id, node_data in G.nodes.items():
+        if (node_data.get(algorithm) == str(community) and node_data.get("Trubetskoy2022broadcoding") == "TRUE"):
+            totalTrubetskoy += 1
 
-        broad_coding = entry[-1]  # Trubetskoy2022broadcoding
-        if broad_coding.lower() == 'true':
-            for i, alg in enumerate(algorithms):
-                true_broad_coding[alg] = max(true_broad_coding[alg], int(entry[i + 1]))  # Skip gene id
+    return totalTrubetskoy
 
-    # Print the table
-    print(f"{'Algorithm':<10}{'Max Communities':<20}{'True Broad Coding':<20}")
-    for alg in algorithms:
-        print(f"{alg:<10}{max_communities[alg]:<20}{true_broad_coding[alg]:<20}")
+def main():
+    file_path = "PostsynapticNetwork/FullPSDDBNetwork.gml"
+    G = read_gml_file(file_path)
+    algorithmsConsensus = ['lec', 'wt', 'fc', 'infomap', 'louvain','sgG1', 'sgG2', 'sgG5', 'spectral']
+    algorithmsFull = ['wt', 'fc', 'infomap', 'louvain','sgG1', 'sgG2', 'sgG5', 'spectral']
+
+    fullAlgoDict = {}
+    algoTrubetskoy = {}
+
+    for algorithm in algorithmsFull:
+        numberCommunities = find_max_value_for_category(G, algorithm)
+
+        fullAlgoDict[algorithm] = numberCommunities
+
+        print(algorithm)
+        print("Community, NoTrubetskoy")
+        algoTrubetskoy[algorithm] = 0
+        totalTrubetskoy = 0
+        for i in range(1, numberCommunities):
+            noTrubetskoy = find_no_trubetskoy(G,algorithm,i)
+            if noTrubetskoy != 0:
+                print(f"{i}, {noTrubetskoy}")
+            totalTrubetskoy += noTrubetskoy
+
+        algoTrubetskoy[algorithm] += totalTrubetskoy
+
+
+
+    print("Algorithms and communities")
+    print("Algorithm, No. Communities, No. Trubetskoy")
+    for algorithm in algorithmsFull:
+        print(algorithm,",",fullAlgoDict[algorithm], ",",algoTrubetskoy[algorithm])
+
 
 
 if __name__ == "__main__":
-    file_path = "PostsynapticNetwork/FullPSDDBNetwork.gml"  # Replace with the actual file path
-    data = read_gml_file(file_path)
-    gene_entries = parse_data(data)
-    print_table(gene_entries)
+    main()
