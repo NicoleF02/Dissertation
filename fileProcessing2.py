@@ -28,15 +28,15 @@ def find_no_trubetskoy(G, algorithm, community):
     return totalTrubetskoy
 
 def main():
-    file_path = "PostsynapticNetwork/FullPSDDBNetwork.gml"
+    file_path = "PostsynapticNetwork/ConsensusPSDDBNetwork.gml"
     G = read_gml_file(file_path)
-    algorithmsConsensus = ['lec', 'wt', 'fc', 'infomap', 'louvain','sgG1', 'sgG2', 'sgG5', 'spectral']
+    algorithmsConsensus = ['lec', 'wt', 'fc', 'infomap', 'louvain','sgG1', 'sgG2', 'sgG5', 'spectral','lec']
     algorithmsFull = ['wt', 'fc', 'infomap', 'louvain','sgG1', 'sgG2', 'sgG5', 'spectral']
 
     fullAlgoDict = {}
     algoTrubetskoy = {}
 
-    for algorithm in algorithmsFull:
+    for algorithm in algorithmsConsensus:
         numberCommunities = find_max_value_for_category(G, algorithm)
 
         fullAlgoDict[algorithm] = numberCommunities
@@ -46,7 +46,7 @@ def main():
         algoTrubetskoy[algorithm] = 0
         totalTrubetskoy = 0
 
-        csv_path = f"FullDBClustered/{algorithm}.csv"
+        csv_path = f"ConsensusClustered/{algorithm}.csv"
         df = read_csv_file(csv_path)
 
 
@@ -74,10 +74,12 @@ def main():
 
     print("Algorithms and communities")
     print("Algorithm, No. Communities, No. Trubetskoy")
-    for algorithm in algorithmsFull:
+    for algorithm in algorithmsConsensus:
         print(algorithm,",",fullAlgoDict[algorithm], ",",algoTrubetskoy[algorithm])
 
 
 
 if __name__ == "__main__":
     main()
+
+#%%

@@ -41,11 +41,11 @@ FeMaxFull<-log2(max(sapply(oraFull,function(d){max(d$Fe)})))
 FcMaxFull<-log2(max(sapply(oraFull,function(d){max(d$Fc)})))
 
 
-# oraConsensus<-lapply(algsConsensus, function(alg){clusterORA(gConsensus, alg, name = 'Trubetskoy2022broadcoding',
-#                                                vid = "name",alpha = 1, col = COLLAPSE)})
-# names(oraConsensus)<-algsConsensus
-# FeMaxConsensus<-log2(max(sapply(oraConsensus,function(d){max(d$Fe)})))
-# FcMaxConsensus<-log2(max(sapply(oraConsensus,function(d){max(d$Fc)})))
+oraConsensus<-lapply(algsConsensus, function(alg){clusterORA(gConsensus, alg, name = 'Trubetskoy2022broadcoding',
+                                               vid = "name",alpha = 1, col = COLLAPSE)})
+names(oraConsensus)<-algsConsensus
+FeMaxConsensus<-log2(max(sapply(oraConsensus,function(d){max(d$Fe)})))
+FcMaxConsensus<-log2(max(sapply(oraConsensus,function(d){max(d$Fc)})))
 
 
 # Summary for Full one
@@ -54,10 +54,10 @@ names(statsR1Full)
 View(head(statsR1Full$CAN))
 
 
-# # Summary for Consensus one
-# statsR1Consensus <- summaryStats(oraConsensus, 0.1, usePadj=FALSE, FeMAX=FeMaxConsensus, FcMAX=FcMaxConsensus)
-# names(statsR1Consensus)
-# View(head(statsR1Consensus$CAN))
+# Summary for Consensus one
+statsR1Consensus <- summaryStats(oraConsensus, 0.1, usePadj=FALSE, FeMAX=FeMaxConsensus, FcMAX=FcMaxConsensus)
+names(statsR1Consensus)
+View(head(statsR1Consensus$CAN))
 
 #
 plots<-plotRatio(x=statsR1Full, desc="p.values",LEGtextSize=0.75, LEGlineSize=2)
@@ -67,8 +67,8 @@ View(plots$ranktable)
 
 
 #
-# plots<-plotRatio(x=statsR1Consensus, desc="p.values",LEGtextSize=0.75, LEGlineSize=2)
-# View(plots$ranktable)
+plots<-plotRatio(x=statsR1Consensus, desc="p.values",LEGtextSize=0.75, LEGlineSize=2)
+View(plots$ranktable)
 # print(plots$p3)
 
 
