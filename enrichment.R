@@ -60,8 +60,8 @@ View(head(statsR1Full$CAN))
 # View(head(statsR1Consensus$CAN))
 
 #
-# plots<-plotRatio(x=statsR1Full, desc="p.values",LEGtextSize=0.75, LEGlineSize=2)
-# View(plots$ranktable)
+plots<-plotRatio(x=statsR1Full, desc="p.values",LEGtextSize=0.75, LEGlineSize=2)
+View(plots$ranktable)
 # print(plots$p3)
 
 

@@ -1,5 +1,5 @@
 import networkx as nx
-
+import pandas as pd
 
 def read_gml_file(file_path):
     with open(file_path, 'r') as file:
@@ -7,6 +7,11 @@ def read_gml_file(file_path):
     G = nx.parse_gml(data, label="name")  # Specify the attribute used as the 'name' category
     return G
 
+
+def read_csv_file(csv_path):
+    # Assuming that your CSV files have columns named 'alg', 'cl', 'pval', 'padj', etc.
+    df = pd.read_csv(csv_path)
+    return df
 
 def find_max_value_for_category(G, category):
     return max((int(node_data[category]) for node_data in G.nodes.values() if category in node_data), default=None)
@@ -37,13 +42,30 @@ def main():
         fullAlgoDict[algorithm] = numberCommunities
 
         print(algorithm)
-        print("Community, NoTrubetskoy")
+        print("Community, NoTrubetskoy, pval, padj")
         algoTrubetskoy[algorithm] = 0
         totalTrubetskoy = 0
-        for i in range(1, numberCommunities):
+
+        csv_path = f"FullDBClustered/{algorithm}.csv"
+        df = read_csv_file(csv_path)
+
+
+
+        for i in range(1, numberCommunities + 1):
             noTrubetskoy = find_no_trubetskoy(G,algorithm,i)
-            if noTrubetskoy != 0:
-                print(f"{i}, {noTrubetskoy}")
+
+            matching_rows = df[(df['alg'] == algorithm) & (df['cl'] == i)]
+
+            if not matching_rows.empty:
+                row = matching_rows.iloc[0]
+                pval = row['pval']
+                padj = row['padj']
+            else:
+                pval = "N/A"
+                padj = "N/A"
+
+
+            print(f"{i}, {noTrubetskoy}, {pval}, {padj}")
             totalTrubetskoy += noTrubetskoy
 
         algoTrubetskoy[algorithm] += totalTrubetskoy
