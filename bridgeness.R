@@ -13,22 +13,23 @@ library(randomcoloR)
 
 calculateBridgeness <- function (graph, algorithm){
   # Calculate the consensus Community structure
-
+  print(algorithm)
+  print("Starting for algorithm")
   conmat <- makeConsensusMatrix(graph, N=5, alg=algorithm, type = 2, mask = 10, reclust = FALSE, Cnmax = 2000)
 
   # Calculate robustness
-
-  clrob <-getRobustness(graph, alg = "louvain", conmat)
+  print("Consensus Matrix created")
+  clrob <-getRobustness(graph, alg = algorithm, conmat)
   pander(clrob)
 
   # Calculate the bridgeness
-  br <- getBridgeness(graph, alg = "louvain", conmat)
+  br <- getBridgeness(graph, alg = algorithm, conmat)
   head(br)
 
-  graph <- calcBridgeness(graph, alg = "louvain", conmat)
+  graph <- calcBridgeness(graph, alg = algorithm, conmat)
   vertex_attr_names(graph)
 
-
+  print("Bridgeness calculated")
 
   sfile<-system.file("extdata", "SCH_flatfile.csv", package = "BioNAR")
   shan<- read.table(sfile,sep="\t",skip=1,header=FALSE,strip.white=TRUE,quote="")
@@ -38,7 +39,10 @@ calculateBridgeness <- function (graph, algorithm){
   shan[shan$V2 =="Protein_cluster",] -> prCl
   dim(prCl)
 
-  plotBridgeness(graph,alg = algorithm,
+  print("Plotting Bridgeness")
+
+  plotName <- paste0("Bridgeness/",paste0(algorithm,"Bridgeness.pdf"))
+  g <- plotBridgeness(graph,alg = algorithm,
                  VIPs=prCl$V3,
                  Xatt='SL',
                  Xlab = "Semilocal Centrality (SL)",
@@ -52,6 +56,11 @@ calculateBridgeness <- function (graph, algorithm){
                  ymax = 1,
                  baseColor="royalblue2",
                  SPColor="royalblue2")
+
+  ggsave(plotName, g)
+
+
+
 }
 
 
@@ -60,5 +69,14 @@ calculateBridgeness <- function (graph, algorithm){
 gFull <- igraph::read.graph("PostsynapticNetwork/FullPSDDBNetwork.gml",format="gml") #graph from gml
 gConsensus <- igraph::read.graph("PostsynapticNetwork/ConsensusPSDDBNetwork.gml",format="gml")
 
-gFullAlgorithms <- c("louvain", "sgG2", "spectral")
+gFull <- calcCentrality(gFull)
+gFullLCC <- findLCC(gFull)
+algsFull<-c('wt', 'fc', 'infomap', 'louvain',
+            'sgG1', 'sgG2', 'sgG5', 'spectral')
+
+#
+# for (algorithm in algsFull){
+#   calculateBridgeness(gFull,algorithm)
+#
+# }
 
