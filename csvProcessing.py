@@ -7,8 +7,6 @@ def process_text_file(input_file):
 
     with open(input_file, 'r') as file:
         lines = file.readlines()
-
-        # Flag to determine if we are inside the data section
         inside_data = False
 
         for line in lines:
@@ -35,7 +33,6 @@ def write_to_csv(data, output_file):
     with open(output_file, 'w', newline='') as csvfile:
         csv_writer = csv.writer(csvfile)
 
-        # Write header
         csv_writer.writerow(['alg', 'C', 'Cn', 'Crob', 'CrobScaled'])
 
         # Write data
@@ -44,10 +41,8 @@ def write_to_csv(data, output_file):
 
 if __name__ == "__main__":
     input_file = "Bridgeness/robustness.txt"
-    # Process the text file and get data
     data = process_text_file(input_file)
 
-    # Group data by 'alg' and write to separate CSV files
     for alg, group in itertools.groupby(data, key=lambda x: x[0]):
         output_file = f"Bridgeness/{alg}Robustness.csv"
         write_to_csv(list(group), output_file)

@@ -34,14 +34,14 @@ algsFull<-c('wt', 'fc', 'infomap', 'louvain',
 
 
 oraFull<-lapply(algsFull, function(alg){clusterORA(gFull, alg, name = 'Trubetskoy2022broadcoding',
-                                           vid = "name",alpha = 0.1, col = COLLAPSE)})
+                                           vid = "name",alpha = 1, col = COLLAPSE)})
 names(oraFull)<-algsFull
 FeMaxFull<-log2(max(sapply(oraFull,function(d){max(d$Fe)})))
 FcMaxFull<-log2(max(sapply(oraFull,function(d){max(d$Fc)})))
 
 
 oraConsensus<-lapply(algsConsensus, function(alg){clusterORA(gConsensus, alg, name = 'Trubetskoy2022broadcoding',
-                                               vid = "name",alpha = 0.1, col = COLLAPSE)})
+                                               vid = "name",alpha = 1, col = COLLAPSE)})
 names(oraConsensus)<-algsConsensus
 FeMaxConsensus<-log2(max(sapply(oraConsensus,function(d){max(d$Fe)})))
 FcMaxConsensus<-log2(max(sapply(oraConsensus,function(d){max(d$Fc)})))
