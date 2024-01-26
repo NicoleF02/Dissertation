@@ -32,3 +32,4 @@ for alg in algs:
     print(f"Algorithm {alg}")
     process_csv_file(csv_file)
     print("\n")
+
