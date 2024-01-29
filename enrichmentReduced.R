@@ -82,6 +82,9 @@ fitSigmoid2 <- function(stat, SDv = c(0, 0.05, 0.1, 0.5)) {
 # Reduced here means those without any null values / infinity
 gFull <- igraph::read.graph("PostsynapticNetwork/FullPSDDBNetwork.gml",format="gml") #graph from gml
 gFull <- calcCentrality(gFull)
+
+
+
 gFullRedcuded <- findLCC(gFull)
 
 # Spectral and wt have been removed
@@ -97,52 +100,52 @@ FcMaxFull<-log2(max(sapply(oraFull,function(d){max(d$Fc)})))
 
 statsR1Full <- summaryStats(oraFull, 0.1, usePadj=FALSE, FeMAX=FeMaxFull, FcMAX=FcMaxFull)
 names(statsR1Full)
-
-
-alg <- "louvain"
-conmat <- makeConsensusMatrix(gFullRedcuded, N=5,
-                              alg = alg, type = 2,
-                              mask = 10,reclust = FALSE,
-                              Cnmax = 10)
-
-
-clrob<-getRobustness(gFullRedcuded, alg = alg, conmat)
-pander(clrob)
-
-
-alg <- "fc"
-conmat <- makeConsensusMatrix(gFullRedcuded, N=5,
-                              alg = alg, type = 2,
-                              mask = 10,reclust = FALSE,
-                              Cnmax = 10)
-
-
-clrob<-getRobustness(gFullRedcuded, alg = alg, conmat)
-pander(clrob)
-
-
-
-alg <- "infomap"
-conmat <- makeConsensusMatrix(gFullRedcuded, N=5,
-                              alg = alg, type = 2,
-                              mask = 10,reclust = FALSE,
-                              Cnmax = 10)
-
-
-clrob<-getRobustness(gFullRedcuded, alg = alg, conmat)
-pander(clrob)
-
-
-
-alg <- "sgG1"
-conmat <- makeConsensusMatrix(gFullRedcuded, N=5,
-                              alg = alg, type = 2,
-                              mask = 10,reclust = FALSE,
-                              Cnmax = 10)
-
-
-clrob<-getRobustness(gFullRedcuded, alg = alg, conmat)
-pander(clrob)
-# fitres<-fitSigmoid2(statsR1Full)
-# print(fitres[['0']]$gridplot)
-
+fitres<-fitSigmoid2(statsR1Full)
+#
+# alg <- "louvain"
+# conmat <- makeConsensusMatrix(gFullRedcuded, N=5,
+#                               alg = alg, type = 2,
+#                               mask = 10,reclust = FALSE,
+#                               Cnmax = 10)
+#
+#
+# clrob<-getRobustness(gFullRedcuded, alg = alg, conmat)
+# pander(clrob)
+#
+#
+# alg <- "fc"
+# conmat <- makeConsensusMatrix(gFullRedcuded, N=5,
+#                               alg = alg, type = 2,
+#                               mask = 10,reclust = FALSE,
+#                               Cnmax = 10)
+#
+#
+# clrob<-getRobustness(gFullRedcuded, alg = alg, conmat)
+# pander(clrob)
+#
+#
+#
+# alg <- "infomap"
+# conmat <- makeConsensusMatrix(gFullRedcuded, N=5,
+#                               alg = alg, type = 2,
+#                               mask = 10,reclust = FALSE,
+#                               Cnmax = 10)
+#
+#
+# clrob<-getRobustness(gFullRedcuded, alg = alg, conmat)
+# pander(clrob)
+#
+#
+#
+# alg <- "sgG1"
+# conmat <- makeConsensusMatrix(gFullRedcuded, N=5,
+#                               alg = alg, type = 2,
+#                               mask = 10,reclust = FALSE,
+#                               Cnmax = 10)
+#
+#
+# clrob<-getRobustness(gFullRedcuded, alg = alg, conmat)
+# pander(clrob)
+# # fitres<-fitSigmoid2(statsR1Full)
+# # print(fitres[['0']]$gridplot)
+#
