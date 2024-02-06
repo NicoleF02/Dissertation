@@ -83,7 +83,7 @@ fitSigmoid2 <- function(stat, SDv = c(0, 0.05, 0.1, 0.5)) {
 gFull <- igraph::read.graph("PostsynapticNetwork/FullPSDDBNetwork.gml",format="gml") #graph from gml
 gFull <- calcCentrality(gFull)
 
-
+Œ
 
 gFullRedcuded <- findLCC(gFull)
 
