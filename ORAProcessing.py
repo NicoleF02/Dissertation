@@ -18,10 +18,13 @@ def read_csv_files(folder_path):
 
 
 def saveORAEnrichment(dataframe, ontology):
-    significant_rows = dataframe[dataframe['padj'] <= 0.05 or dataframe["pval"] <= 0.05]
+
+    condition1 = dataframe['padj'] <= 0.05
+    condition2 = dataframe['pval'] <= 0.05
+    significant_rows = dataframe[condition1 | condition2]
 
     # Specify columns to print
-    columns_to_print = ['alg', 'cl', 'Cn', 'Mu', 'FL', 'padj', 'overlapGenes']
+    columns_to_print = ['alg', 'cl', 'Cn', 'Mu', 'FL', 'padj', 'pval', 'overlapGenes']
 
     # Sort the DataFrame by 'alg' and 'padj'
     df = significant_rows_sorted = significant_rows.sort_values(by=['alg', 'padj'])
@@ -117,3 +120,10 @@ if __name__ == "__main__":
 # Flag up issues I've identified.
 
 # Compare infomap and spectral communties, infomap as bigger one and the smaller ones for spectral, upset diagram
+
+
+# We probably want a list of all genes, with algorithm enrichment and algorithm community for each,
+
+
+# Compare number of clusters between each algorithm for each community, we want to do protein graphs
+# for other ontologies, highlighting the trubetskoy and see if there are overlaps, just do spectral and infomap again.
