@@ -37,7 +37,7 @@ def readGraph(file_path):
 
 
 graphFile2 = []
-file_path = "PostsynapticNetwork/PSD_FULL_clustered.gml"
+file_path = "PostsynapticNetwork/Useless/PSD_FULL_clustered.gml"
 fullGraphNodesWorking = readGraph(file_path)
 
 file_path = "Files/Trubetskoy_2022_broad_coding.txt"

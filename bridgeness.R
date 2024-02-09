@@ -30,20 +30,52 @@ plotBridgeness2 <- function(gg, alg, VIPs, Xatt = "SL", Xlab = "Semilocal Centra
   if (length(Y) == 0) {
     stop("Graph vertices have no numerical attribute \"", sprintf("BRIDGENESS.%s", alg), "\"\n", "Check that you\'ve calculated bridginess.\n")
   }
+
+
+  trubetskoybroadcoding <- V(gg)$Trubetskoy2022broadcoding
+
+
   if ("GeneName" %in% vertex_attr_names(gg)) {
     lbls <- ifelse(!is.na(indx), V(gg)$GeneName, "")
     name <- V(gg)$GeneName
-    dt <- data.frame(X = X, Y = Y, vips = group, entres = V(gg)$name, name = name)
+    dt <- data.frame(X = X, Y = Y, vips = group, entres = V(gg)$name, name = name, trubetskoybroadcoding = trubetskoybroadcoding)
   } else {
     lbls <- ifelse(!is.na(indx), V(gg)$name, "")
     name <- V(gg)$name
-    dt <- data.frame(X = X, Y = Y, vips = group, entres = V(gg)$name, name = name)
+    dt <- data.frame(X = X, Y = Y, vips = group, entres = V(gg)$name, name = name, trubetskoybroadcoding = trubetskoybroadcoding)
   }
   dt_vips <- dt[dt$vips == 1, ]
   dt_res <- dt[dt$vips == 0, ]
-  g <- ggplot(dt, aes(x = X, y = Y, label = name)) + geom_point(data = dt_vips, aes(x = X, y = Y), colour = baseColor, size = spsize, shape = 15, show.legend = FALSE) + geom_point(data = dt_res, aes(x = X, y = Y, alpha = (X * Y)), size = bsize, shape = 16, show.legend = FALSE) + geom_label_repel(aes(label = as.vector(lbls)), fontface = "bold", color = "black", fill = "white", box.padding = 0.1, point.padding = NA, label.padding = 0.15, segment.color = "black", force = 1, size = rel(3.8), show.legend = FALSE, max.overlaps = 800) + labs(x = Xlab, y = Ylab, title = sprintf("%s", alg)) + scale_x_continuous(expand = c(0, 0), limits = c(xmin, xmax)) + scale_y_continuous(expand = c(0, 0), limits = c(ymin, ymax)) + theme(axis.title.x = element_text(face = "bold", size = rel(2.5)), axis.title.y = element_text(face = "bold", size = rel(2.5)), legend.title = element_text(face = "bold", size = rel(1.5)), legend.text = element_text(face = "bold", size = rel(1.5)), legend.key = element_blank()) + theme(panel.grid.major = element_line(colour = "grey40", linewidth = 0.2), panel.grid.minor = element_line(colour = "grey40", linewidth = 0.1), panel.background = element_rect(fill = "white"), panel.border = element_rect(linetype = "solid", fill = NA)) + geom_vline(xintercept = 0.5, colour = "grey40", linewidth = MainDivSize, linetype = 2, show.legend = FALSE) + geom_hline(yintercept = 0.5, colour = "grey40", linewidth = MainDivSize, linetype = 2, show.legend = FALSE)
+  g <- ggplot(dt, aes(x = X, y = Y, label = name)) +
+    geom_point(data = dt_vips, aes(x = X, y = Y), colour = baseColor, size = spsize, shape = 15, show.legend = FALSE) +
+
+    geom_point(data = dt, aes(x = X, y = Y, color = trubetskoybroadcoding, alpha =0.1), size = bsize, show.legend = TRUE) +
+    geom_label_repel(aes(label = as.vector(lbls)), fontface = "bold", color = "black", fill = "white", box.padding = 0.1,
+                     point.padding = NA, label.padding = 0.15, segment.color = "black", force = 1, size = rel(3.8),
+                     show.legend = FALSE, max.overlaps = 800) +
+    labs(x = Xlab, y = Ylab, title = sprintf("%s", alg)) +
+    scale_x_continuous(expand = c(0, 0), limits = c(xmin, xmax)) +
+    scale_y_continuous(expand = c(0, 0), limits = c(ymin, ymax)) +
+    scale_color_manual(values = c("FALSE" = "grey40", "TRUE" = "red")) +
+    theme(
+      axis.title.x = element_text(face = "bold", size = rel(2.5)),
+      axis.title.y = element_text(face = "bold", size = rel(2.5)),
+      legend.title = element_text(face = "bold", size = rel(1.5)),
+      legend.text = element_text(face = "bold", size = rel(1.5)),
+      legend.key = element_blank(),
+      panel.grid.major = element_line(colour = "grey40", linewidth = 0.2),
+      panel.grid.minor = element_line(colour = "grey40", linewidth = 0.1),
+      panel.background = element_rect(fill = "white"),
+      panel.border = element_rect(linetype = "solid", fill = NA)
+    ) +
+    geom_vline(xintercept = 0.5, colour = "grey40", linewidth = MainDivSize, linetype = 2, show.legend = FALSE) +
+    geom_hline(yintercept = 0.5, colour = "grey40", linewidth = MainDivSize, linetype = 2, show.legend = FALSE)
+
+
+
   return(g)
 }
+
 
 calculateBridgeness <- function (graph, algorithm){
   # Calculate the consensus Community structure
@@ -87,8 +119,6 @@ calculateBridgeness <- function (graph, algorithm){
 
   ggsave(plotName, g)
 
-
-
 }
 
 
@@ -99,8 +129,7 @@ gConsensus <- igraph::read.graph("PostsynapticNetwork/ConsensusPSDDBNetwork.gml"
 
 gFull <- calcCentrality(gFull)
 gFullLCC <- findLCC(gFull)
-algsFull<-c('wt', 'fc', 'infomap', 'louvain',
-            'sgG1', 'sgG2', 'sgG5', 'spectral')
+algsFull<-c('infomap','spectral')
 
 
 for (algorithm in algsFull){
