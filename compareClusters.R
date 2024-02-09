@@ -93,10 +93,10 @@ compare_diff <- function(df1, df2){
 }
 
 
-# df1 <- split_gene_overlap(csv_data1)
-# df2 <- split_gene_overlap(csv_data2)
-# print("Read CSV")
-# overlap_matrix <- compare_diff(df1, df2)
+df1 <- split_gene_overlap(csv_data1)
+df2 <- split_gene_overlap(csv_data2)
+print("Read CSV")
+overlap_matrix <- compare_diff(df1, df2)
 
 print("Matrix created")
 # Create a heatmap using pheatmap with color palette
@@ -108,7 +108,10 @@ pheatmap(
   color = color_palette,
   main = "Overlap Heatmap for Trubetskoy and GOPBPID Cluster Comparison",
   legend = TRUE,
-  filename = "UpsetPlot/TrubetskoyGOBPIDComparision.png"
+  filename = "UpsetPlot/TrubetskoyGOBPIDComparision.png",
+  angle_col = 45,
+  width = 1000,  # Adjust width of the image
+  height = 600
 )
 print("Done")
 
