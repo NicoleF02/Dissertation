@@ -51,7 +51,8 @@ same_comparison <- function(df) {
       if (i == j) {
         overlap_matrix[i, j] <- 0
       } else {
-        overlap_matrix[i, j] <- calculate_overlap(genes_i, genes_j)
+        overlapped <- calculate_overlap(genes_i, genes_j)
+        overlap_matrix[i, j] <- overlapped
       }
     }
   }
@@ -59,11 +60,11 @@ same_comparison <- function(df) {
 }
 
 # Function to calculate gene overlap between two algcl values
-calculate_overlap <- function(algcl1, algcl2, df1, df2) {
-  genes1 <- unlist(strsplit(df1$gene[df1$algcl == algcl1], " "))
-  genes2 <- unlist(strsplit(df2$gene[df2$algcl == algcl2], " "))
-  length(intersect(genes1, genes2))
-}
+# calculate_overlap <- function(algcl1, algcl2, df1, df2) {
+#   genes1 <- unlist(strsplit(df1$gene[df1$algcl == algcl1], " "))
+#   genes2 <- unlist(strsplit(df2$gene[df2$algcl == algcl2], " "))
+#   length(intersect(genes1, genes2))
+# }
 
 compare_diff <- function(df1, df2){
   # Extract unique algcl values from both dataframes
@@ -96,7 +97,9 @@ compare_diff <- function(df1, df2){
 df1 <- split_gene_overlap(csv_data1)
 df2 <- split_gene_overlap(csv_data2)
 print("Read CSV")
-overlap_matrix <- compare_diff(df1, df2)
+#verlap_matrix <- compare_diff(df1, df2)
+
+overlap_matrix <- same_comparison(df1)
 
 print("Matrix created")
 # Create a heatmap using pheatmap with color palette
@@ -108,12 +111,87 @@ pheatmap(
   color = color_palette,
   main = "Overlap Heatmap for Trubetskoy and GOPBPID Cluster Comparison",
   legend = TRUE,
-  filename = "UpsetPlot/TrubetskoyGOBPIDComparision.png",
+  #filename = "UpsetPlot/TrubetskoyGOBPIDComparision.png",
   angle_col = 45,
   width = 1000,  # Adjust width of the image
   height = 600
 )
 print("Done")
+
+
+# Function to calculate gene overlap between two algcl values
+calculate_overlap_genes <- function(algcl1, algcl2, df1, df2) {
+  genes1 <- unlist(strsplit(df1$gene[df1$algcl == algcl1], " "))
+  genes2 <- unlist(strsplit(df2$gene[df2$algcl == algcl2], " "))
+  intersect_genes <- intersect(genes1, genes2)
+  return(ifelse(length(intersect_genes) > 0, paste(intersect_genes, collapse = ", "), NA))
+}
+
+# Create a table of overlapped genes
+overlapped_genes_table <- matrix(NA, nrow = nrow(overlap_matrix), ncol = ncol(overlap_matrix))
+rownames(overlapped_genes_table) <- rownames(overlap_matrix)
+colnames(overlapped_genes_table) <- colnames(overlap_matrix)
+
+for (i in seq_along(rownames(overlap_matrix))) {
+  for (j in seq_along(colnames(overlap_matrix))) {
+    overlap_value <- overlap_matrix[i, j]
+    if (overlap_value > 0) {
+      algcl1 <- rownames(overlap_matrix)[i]
+      algcl2 <- colnames(overlap_matrix)[j]
+      overlapped_genes <- calculate_overlap_genes(algcl1, algcl2, df1, df2)
+      overlapped_genes_table[i, j] <- overlapped_genes
+    } else {
+      overlapped_genes_table[i, j] <- NA
+    }
+  }
+}
+
+
+overlapped_genes_table <- overlapped_genes_table[!apply(is.na(overlapped_genes_table), 1, all), ]
+overlapped_genes_table <- overlapped_genes_table[, !apply(is.na(overlapped_genes_table), 2, all)]
+
+
+# Print the table of overlapped genes
+print(overlapped_genes_table)
+
+
+
+
+
+# Function to calculate gene overlap between two algcl values
+calculate_overlap_genes <- function(algcl1, algcl2, df1, df2) {
+  genes1 <- unlist(strsplit(df1$gene[df1$algcl == algcl1], " "))
+  genes2 <- unlist(strsplit(df2$gene[df2$algcl == algcl2], " "))
+  intersect_genes <- intersect(genes1, genes2)
+  return(intersect_genes)
+}
+
+
+
+
+
+# Create a data frame to store unique genes with counts
+gene_frequency_df <- data.frame(Gene = character(), Frequency = integer(), stringsAsFactors = FALSE)
+
+for (i in seq_along(rownames(overlap_matrix))) {
+  for (j in seq_along(colnames(overlap_matrix))) {
+    overlap_value <- overlap_matrix[i, j]
+    if (overlap_value > 0) {
+      algcl1 <- rownames(overlap_matrix)[i]
+      algcl2 <- colnames(overlap_matrix)[j]
+      overlapped_genes <- calculate_overlap_genes(algcl1, algcl2, df1, df2)
+
+      # Update gene frequency table
+      gene_frequency_df <- rbind(gene_frequency_df, data.frame(Gene = overlapped_genes, Frequency = 1))
+    }
+  }
+}
+
+# Sum the frequencies for each gene
+gene_frequency_df <- aggregate(Frequency ~ Gene, gene_frequency_df, sum)
+
+# Print the table of genes with frequencies
+print(gene_frequency_df)
 
 
 # I need to generate a heatmap now trubetskoy genes in other enrichments,
