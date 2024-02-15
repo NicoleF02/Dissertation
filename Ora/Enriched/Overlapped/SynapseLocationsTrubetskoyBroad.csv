@@ -1,0 +1,8 @@
+,alg,cluster,Ontology1,FL1,Ontology2,FL2,OverlappedGenes,NoOverlappedGenes
+0,infomap,5,Trubetskoy2022broadcoding,True,SynapseLocations,100,{' 4208'},1
+1,louvain,8,Trubetskoy2022broadcoding,True,SynapseLocations,100,"{'23293', ' 9839'}",2
+2,sgG5,116,Trubetskoy2022broadcoding,True,SynapseLocations,100,"{' 4208', ' 1958'}",2
+3,sgG5,112,Trubetskoy2022broadcoding,True,SynapseLocations,111,"{' 4978', ' 257194'}",2
+4,spectral,76,Trubetskoy2022broadcoding,True,SynapseLocations,111,{' 6801'},1
+5,wt,225,Trubetskoy2022broadcoding,True,SynapseLocations,110,{'462'},1
+6,wt,613,Trubetskoy2022broadcoding,True,SynapseLocations,110,{'6494'},1

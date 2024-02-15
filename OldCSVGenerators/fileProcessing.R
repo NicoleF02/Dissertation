@@ -4,7 +4,7 @@ library(DBI)
 library(ggplot2)
 library(dplyr)
 
-db <- dbConnect(SQLite(), dbname = "Database/DS_10283_3877/synaptic.proteome_SR_20210408.db.sqlite")
+db <- dbConnect(SQLite(), dbname = "../Database/DS_10283_3877/synaptic.proteome_SR_20210408.db.sqlite")
 
 
 query <- "SELECT
@@ -33,7 +33,7 @@ df <- data.frame(
 )
 
 # Specify the file name
-file_name <- "Files/SchizphreniaPriortisedDB.txt"
+file_name <- "../Files/SchizphreniaPriortisedDB.txt"
 
 # Write the data frame to the file
 write.table(df, file = file_name, sep = "\t", quote = TRUE, row.names = FALSE)

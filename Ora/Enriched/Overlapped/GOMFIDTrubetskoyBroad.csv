@@ -1,0 +1,134 @@
+,alg,cluster,Ontology1,FL1,Ontology2,FL2,OverlappedGenes,NoOverlappedGenes
+0,infomap,222,Trubetskoy2022broadcoding,True,GOMFID,GO:1903136,{'6622'},1
+1,infomap,19,Trubetskoy2022broadcoding,True,GOMFID,GO:0005251,{' 3745'},1
+2,infomap,19,Trubetskoy2022broadcoding,True,GOMFID,GO:0015271,{' 3745'},1
+3,infomap,19,Trubetskoy2022broadcoding,True,GOMFID,GO:0035255,{' 85358'},1
+4,infomap,19,Trubetskoy2022broadcoding,True,GOMFID,GO:0097110,{' 85358'},1
+5,infomap,19,Trubetskoy2022broadcoding,True,GOMFID,GO:0030160,{' 85358'},1
+6,infomap,14,Trubetskoy2022broadcoding,True,GOMFID,GO:0070679,{' 7223'},1
+7,infomap,176,Trubetskoy2022broadcoding,True,GOMFID,GO:0070016,{' 6801'},1
+8,infomap,176,Trubetskoy2022broadcoding,True,GOMFID,GO:0051721,{' 6801'},1
+9,infomap,126,Trubetskoy2022broadcoding,True,GOMFID,GO:0086007,{'783'},1
+10,infomap,126,Trubetskoy2022broadcoding,True,GOMFID,GO:0086056,{'783'},1
+11,infomap,126,Trubetskoy2022broadcoding,True,GOMFID,GO:0099626,{'783'},1
+12,infomap,33,Trubetskoy2022broadcoding,True,GOMFID,GO:0008017,{' 23046'},1
+13,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0106310,"{' 5595', ' 4140'}",2
+14,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0004674,"{' 5595', ' 4140'}",2
+15,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0004708,{' 5595'},1
+16,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0004707,{' 5595'},1
+17,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0005524,"{' 5595', ' 4140', ' 63826'}",3
+18,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0140297,"{' 4208', ' 5595', ' 5970'}",3
+19,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0042826,"{' 4208', '7531', ' 8204', ' 5970'}",4
+20,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0019899,"{'7531', ' 4137', ' 5970'}",3
+21,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0001223,{' 5970'},1
+22,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0000287,{' 63826'},1
+23,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0019901,"{' 4137', ' 5970'}",2
+24,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0016922,{' 8204'},1
+25,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0000978,"{' 4208', ' 8204', ' 5970'}",3
+26,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0050321,{' 4140'},1
+27,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0003713,{' 8204'},1
+28,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0003700,"{' 4208', ' 5970'}",2
+29,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0000981,"{' 4208', ' 5970'}",2
+30,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0048156,{' 4140'},1
+31,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0061629,{' 4208'},1
+32,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0042802,"{' 5595', ' 4137', ' 5970', ' 63826'}",4
+33,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0019902,{' 5595'},1
+34,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0019903,{'7531'},1
+35,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0001228,"{' 5970', ' 4208'}",2
+36,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0000976,"{' 4208', ' 5970'}",2
+37,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:1990837,{' 4208'},1
+38,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0003714,{' 8204'},1
+39,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0031625,{' 5970'},1
+40,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0005515,"{' 5595', ' 8204', ' 2911', ' 5970', ' 4137', ' 4140', ' 4208', ' 63826'}",8
+41,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0000977,"{' 5970', ' 4208'}",2
+42,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0031490,{' 5970'},1
+43,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0042277,{' 5970'},1
+44,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0051721,{' 4137'},1
+45,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0051059,{' 5970'},1
+46,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0003682,{' 5970'},1
+47,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0003680,{' 4208'},1
+48,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0051219,{'7531'},1
+49,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0051879,{' 4137'},1
+50,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0023026,{'7531'},1
+51,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0030165,{' 63826'},1
+52,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0019904,{'7531'},1
+53,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0046982,"{'7531', ' 4208'}",2
+54,infomap,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0042803,"{' 5970', ' 63826'}",2
+55,louvain,8,Trubetskoy2022broadcoding,True,GOMFID,GO:0005262,"{' 7223', ' 783'}",2
+56,louvain,8,Trubetskoy2022broadcoding,True,GOMFID,GO:0070679,{' 7223'},1
+57,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0008201,"{' 8829', ' 8828', ' 3075', ' 4043', ' 7057', ' 2335', ' 334', ' 348'}",8
+58,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0017154,"{' 5364', ' 8829', ' 8828', ' 5361'}",4
+59,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0001540,"{' 4035', ' 6653', ' 321', ' 4043', ' 335', ' 348'}",6
+60,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0043395,"{' 3075', ' 348'}",2
+61,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0004867,"{' 12', ' 2', ' 334'}",3
+62,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0019838,"{' 8828', ' 2', ' 5654'}",3
+63,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0002020,"{' 2', ' 7057', ' 1277', ' 114134', ' 10079'}",5
+64,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0042500,"{'5663', ' 23385'}",2
+65,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0070326,{' 4043'},1
+66,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0070324,{' 1428'},1
+67,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0048406,{' 6272'},1
+68,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0005030,{' 2674'},1
+69,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0004252,"{' 354', ' 9361', ' 5654'}",3
+70,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0005102,"{' 4043', ' 2', ' 335', ' 214', ' 2674', ' 718', ' 2335', ' 348'}",8
+71,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0016209,"{' 7001', ' 3240'}",2
+72,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0060228,{' 335'},1
+73,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0004826,{' 10056'},1
+74,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0051117,"{'5663', ' 3337', ' 114134', ' 483', ' 23385'}",5
+75,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0004866,"{' 718', ' 7057'}",2
+76,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0000287,"{' 10396', ' 55361', ' 6009', ' 10056', ' 10079', ' 2193', ' 23012'}",7
+77,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0070851,"{'5663', ' 23385'}",2
+78,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0046914,{' 334'},1
+79,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0005179,{' 7038'},1
+80,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0030169,{' 6653'},1
+81,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0048018,{' 4043'},1
+82,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0005041,{' 6653'},1
+83,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0043394,{' 7057'},1
+84,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0050750,"{' 4043', ' 348'}",2
+85,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0005507,"{' 4513', ' 540'}",2
+86,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0005021,{' 8828'},1
+87,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0030215,{' 5364'},1
+88,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0045499,{' 335'},1
+89,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0019955,{' 8828'},1
+90,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0140326,{' 10396'},1
+91,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0015485,"{' 114876', ' 7416'}",2
+92,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0120020,{' 335'},1
+93,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0008236,{' 354'},1
+94,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0052629,{' 9110'},1
+95,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0038023,"{' 8828', ' 54413', ' 2674'}",3
+96,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0004438,{' 9110'},1
+97,sgG1,30,Trubetskoy2022broadcoding,False,GOMFID,GO:0043236,{' 7057'},1
+98,sgG2,5,Trubetskoy2022broadcoding,True,GOMFID,GO:0070679,{' 7223'},1
+99,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0140297,"{' 4208', ' 5970'}",2
+100,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0042826,"{' 4208', '8204', ' 5970'}",3
+101,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0031490,"{' 51780', ' 5970'}",2
+102,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0003682,{' 5970'},1
+103,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0000976,"{' 4208', ' 1958'}",2
+104,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0001223,{' 5970'},1
+105,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0000978,"{' 4208', '8204', ' 5970', ' 1958'}",4
+106,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0000977,"{' 5970', ' 4208', ' 1958'}",3
+107,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0140683,{' 51780'},1
+108,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0003700,"{' 4208', ' 1958'}",2
+109,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0051059,{' 5970'},1
+110,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0003677,"{' 5970', ' 1958'}",2
+111,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0061629,{' 4208'},1
+112,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0032454,{' 51780'},1
+113,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0001228,"{' 4208', ' 1958'}",2
+114,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0035259,{'8204'},1
+115,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0046965,{'8204'},1
+116,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0035035,{' 1958'},1
+117,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:1990837,{' 1958'},1
+118,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0003712,{' 51780'},1
+119,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0000981,"{' 4208', ' 1958'}",2
+120,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0001227,{' 5970'},1
+121,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0008270,{' 1958'},1
+122,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0046982,{' 4208'},1
+123,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0042803,{' 5970'},1
+124,sgG5,116,Trubetskoy2022broadcoding,True,GOMFID,GO:0005515,"{' 4208', ' 5970', ' 1958'}",3
+125,spectral,3,Trubetskoy2022broadcoding,True,GOMFID,GO:0050135,{'11141'},1
+126,spectral,3,Trubetskoy2022broadcoding,True,GOMFID,GO:0061809,{'11141'},1
+127,spectral,76,Trubetskoy2022broadcoding,True,GOMFID,GO:0070016,{' 6801'},1
+128,spectral,76,Trubetskoy2022broadcoding,True,GOMFID,GO:0051721,{' 6801'},1
+129,wt,141,Trubetskoy2022broadcoding,True,GOMFID,GO:0071074,{'1983'},1
+130,wt,278,Trubetskoy2022broadcoding,True,GOMFID,GO:0140232,{'348980'},1
+131,wt,278,Trubetskoy2022broadcoding,True,GOMFID,GO:0005222,{'348980'},1
+132,wt,278,Trubetskoy2022broadcoding,True,GOMFID,GO:0022843,{'348980'},1

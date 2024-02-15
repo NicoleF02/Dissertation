@@ -28,7 +28,7 @@ def find_no_trubetskoy(G, algorithm, community):
     return totalTrubetskoy
 
 def main():
-    file_path = "PostsynapticNetwork/ConsensusPSDDBNetwork.gml"
+    file_path = "../PostsynapticNetwork/ConsensusPSDDBNetwork.gml"
     G = read_gml_file(file_path)
     algorithmsConsensus = ['lec', 'wt', 'fc', 'infomap', 'louvain','sgG1', 'sgG2', 'sgG5', 'spectral','lec']
     algorithmsFull = ['wt', 'fc', 'infomap', 'louvain','sgG1', 'sgG2', 'sgG5', 'spectral']

@@ -40,7 +40,7 @@ def write_to_csv(data, output_file):
 
 
 if __name__ == "__main__":
-    input_file = "Bridgeness/robustness.txt"
+    input_file = "../Bridgeness/robustness.txt"
     data = process_text_file(input_file)
 
     for alg, group in itertools.groupby(data, key=lambda x: x[0]):

@@ -37,27 +37,27 @@ def readGraph(file_path):
 
 
 graphFile2 = []
-file_path = "PostsynapticNetwork/Useless/PSD_FULL_clustered.gml"
+file_path = "../PostsynapticNetwork/Useless/PSD_FULL_clustered.gml"
 fullGraphNodesWorking = readGraph(file_path)
 
-file_path = "Files/Trubetskoy_2022_broad_coding.txt"
+file_path = "../Files/Trubetskoy_2022_broad_coding.txt"
 trubetskoyBroadList = readTrubetskoy(file_path)
 
-file_path = "Files/Trubetskoy_broad_db_cross.txt"
+file_path = "../Files/Trubetskoy_broad_db_cross.txt"
 trubetskoyBroadCrossList = readTrubetskoy(file_path)
 
-file_path = "PostsynapticNetwork/FullPSDDBNetwork.gml"
+file_path = "../PostsynapticNetwork/FullPSDDBNetwork.gml"
 fullGraphNodes = readGraph(file_path)
 
 
-file_path = "Files/geneTable.txt"
+file_path = "../Files/geneTable.txt"
 geneTable = pd.read_csv(file_path, sep=' ')
 geneTable = geneTable.dropna(subset=['HumanEntrez'])
 
 entrezGeneTableList = [int(value) for value in geneTable["HumanEntrez"].tolist()]
 
 
-fullDB = pd.read_csv("Files/Full_DB_Rat_Aut22.txt", sep="\t")
+fullDB = pd.read_csv("../Files/Full_DB_Rat_Aut22.txt", sep="\t")
 
 
 print("Set of nodes for broken network ", len(set(fullGraphNodes)))

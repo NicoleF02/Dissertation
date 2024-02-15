@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the CSV file into a DataFrame
-df = pd.read_csv('Ora/Enriched/overlappedEnrichedGenesTrubetskoy.csv', header=None)
+df = pd.read_csv('Ora/Overlapped/overlappedEnrichedGenesTrubetskoy.csv', header=None)
 
 # Set the first row as the column names
 df.columns = df.iloc[0]
