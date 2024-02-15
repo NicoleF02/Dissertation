@@ -197,3 +197,13 @@ print(gene_frequency_df)
 # I need to generate a heatmap now trubetskoy genes in other enrichments,
 
 # I maybe want to re-do with comparing all cluster genes, not just enriched ones
+
+#(1) TrubetskoyFull and Priortised,
+# Add in Priortised, just highlight priortised,
+#
+# higher resolution for enriched clusters, what terms are associated and how many genes, just summary for spectral,
+#
+# disgard infomap too many lone clusters, sgG1, sgG2. Want a summary sheet for each one what are the enriched genes, what the enriched GO terms. See enriched go terms for spin glass one
+# Re-run spin glasses and spectral, just with synGO subset. See if there enough left in syngo for enrichment, is syngo too biased.
+#
+# flawed assume you only know syngo and re-build network with just syngo stuff, cluster using same algorithms and genetic data, what do you gain / lose for syngo. what is present in both

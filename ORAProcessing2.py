@@ -1,7 +1,7 @@
 import os
 import pandas as pd
-from tabulate import tabulate
 import sqlite3
+import pronto
 
 ontologycsvDict = {
     "Trubetskoy2022broadcoding_significant_rows_sorted.csv": "Trubetskoy2022broadcoding",
@@ -12,6 +12,7 @@ ontologycsvDict = {
     "GOMFID_significant_rows_sorted.csv": "GOMFID"
 }
 
+goTerms = pronto.Ontology('go-basic.obo')
 
 def generate_dataframe(path):
     folder_path = path
@@ -137,14 +138,12 @@ def generate_alg_table(dataframe, alg):
 
             elif row2["ontology_csv"] == "GOMFID_significant_rows_sorted.csv":
                 try:
-                    description = goDict[row2["FL"]]
-                    gobpids.append(description)
+                    description = goTerms[row2["FL"]]
+                    gomfids.append(description.name)
                 except:
                     broken.append(row2["FL"])
 
             elif row2["ontology_csv"] == "TopOntoOVGHDOID_significant_rows_sorted.csv":
-                print("Here")
-                print(row2["FL"])
                 try:
                     description = diseaseDict[row2["FL"]]
                     dieases.append(description)
@@ -189,6 +188,7 @@ def get_ids(table, primary_key):
     connection.close()
 
     return result
+
 
 
 
