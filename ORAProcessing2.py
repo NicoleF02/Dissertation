@@ -2,9 +2,11 @@ import os
 import pandas as pd
 import sqlite3
 import pronto
+import csv
 
 ontologycsvDict = {
     "Trubetskoy2022broadcoding_significant_rows_sorted.csv": "Trubetskoy2022broadcoding",
+    "Trubetskoy2022priortisedcoding_significant_rows_sorted.csv": "Trubetskoy2022priortisedcoding",
     "GOBPID_significant_rows_sorted.csv": "GOBPID",
     "SynapseLocations_significant_rows_sorted.csv": "SynapseLocations",
     "syngo_significant_rows_sorted.csv": "SynGO",
@@ -13,6 +15,7 @@ ontologycsvDict = {
 }
 
 goTerms = pronto.Ontology('go-basic.obo')
+
 
 def generate_dataframe(path):
     folder_path = path
@@ -95,8 +98,7 @@ def generate_alg_table(dataframe, alg):
 
     broken = []
 
-    goDict = dict(get_ids("GO","GOID"))
-
+    goDict = dict(get_ids("GO", "GOID"))
 
     df = dataframe.loc[dataframe['alg'] == alg]
 
@@ -108,70 +110,136 @@ def generate_alg_table(dataframe, alg):
     for cl in clusterNumbers:
         reduceddf = df.loc[df['cl'] == cl]
 
-
         gobpids = []
+        gobpidadj = []
+
         gomfids = []
+        gomfidspadj = []
+
         synapselocations = []
+
         trubGenes = 0
+        trubPadj = 0
+        trubPval = 0
+
         dieases = []
+        diseasespadj = []
+
         falseTrub = False
+        trubGenesPrior = 0
+        trubPriorpadj = 0
+        trubPriorPval = 0
 
         for index2, row2 in reduceddf.iterrows():
 
             if row2['ontology_csv'] == "Trubetskoy2022broadcoding_significant_rows_sorted.csv":
                 # Else it is a false enrichment
                 if row2[('FL')] != False:
+                    if trubGenes != 0:
+                        print("error poss")
+
                     trubGenes = trubGenes + row2['Mu']
+                    trubPval = row2['pval']
+                    trubPadj = row2['padj']
+
                 else:
                     trubGenes = row2['Mu']
                     falseTrub = True
+                    trubPval = row2['pval']
+                    trubPadj = row2['padj']
 
-                if trubGenes != 0:
-                    print("error poss")
+
 
             elif row2['ontology_csv'] == "GOBPID_significant_rows_sorted.csv":
                 try:
-                    description = goDict[row2["FL"]]
-                    gobpids.append(description)
+                    if row2['padj'] <= 0.05:
+                        description = goTerms[row2["FL"]]
+                        gobpids.append(description.name)
+                        gobpidadj.append(row2['padj'])
+
                 except:
                     broken.append(row2["FL"])
 
             elif row2["ontology_csv"] == "GOMFID_significant_rows_sorted.csv":
                 try:
-                    description = goTerms[row2["FL"]]
-                    gomfids.append(description.name)
+                    if row2['padj'] <= 0.05:
+                        description = goTerms[row2["FL"]]
+                        gomfids.append(description.name)
+                        gomfidspadj.append(row2['padj'])
                 except:
                     broken.append(row2["FL"])
 
             elif row2["ontology_csv"] == "TopOntoOVGHDOID_significant_rows_sorted.csv":
                 try:
-                    description = diseaseDict[row2["FL"]]
-                    dieases.append(description)
+                    if row2['padj'] <= 0.05:
+                        description = diseaseDict[row2["FL"]]
+                        dieases.append(description)
+                        diseasespadj.append(row2['padj'])
                 except:
                     broken.append(row2["FL"])
 
+            elif row2['ontology_csv'] == "Trubetskoy2022priortisedcoding_significant_rows_sorted.csv":
+                trubGenesPrior = row2['Mu']
+                trubPriorPval = row2['pval']
+                trubPriorpadj = row2['padj']
 
         # don't count if no trub enrichment
-        if trubGenes <= 0 and not falseTrub:
+        if (trubGenes == 0 and trubGenesPrior == 0) and not (falseTrub):
             continue
 
-
+        if falseTrub:
+            enrichment = "Negative"
+        else:
+            enrichment = "Positive"
 
         dictonary = {
-            'alg':row2['alg'],
-            'clNo':row2['cl'],
-            'clustsize':row2['Cn'],
-            'no.Trubetskoy': trubGenes,
-            'Molecular Function': str(gomfids),
-            'Biological Function': str(gobpids),
-            'Diseases': str(dieases),
-            'False Trub Enrichment': falseTrub
+            'alg': row2['alg'],
+            'clNo': row2['cl'],
+            'clustsize': row2['Cn'],
+            'no.Trubetskoy Broad': trubGenes,
+            'Enrichment': enrichment,
+            'Broad pval': trubPval,
+            'Broad padj': trubPadj,
+            'no. Trubetskoy Priortised': trubGenesPrior,
+            'Prior pval': trubPriorPval,
+            'Prior padj': trubPriorpadj,
+            'Molecular Function': gomfids,
+            'Molecular padj': gomfidspadj,
+            'Biological Function': gobpids,
+            'Biological padj': gomfidspadj,
+            'Diseases': dieases,
+            'Diseases padj': diseasespadj,
+
         }
+
         complied_table.append(dictonary)
 
     return complied_table
 
 
+def expand_lists(row):
+    expanded_rows = [row[:]]  # Create a copy of the original row
+    for i, item in enumerate(row):
+        if isinstance(item, list):
+            new_rows = []
+            for existing_row in expanded_rows:
+                for subitem in item:
+                    new_row = existing_row.copy()
+                    new_row[i] = subitem
+                    new_rows.append(new_row)
+            expanded_rows = new_rows
+    return expanded_rows
+
+def fix_csv(input_file, output_file):
+    with open(input_file, 'r') as csv_file, open(output_file, 'w') as output:
+        csv_reader = csv.reader(csv_file)
+        header = next(csv_reader)
+        output.write(','.join(header) + '\n')
+
+        for row in csv_reader:
+            expanded_rows = expand_lists(row)
+            for expanded_row in expanded_rows:
+                output.write(','.join(map(str, expanded_row)) + '\n')
 
 
 def get_ids(table, primary_key):
@@ -190,39 +258,60 @@ def get_ids(table, primary_key):
     return result
 
 
-
-
-
 if __name__ == "__main__":
-    combined_df = generate_dataframe("Ora/Enriched")
+    path = "Ora/Enriched"
+
+    combined_df = generate_dataframe(path)
 
     print("Start")
-
 
     ont1 = "Trubetskoy2022broadcoding_significant_rows_sorted.csv"
 
     otherOnts = ['GOBPID_significant_rows_sorted.csv', 'SynapseLocations_significant_rows_sorted.csv',
                  'syngo_significant_rows_sorted.csv', 'TopOntoOVGHOID_significant_rows_sorted.csv',
-                 'GOMFID_significant_rows_sorted.csv']
+                 'GOMFID_significant_rows_sorted.csv', "Trubetskoy2022priortisedcoding_significant_rows_sorted.csv"]
 
-    algs = ["spectral","sgG1","sgG2","sgG5","infomap"]
+    algs = ["spectral", "sgG1", "sgG2", "sgG5", "infomap"]
 
     print()
 
     for alg in algs:
-        algTable = generate_alg_table(combined_df, alg)
+        print(alg)
+        fix_csv(f"{path}/algorithmSummary/enriched{alg}.csv", f"{path}/algorithmSummary/fixedEnriched{alg}.csv")
 
-        algdf = pd.DataFrame(algTable)
+        # print(alg)
+        # algTable = generate_alg_table(combined_df, alg)
+        #
+        # algdf = pd.DataFrame(algTable)
+        #
+        # columns_to_explode = ['alg', 'clNo', 'clustsize', 'no.Trubetskoy Broad', 'Enrichment', 'Broad pval', 'Broad padj', 'no. Trubetskoy Priortised', 'Prior pval', 'Prior padj', 'Molecular Function', 'Molecular padj', 'Biological Function', 'Biological padj', 'Diseases', 'Diseases padj']
+        # df_expanded = algdf.copy()
 
-        algdf.to_csv(f"Ora/Enriched/overlapped2electricboogaloo/reduced{alg}.csv", index=False)
+        # for col in columns_to_explode:
+        #     print(col)
+        #     df_expanded[col] = df_expanded[col].apply(lambda x: [x] if isinstance(x, str) else x)
+        #     df_expanded = df_expanded.explode(col)
+        #
+        #
+        #     # Replace repeated values with blank for the exploded column
+        #     df_expanded[col] = df_expanded[col].mask(df_expanded[col].duplicated(), '')
 
-
-
-
-
-
-
+        # df_expanded.to_csv(f"{path}/algorithmSummary/enriched{alg}.csv", index=False)
 
     # now we want make the table with a few things: alg
 
     # do it for all, then have enriched turn on or off after, shouldn't be too difficult
+
+# Check enriched cluster simularity indivudually
+# Check biological terms correlations between clusters
+# see whats happen when you add schizophrenia + genetic data together
+
+# 1. fix spreadsheets
+# checking enrichment cluster simularity
+# check biology term correlation
+# consider adding schizophrenia to genetic data -- extra time only
+# come to my own conclusion
+# then compare
+
+# Look at trubetskoy paper again which conclusions they got from syngo etc. check their conlcusions, see if they
+# conclude something that I can't find,

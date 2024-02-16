@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 
+
 def process_csv_file(file_path):
     # Read CSV file into a pandas DataFrame
     df = pd.read_csv(file_path)
@@ -20,8 +21,6 @@ def process_csv_file(file_path):
     or_values = ", ".join(map(str, df['OR']))
     print(or_values)
 
-# Specify the directory where your CSV files are located
-csv_directory = "/path/to/your/csv/files"
 
 algs = ['wt', 'fc', 'infomap', 'louvain',
         'sgG1', 'sgG2', 'sgG5', 'spectral']
@@ -32,4 +31,3 @@ for alg in algs:
     print(f"Algorithm {alg}")
     process_csv_file(csv_file)
     print("\n")
-

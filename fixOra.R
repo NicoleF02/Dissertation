@@ -2,10 +2,9 @@ library(BioNAR)
 
 gFull <- igraph::read.graph("PostsynapticNetwork/FullPSDDBNetwork.gml",format="gml") #graph from gml
 
-algs<-c( 'wt', 'fc', 'infomap', 'louvain',
-        'sgG1', 'sgG2', 'sgG5', 'spectral')
+algs<-c('infomap','sgG1', 'sgG2', 'sgG5', 'spectral','louvain','fc','wt')
 
-list_ontologies <- c("Trubetskoy2022broadcoding","SynapseLocations","GOMFID","syngo","TopOntoOVGHDOID","GOBPID")
+list_ontologies <- c("Trubetskoy2022broadcoding","Trubetskoy2022priortisedcoding")#,"SynapseLocations","GOMFID","syngo","TopOntoOVGHDOID","GOBPID")
 
 runORA <- function(ontology){
   print("Starting for ontology:")
@@ -24,7 +23,7 @@ runORA <- function(ontology){
 # Loop through the ontologies and perform an ORA analysis
 for (ontology in list_ontologies) {
   output_folder <- ""
-  output_folder <- paste0("FixOra/",ontology)
+  output_folder <- paste0("Ora/",ontology)
   print(output_folder)
 
   ora <- runORA(ontology)

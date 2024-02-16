@@ -105,10 +105,15 @@ synGoOnly <- function(){
 
 
 # SynGO graph
-graph <- generateGraph(count = 1, file='PostsynapticNetwork/SynGoNetwork.gml', synGoOnly=TRUE)
+gg <- generateGraph(count = 1, file='PostsynapticNetwork/SynGoNetwork.gml', synGoOnly=TRUE)
+algs <- c("infomap", "sgG1", "sgG2", "sgG5", "spectral")
 
+for (alg in algs){
+  print(alg)
+  gg <- calcClustering(gg, alg)
+}
 
-
+write_graph(gg, file='PostsynapticNetwork/SynGoNetwork.gml', format="gml")
 
 
 # Postsynaptic Graphs

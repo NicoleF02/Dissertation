@@ -1,8 +1,13 @@
-Creator "igraph Wed Feb 14 21:49:04 2024"
+Creator "igraph Thu Feb 15 22:13:02 2024"
 Version 1
 graph
 [
   directed 0
+  infomap 0.406316576266591
+  sgG1 0.465583155796622
+  sgG2 0.439648692783112
+  sgG5 0.383757158648367
+  spectral 0.395699832142038
   node
   [
     id 0
@@ -21,6 +26,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "79"
+    spectral "18"
   ]
   node
   [
@@ -40,6 +50,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "79"
+    spectral "18"
   ]
   node
   [
@@ -59,6 +74,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "55"
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "79"
+    spectral "18"
   ]
   node
   [
@@ -78,6 +98,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "79"
+    spectral "18"
   ]
   node
   [
@@ -97,6 +122,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "79"
+    spectral "17"
   ]
   node
   [
@@ -116,6 +146,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "2"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "35"
+    spectral "27"
   ]
   node
   [
@@ -135,6 +170,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "1"
   ]
   node
   [
@@ -154,6 +194,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "4"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "72"
+    spectral "26"
   ]
   node
   [
@@ -173,6 +218,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "2"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "35"
+    spectral "27"
   ]
   node
   [
@@ -192,6 +242,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "8"
+    spectral "17"
   ]
   node
   [
@@ -211,6 +266,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "9"
+    sgG2 "30"
+    sgG5 "75"
+    spectral "38"
   ]
   node
   [
@@ -230,6 +290,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "41"
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "79"
+    spectral "18"
   ]
   node
   [
@@ -249,6 +314,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "7"
+    sgG1 "2"
+    sgG2 "33"
+    sgG5 "1"
+    spectral "31"
   ]
   node
   [
@@ -268,6 +338,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "1"
   ]
   node
   [
@@ -287,6 +362,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -306,6 +386,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "2"
+    spectral "40"
   ]
   node
   [
@@ -325,6 +410,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "12"
+    sgG2 "19"
+    sgG5 "73"
+    spectral "23"
   ]
   node
   [
@@ -344,6 +434,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "9"
+    sgG1 "14"
+    sgG2 "2"
+    sgG5 "67"
+    spectral "33"
   ]
   node
   [
@@ -363,6 +458,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "19"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -382,6 +482,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "10"
+    sgG1 "13"
+    sgG2 "31"
+    sgG5 "69"
+    spectral "40"
   ]
   node
   [
@@ -401,6 +506,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "17"
+    infomap "11"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "64"
+    spectral "36"
   ]
   node
   [
@@ -420,6 +530,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "3"
+    infomap "11"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "21"
+    spectral "19"
   ]
   node
   [
@@ -439,6 +554,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "64"
+    spectral "19"
   ]
   node
   [
@@ -458,6 +578,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "51"
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -477,6 +602,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "13"
+    sgG1 "14"
+    sgG2 "4"
+    sgG5 "56"
+    spectral "33"
   ]
   node
   [
@@ -496,6 +626,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "14"
+    sgG1 "12"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "36"
   ]
   node
   [
@@ -515,6 +650,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "32"
+    sgG5 "45"
+    spectral "15"
   ]
   node
   [
@@ -534,6 +674,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "15"
+    sgG1 "2"
+    sgG2 "1"
+    sgG5 "34"
+    spectral "42"
   ]
   node
   [
@@ -553,6 +698,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "16"
+    sgG1 "2"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "21"
   ]
   node
   [
@@ -572,6 +722,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "14"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "5"
   ]
   node
   [
@@ -591,6 +746,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "50"
+    infomap "14"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "33"
   ]
   node
   [
@@ -610,6 +770,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "45"
+    infomap "14"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "58"
+    spectral "33"
   ]
   node
   [
@@ -629,6 +794,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -648,6 +818,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -667,6 +842,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "2"
+    infomap "4"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "72"
+    spectral "26"
   ]
   node
   [
@@ -686,6 +866,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "44"
+    infomap "17"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "5"
+    spectral "17"
   ]
   node
   [
@@ -705,6 +890,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "39"
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "34"
   ]
   node
   [
@@ -724,6 +914,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "33"
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "34"
   ]
   node
   [
@@ -743,6 +938,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "100"
     SchizophreniaGeneCount ""
+    infomap "19"
+    sgG1 "17"
+    sgG2 "24"
+    sgG5 "29"
+    spectral "22"
   ]
   node
   [
@@ -762,6 +962,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "55"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -781,6 +986,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -800,6 +1010,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "49"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -819,6 +1034,11 @@ graph
     Trubetskoy2022priortisedcoding "TRUE"
     SynapseLocations "111"
     SchizophreniaGeneCount "33"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -838,6 +1058,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "20"
+    sgG1 "2"
+    sgG2 "14"
+    sgG5 "4"
+    spectral "39"
   ]
   node
   [
@@ -857,6 +1082,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "21"
+    sgG1 "23"
+    sgG2 "25"
+    sgG5 "78"
+    spectral "15"
   ]
   node
   [
@@ -876,6 +1106,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "46"
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -895,6 +1130,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -914,6 +1154,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "33"
+    infomap "22"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "8"
+    spectral "1"
   ]
   node
   [
@@ -933,6 +1178,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "37"
+    infomap "23"
+    sgG1 "14"
+    sgG2 "8"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -952,6 +1202,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "24"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "51"
+    spectral "48"
   ]
   node
   [
@@ -971,6 +1226,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "54"
+    spectral "5"
   ]
   node
   [
@@ -990,6 +1250,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "22"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "54"
+    spectral "5"
   ]
   node
   [
@@ -1009,6 +1274,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "61"
+    infomap "25"
+    sgG1 "14"
+    sgG2 "32"
+    sgG5 "11"
+    spectral "15"
   ]
   node
   [
@@ -1028,6 +1298,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "38"
+    spectral "17"
   ]
   node
   [
@@ -1047,6 +1322,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "13"
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "79"
+    spectral "18"
   ]
   node
   [
@@ -1066,6 +1346,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "12"
+    sgG2 "27"
+    sgG5 "76"
+    spectral "19"
   ]
   node
   [
@@ -1085,6 +1370,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "26"
+    sgG1 "16"
+    sgG2 "18"
+    sgG5 "48"
+    spectral "43"
   ]
   node
   [
@@ -1104,6 +1394,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "27"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "71"
+    spectral "21"
   ]
   node
   [
@@ -1123,6 +1418,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "1"
   ]
   node
   [
@@ -1142,6 +1442,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "34"
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "22"
+    spectral "17"
   ]
   node
   [
@@ -1161,6 +1466,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "66"
+    spectral "17"
   ]
   node
   [
@@ -1180,6 +1490,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "41"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -1199,6 +1514,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -1218,6 +1538,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "28"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "61"
+    spectral "47"
   ]
   node
   [
@@ -1237,6 +1562,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "28"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "61"
+    spectral "44"
   ]
   node
   [
@@ -1256,6 +1586,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "29"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "49"
+    spectral "44"
   ]
   node
   [
@@ -1275,6 +1610,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "30"
+    sgG1 "5"
+    sgG2 "1"
+    sgG5 "15"
+    spectral "44"
   ]
   node
   [
@@ -1294,6 +1634,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "31"
+    sgG1 "19"
+    sgG2 "14"
+    sgG5 "42"
+    spectral "21"
   ]
   node
   [
@@ -1313,6 +1658,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "22"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "4"
+    spectral "23"
   ]
   node
   [
@@ -1332,6 +1682,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "14"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "33"
   ]
   node
   [
@@ -1351,6 +1706,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "22"
+    infomap "16"
+    sgG1 "2"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "17"
   ]
   node
   [
@@ -1370,6 +1730,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "14"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "49"
+    spectral "33"
   ]
   node
   [
@@ -1389,6 +1754,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "35"
   ]
   node
   [
@@ -1408,6 +1778,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "33"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "58"
+    spectral "38"
   ]
   node
   [
@@ -1427,6 +1802,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "11"
+    infomap "34"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "65"
+    spectral "35"
   ]
   node
   [
@@ -1446,6 +1826,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "41"
+    spectral "17"
   ]
   node
   [
@@ -1465,6 +1850,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "28"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "61"
+    spectral "47"
   ]
   node
   [
@@ -1484,6 +1874,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "11"
     SchizophreniaGeneCount ""
+    infomap "30"
+    sgG1 "5"
+    sgG2 "1"
+    sgG5 "15"
+    spectral "44"
   ]
   node
   [
@@ -1503,6 +1898,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "77"
+    spectral "17"
   ]
   node
   [
@@ -1522,6 +1922,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "35"
+    sgG1 "23"
+    sgG2 "26"
+    sgG5 "6"
+    spectral "38"
   ]
   node
   [
@@ -1541,6 +1946,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "7"
+    infomap "4"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "72"
+    spectral "26"
   ]
   node
   [
@@ -1560,6 +1970,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "63"
+    spectral "17"
   ]
   node
   [
@@ -1579,6 +1994,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "48"
   ]
   node
   [
@@ -1598,6 +2018,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "13"
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "34"
   ]
   node
   [
@@ -1617,6 +2042,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "6"
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "40"
   ]
   node
   [
@@ -1636,6 +2066,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "51"
+    infomap "36"
+    sgG1 "12"
+    sgG2 "8"
+    sgG5 "55"
+    spectral "48"
   ]
   node
   [
@@ -1655,6 +2090,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "37"
+    sgG1 "8"
+    sgG2 "10"
+    sgG5 "66"
+    spectral "27"
   ]
   node
   [
@@ -1674,6 +2114,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "2"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "35"
+    spectral "27"
   ]
   node
   [
@@ -1693,6 +2138,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "4"
+    infomap "38"
+    sgG1 "2"
+    sgG2 "34"
+    sgG5 "47"
+    spectral "42"
   ]
   node
   [
@@ -1712,6 +2162,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "77"
+    spectral "17"
   ]
   node
   [
@@ -1731,6 +2186,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "38"
+    sgG1 "2"
+    sgG2 "34"
+    sgG5 "47"
+    spectral "16"
   ]
   node
   [
@@ -1750,6 +2210,11 @@ graph
     Trubetskoy2022priortisedcoding "TRUE"
     SynapseLocations "101"
     SchizophreniaGeneCount "32"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -1769,6 +2234,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "45"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -1788,6 +2258,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "12"
+    sgG2 "27"
+    sgG5 "76"
+    spectral "19"
   ]
   node
   [
@@ -1807,6 +2282,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "54"
+    spectral "5"
   ]
   node
   [
@@ -1826,6 +2306,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "6"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -1845,6 +2330,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "16"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -1864,6 +2354,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "38"
+    sgG1 "23"
+    sgG2 "34"
+    sgG5 "77"
+    spectral "17"
   ]
   node
   [
@@ -1883,6 +2378,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "35"
   ]
   node
   [
@@ -1902,6 +2402,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "18"
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "35"
   ]
   node
   [
@@ -1921,6 +2426,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "19"
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "35"
   ]
   node
   [
@@ -1940,6 +2450,11 @@ graph
     Trubetskoy2022priortisedcoding "TRUE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "35"
   ]
   node
   [
@@ -1959,6 +2474,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "31"
+    infomap "39"
+    sgG1 "23"
+    sgG2 "27"
+    sgG5 "77"
+    spectral "17"
   ]
   node
   [
@@ -1978,6 +2498,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "79"
+    spectral "18"
   ]
   node
   [
@@ -1997,6 +2522,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "40"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "11"
+    spectral "23"
   ]
   node
   [
@@ -2016,6 +2546,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "41"
+    sgG1 "2"
+    sgG2 "3"
+    sgG5 "26"
+    spectral "1"
   ]
   node
   [
@@ -2035,6 +2570,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "35"
+    infomap "22"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "4"
+    spectral "39"
   ]
   node
   [
@@ -2054,6 +2594,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "42"
+    sgG1 "14"
+    sgG2 "33"
+    sgG5 "12"
+    spectral "33"
   ]
   node
   [
@@ -2073,6 +2618,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "22"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "4"
+    spectral "39"
   ]
   node
   [
@@ -2092,6 +2642,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "4"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "72"
+    spectral "26"
   ]
   node
   [
@@ -2111,6 +2666,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "30"
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "77"
+    spectral "17"
   ]
   node
   [
@@ -2130,6 +2690,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "43"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "4"
+    spectral "39"
   ]
   node
   [
@@ -2149,6 +2714,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "44"
+    sgG1 "17"
+    sgG2 "15"
+    sgG5 "53"
+    spectral "5"
   ]
   node
   [
@@ -2168,6 +2738,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "38"
+    spectral "17"
   ]
   node
   [
@@ -2187,6 +2762,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "33"
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "3"
   ]
   node
   [
@@ -2206,6 +2786,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "79"
+    spectral "18"
   ]
   node
   [
@@ -2225,6 +2810,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "11"
+    spectral "5"
   ]
   node
   [
@@ -2244,6 +2834,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "67"
+    spectral "1"
   ]
   node
   [
@@ -2263,6 +2858,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "35"
+    infomap "11"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "56"
+    spectral "36"
   ]
   node
   [
@@ -2282,6 +2882,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "37"
+    infomap "45"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "19"
+    spectral "36"
   ]
   node
   [
@@ -2301,6 +2906,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "17"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "5"
+    spectral "38"
   ]
   node
   [
@@ -2320,6 +2930,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "18"
+    sgG1 "11"
+    sgG2 "5"
+    sgG5 "39"
+    spectral "34"
   ]
   node
   [
@@ -2339,6 +2954,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "4"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "72"
+    spectral "26"
   ]
   node
   [
@@ -2358,6 +2978,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "4"
+    sgG1 "9"
+    sgG2 "13"
+    sgG5 "55"
+    spectral "40"
   ]
   node
   [
@@ -2377,6 +3002,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "46"
+    sgG1 "3"
+    sgG2 "12"
+    sgG5 "14"
+    spectral "27"
   ]
   node
   [
@@ -2396,6 +3026,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "2"
   ]
   node
   [
@@ -2415,6 +3050,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "48"
+    sgG1 "22"
+    sgG2 "7"
+    sgG5 "24"
+    spectral "33"
   ]
   node
   [
@@ -2434,6 +3074,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "49"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "44"
+    spectral "33"
   ]
   node
   [
@@ -2453,6 +3098,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "50"
+    sgG1 "12"
+    sgG2 "22"
+    sgG5 "9"
+    spectral "18"
   ]
   node
   [
@@ -2472,6 +3122,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "34"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "65"
+    spectral "35"
   ]
   node
   [
@@ -2491,6 +3146,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "34"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "49"
+    spectral "35"
   ]
   node
   [
@@ -2510,6 +3170,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "17"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "5"
+    spectral "38"
   ]
   node
   [
@@ -2529,6 +3194,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "18"
   ]
   node
   [
@@ -2548,6 +3218,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "51"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "67"
+    spectral "18"
   ]
   node
   [
@@ -2567,6 +3242,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "52"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "35"
+    spectral "27"
   ]
   node
   [
@@ -2586,6 +3266,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "12"
+    sgG2 "8"
+    sgG5 "28"
+    spectral "38"
   ]
   node
   [
@@ -2605,6 +3290,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "54"
+    infomap "14"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "21"
   ]
   node
   [
@@ -2624,6 +3314,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "25"
+    infomap "43"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "4"
+    spectral "39"
   ]
   node
   [
@@ -2643,6 +3338,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "53"
+    sgG1 "11"
+    sgG2 "22"
+    sgG5 "39"
+    spectral "34"
   ]
   node
   [
@@ -2662,6 +3362,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "17"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "2"
+    spectral "38"
   ]
   node
   [
@@ -2681,6 +3386,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "23"
+    infomap "17"
+    sgG1 "24"
+    sgG2 "22"
+    sgG5 "58"
+    spectral "27"
   ]
   node
   [
@@ -2700,6 +3410,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -2719,6 +3434,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "22"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "4"
+    spectral "39"
   ]
   node
   [
@@ -2738,6 +3458,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "54"
+    sgG1 "17"
+    sgG2 "24"
+    sgG5 "29"
+    spectral "22"
   ]
   node
   [
@@ -2757,6 +3482,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111;1"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "2"
   ]
   node
   [
@@ -2776,6 +3506,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "44"
+    sgG1 "17"
+    sgG2 "15"
+    sgG5 "53"
+    spectral "40"
   ]
   node
   [
@@ -2795,6 +3530,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "64"
+    spectral "40"
   ]
   node
   [
@@ -2814,6 +3554,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "35"
   ]
   node
   [
@@ -2833,6 +3578,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "16"
+    infomap "5"
+    sgG1 "23"
+    sgG2 "31"
+    sgG5 "33"
+    spectral "17"
   ]
   node
   [
@@ -2852,6 +3602,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "1"
   ]
   node
   [
@@ -2871,6 +3626,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "67"
+    spectral "36"
   ]
   node
   [
@@ -2890,6 +3650,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "2"
+    spectral "40"
   ]
   node
   [
@@ -2909,6 +3674,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "100"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -2928,6 +3698,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "55"
+    sgG1 "21"
+    sgG2 "2"
+    sgG5 "13"
+    spectral "36"
   ]
   node
   [
@@ -2947,6 +3722,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "56"
+    sgG1 "5"
+    sgG2 "24"
+    sgG5 "59"
+    spectral "47"
   ]
   node
   [
@@ -2966,6 +3746,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "46"
+    infomap "17"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "5"
+    spectral "35"
   ]
   node
   [
@@ -2985,6 +3770,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "9"
+    sgG2 "11"
+    sgG5 "75"
+    spectral "38"
   ]
   node
   [
@@ -3004,6 +3794,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "21"
+    infomap "17"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "5"
+    spectral "18"
   ]
   node
   [
@@ -3023,6 +3818,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "46"
+    sgG1 "23"
+    sgG2 "33"
+    sgG5 "49"
+    spectral "3"
   ]
   node
   [
@@ -3042,6 +3842,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "57"
+    sgG1 "23"
+    sgG2 "22"
+    sgG5 "12"
+    spectral "5"
   ]
   node
   [
@@ -3061,6 +3866,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "41"
+    infomap "56"
+    sgG1 "23"
+    sgG2 "24"
+    sgG5 "59"
+    spectral "47"
   ]
   node
   [
@@ -3080,6 +3890,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "2"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "35"
+    spectral "27"
   ]
   node
   [
@@ -3099,6 +3914,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "36"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "55"
+    spectral "38"
   ]
   node
   [
@@ -3118,6 +3938,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "36"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "55"
+    spectral "47"
   ]
   node
   [
@@ -3137,6 +3962,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "35"
+    sgG1 "12"
+    sgG2 "26"
+    sgG5 "6"
+    spectral "19"
   ]
   node
   [
@@ -3156,6 +3986,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "58"
+    sgG1 "15"
+    sgG2 "2"
+    sgG5 "8"
+    spectral "37"
   ]
   node
   [
@@ -3175,6 +4010,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "29"
+    sgG1 "11"
+    sgG2 "15"
+    sgG5 "40"
+    spectral "34"
   ]
   node
   [
@@ -3194,6 +4034,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "100"
     SchizophreniaGeneCount ""
+    infomap "14"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "58"
+    spectral "33"
   ]
   node
   [
@@ -3213,6 +4058,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "9"
+    sgG2 "17"
+    sgG5 "17"
+    spectral "40"
   ]
   node
   [
@@ -3232,6 +4082,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "60"
+    spectral "45"
   ]
   node
   [
@@ -3251,6 +4106,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "59"
+    sgG1 "9"
+    sgG2 "11"
+    sgG5 "27"
+    spectral "5"
   ]
   node
   [
@@ -3270,6 +4130,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "27"
+    spectral "17"
   ]
   node
   [
@@ -3289,6 +4154,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "40"
+    infomap "59"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "27"
+    spectral "5"
   ]
   node
   [
@@ -3308,6 +4178,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "20"
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "34"
   ]
   node
   [
@@ -3327,6 +4202,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "40"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "11"
+    spectral "23"
   ]
   node
   [
@@ -3346,6 +4226,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "11"
+    infomap "5"
+    sgG1 "23"
+    sgG2 "31"
+    sgG5 "33"
+    spectral "21"
   ]
   node
   [
@@ -3365,6 +4250,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "34"
   ]
   node
   [
@@ -3384,6 +4274,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "45"
   ]
   node
   [
@@ -3403,6 +4298,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "6"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "31"
+    sgG5 "77"
+    spectral "17"
   ]
   node
   [
@@ -3422,6 +4322,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "13"
+    sgG1 "14"
+    sgG2 "4"
+    sgG5 "56"
+    spectral "16"
   ]
   node
   [
@@ -3441,6 +4346,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "60"
+    sgG1 "5"
+    sgG2 "27"
+    sgG5 "15"
+    spectral "40"
   ]
   node
   [
@@ -3460,6 +4370,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "6"
+    infomap "8"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "7"
+    spectral "11"
   ]
   node
   [
@@ -3479,6 +4394,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "22"
+    sgG1 "5"
+    sgG2 "14"
+    sgG5 "4"
+    spectral "40"
   ]
   node
   [
@@ -3498,6 +4418,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "28"
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "34"
   ]
   node
   [
@@ -3517,6 +4442,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "34"
   ]
   node
   [
@@ -3536,6 +4466,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "35"
   ]
   node
   [
@@ -3555,6 +4490,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "38"
+    sgG1 "14"
+    sgG2 "34"
+    sgG5 "47"
+    spectral "44"
   ]
   node
   [
@@ -3574,6 +4514,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "16"
+    infomap "38"
+    sgG1 "23"
+    sgG2 "34"
+    sgG5 "47"
+    spectral "6"
   ]
   node
   [
@@ -3593,6 +4538,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "36"
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "11"
+    spectral "5"
   ]
   node
   [
@@ -3612,6 +4562,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "11"
+    spectral "5"
   ]
   node
   [
@@ -3631,6 +4586,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "22"
+    sgG1 "23"
+    sgG2 "14"
+    sgG5 "27"
+    spectral "23"
   ]
   node
   [
@@ -3650,6 +4610,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "31"
+    sgG1 "19"
+    sgG2 "14"
+    sgG5 "42"
+    spectral "15"
   ]
   node
   [
@@ -3669,6 +4634,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "52"
+    spectral "15"
   ]
   node
   [
@@ -3688,6 +4658,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "38"
+    sgG1 "2"
+    sgG2 "34"
+    sgG5 "47"
+    spectral "42"
   ]
   node
   [
@@ -3707,6 +4682,11 @@ graph
     Trubetskoy2022priortisedcoding "TRUE"
     SynapseLocations "111"
     SchizophreniaGeneCount "27"
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "45"
+    spectral "15"
   ]
   node
   [
@@ -3726,6 +4706,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "31"
+    infomap "27"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "71"
+    spectral "23"
   ]
   node
   [
@@ -3745,6 +4730,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "100"
     SchizophreniaGeneCount ""
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -3764,6 +4754,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "33"
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -3783,6 +4778,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "60"
+    sgG1 "5"
+    sgG2 "27"
+    sgG5 "15"
+    spectral "18"
   ]
   node
   [
@@ -3802,6 +4802,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "34"
   ]
   node
   [
@@ -3821,6 +4826,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "45"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -3840,6 +4850,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "24"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "51"
+    spectral "26"
   ]
   node
   [
@@ -3859,6 +4874,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "1"
   ]
   node
   [
@@ -3878,6 +4898,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "51"
+    infomap "27"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "71"
+    spectral "23"
   ]
   node
   [
@@ -3897,6 +4922,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "13"
+    sgG1 "14"
+    sgG2 "4"
+    sgG5 "56"
+    spectral "33"
   ]
   node
   [
@@ -3916,6 +4946,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "61"
+    sgG1 "9"
+    sgG2 "5"
+    sgG5 "7"
+    spectral "38"
   ]
   node
   [
@@ -3935,6 +4970,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "61"
+    sgG1 "9"
+    sgG2 "5"
+    sgG5 "7"
+    spectral "38"
   ]
   node
   [
@@ -3954,6 +4994,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "30"
+    infomap "5"
+    sgG1 "23"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "21"
   ]
   node
   [
@@ -3973,6 +5018,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "22"
+    sgG1 "23"
+    sgG2 "14"
+    sgG5 "38"
+    spectral "17"
   ]
   node
   [
@@ -3992,6 +5042,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "5"
+    sgG5 "38"
+    spectral "17"
   ]
   node
   [
@@ -4011,6 +5066,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "47"
+    infomap "50"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "9"
+    spectral "23"
   ]
   node
   [
@@ -4030,6 +5090,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "11"
     SchizophreniaGeneCount ""
+    infomap "55"
+    sgG1 "21"
+    sgG2 "2"
+    sgG5 "13"
+    spectral "36"
   ]
   node
   [
@@ -4049,6 +5114,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "27"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "71"
+    spectral "26"
   ]
   node
   [
@@ -4068,6 +5138,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "4"
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "5"
   ]
   node
   [
@@ -4087,6 +5162,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "21"
+    infomap "62"
+    sgG1 "14"
+    sgG2 "13"
+    sgG5 "73"
+    spectral "26"
   ]
   node
   [
@@ -4106,6 +5186,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "63"
+    spectral "17"
   ]
   node
   [
@@ -4125,6 +5210,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "100"
     SchizophreniaGeneCount ""
+    infomap "27"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "71"
+    spectral "26"
   ]
   node
   [
@@ -4144,6 +5234,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "63"
+    sgG1 "23"
+    sgG2 "31"
+    sgG5 "33"
+    spectral "25"
   ]
   node
   [
@@ -4163,6 +5258,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "33"
+    infomap "1"
+    sgG1 "2"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "18"
   ]
   node
   [
@@ -4182,6 +5282,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "27"
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "19"
+    spectral "39"
   ]
   node
   [
@@ -4201,6 +5306,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "20"
+    infomap "64"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "2"
+    spectral "33"
   ]
   node
   [
@@ -4220,6 +5330,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "47"
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -4239,6 +5354,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -4258,6 +5378,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "55"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "13"
+    spectral "33"
   ]
   node
   [
@@ -4277,6 +5402,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "25"
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -4296,6 +5426,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "36"
+    sgG1 "14"
+    sgG2 "8"
+    sgG5 "55"
+    spectral "33"
   ]
   node
   [
@@ -4315,6 +5450,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "38"
+    infomap "60"
+    sgG1 "14"
+    sgG2 "27"
+    sgG5 "15"
+    spectral "18"
   ]
   node
   [
@@ -4334,6 +5474,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111;110"
     SchizophreniaGeneCount ""
+    infomap "14"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "33"
   ]
   node
   [
@@ -4353,6 +5498,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "4"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "33"
+    spectral "40"
   ]
   node
   [
@@ -4372,6 +5522,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "52"
+    spectral "17"
   ]
   node
   [
@@ -4391,6 +5546,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "12"
+    sgG2 "32"
+    sgG5 "45"
+    spectral "15"
   ]
   node
   [
@@ -4410,6 +5570,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "63"
+    spectral "5"
   ]
   node
   [
@@ -4429,6 +5594,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "42"
+    infomap "65"
+    sgG1 "9"
+    sgG2 "34"
+    sgG5 "23"
+    spectral "33"
   ]
   node
   [
@@ -4448,6 +5618,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "21"
+    sgG1 "23"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "21"
   ]
   node
   [
@@ -4467,6 +5642,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "18"
+    infomap "57"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "12"
+    spectral "5"
   ]
   node
   [
@@ -4486,6 +5666,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -4505,6 +5690,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "44"
+    sgG1 "7"
+    sgG2 "27"
+    sgG5 "53"
+    spectral "19"
   ]
   node
   [
@@ -4524,6 +5714,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111;101"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "12"
+    sgG2 "27"
+    sgG5 "76"
+    spectral "19"
   ]
   node
   [
@@ -4543,6 +5738,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "3"
+    infomap "27"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "71"
+    spectral "26"
   ]
   node
   [
@@ -4562,6 +5762,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "2"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "52"
+    spectral "27"
   ]
   node
   [
@@ -4581,6 +5786,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "12"
+    sgG2 "32"
+    sgG5 "45"
+    spectral "19"
   ]
   node
   [
@@ -4600,6 +5810,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "45"
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "27"
+    spectral "17"
   ]
   node
   [
@@ -4619,6 +5834,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "44"
+    sgG1 "7"
+    sgG2 "27"
+    sgG5 "53"
+    spectral "40"
   ]
   node
   [
@@ -4638,6 +5858,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "45"
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "79"
+    spectral "16"
   ]
   node
   [
@@ -4657,6 +5882,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "2"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "35"
+    spectral "27"
   ]
   node
   [
@@ -4676,6 +5906,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "40"
+    infomap "27"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "71"
+    spectral "36"
   ]
   node
   [
@@ -4695,6 +5930,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "12"
+    sgG2 "8"
+    sgG5 "28"
+    spectral "36"
   ]
   node
   [
@@ -4714,6 +5954,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "9"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "20"
   ]
   node
   [
@@ -4733,6 +5978,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "27"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "71"
+    spectral "26"
   ]
   node
   [
@@ -4752,6 +6002,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "28"
+    sgG1 "12"
+    sgG2 "15"
+    sgG5 "61"
+    spectral "29"
   ]
   node
   [
@@ -4771,6 +6026,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "51"
+    sgG1 "14"
+    sgG2 "4"
+    sgG5 "56"
+    spectral "18"
   ]
   node
   [
@@ -4790,6 +6050,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "17"
+    spectral "38"
   ]
   node
   [
@@ -4809,6 +6074,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "63"
+    spectral "17"
   ]
   node
   [
@@ -4828,6 +6098,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "63"
+    spectral "17"
   ]
   node
   [
@@ -4847,6 +6122,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "11"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "77"
+    spectral "17"
   ]
   node
   [
@@ -4866,6 +6146,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "42"
+    infomap "38"
+    sgG1 "14"
+    sgG2 "34"
+    sgG5 "47"
+    spectral "15"
   ]
   node
   [
@@ -4885,6 +6170,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "41"
+    spectral "17"
   ]
   node
   [
@@ -4904,6 +6194,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "23"
+    infomap "5"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "63"
+    spectral "18"
   ]
   node
   [
@@ -4923,6 +6218,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "52"
+    spectral "17"
   ]
   node
   [
@@ -4942,6 +6242,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "46"
+    spectral "40"
   ]
   node
   [
@@ -4961,6 +6266,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "4"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "72"
+    spectral "26"
   ]
   node
   [
@@ -4980,6 +6290,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "15"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "34"
+    spectral "34"
   ]
   node
   [
@@ -4999,6 +6314,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "17"
+    sgG1 "23"
+    sgG2 "26"
+    sgG5 "5"
+    spectral "17"
   ]
   node
   [
@@ -5018,6 +6338,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -5037,6 +6362,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "36"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "54"
+    spectral "5"
   ]
   node
   [
@@ -5056,6 +6386,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "45"
+    spectral "40"
   ]
   node
   [
@@ -5075,6 +6410,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "32"
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "1"
   ]
   node
   [
@@ -5094,6 +6434,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "53"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "39"
+    spectral "35"
   ]
   node
   [
@@ -5113,6 +6458,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "18"
+    infomap "35"
+    sgG1 "17"
+    sgG2 "25"
+    sgG5 "54"
+    spectral "5"
   ]
   node
   [
@@ -5132,6 +6482,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "45"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "19"
+    spectral "45"
   ]
   node
   [
@@ -5151,6 +6506,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "7"
+    sgG1 "2"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "31"
   ]
   node
   [
@@ -5170,6 +6530,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "57"
+    infomap "38"
+    sgG1 "2"
+    sgG2 "34"
+    sgG5 "47"
+    spectral "45"
   ]
   node
   [
@@ -5189,6 +6554,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "45"
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -5208,6 +6578,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "67"
+    spectral "47"
   ]
   node
   [
@@ -5227,6 +6602,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111;110"
     SchizophreniaGeneCount "47"
+    infomap "20"
+    sgG1 "2"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "36"
   ]
   node
   [
@@ -5246,6 +6626,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "46"
+    spectral "18"
   ]
   node
   [
@@ -5265,6 +6650,11 @@ graph
     Trubetskoy2022priortisedcoding "TRUE"
     SynapseLocations "111"
     SchizophreniaGeneCount "22"
+    infomap "4"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "72"
+    spectral "26"
   ]
   node
   [
@@ -5284,6 +6674,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "66"
+    sgG1 "2"
+    sgG2 "33"
+    sgG5 "1"
+    spectral "31"
   ]
   node
   [
@@ -5303,6 +6698,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "36"
+    sgG1 "2"
+    sgG2 "8"
+    sgG5 "55"
+    spectral "1"
   ]
   node
   [
@@ -5322,6 +6722,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "46"
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "27"
+    spectral "17"
   ]
   node
   [
@@ -5341,6 +6746,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "44"
+    sgG1 "17"
+    sgG2 "15"
+    sgG5 "53"
+    spectral "18"
   ]
   node
   [
@@ -5360,6 +6770,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "38"
+    spectral "15"
   ]
   node
   [
@@ -5379,6 +6794,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "36"
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "79"
+    spectral "18"
   ]
   node
   [
@@ -5398,6 +6818,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "4"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "72"
+    spectral "26"
   ]
   node
   [
@@ -5417,6 +6842,11 @@ graph
     Trubetskoy2022priortisedcoding "TRUE"
     SynapseLocations "111"
     SchizophreniaGeneCount "12"
+    infomap "65"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "44"
+    spectral "16"
   ]
   node
   [
@@ -5436,6 +6866,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "67"
+    sgG1 "12"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "36"
   ]
   node
   [
@@ -5455,6 +6890,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "27"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "71"
+    spectral "39"
   ]
   node
   [
@@ -5474,6 +6914,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "30"
+    infomap "43"
+    sgG1 "2"
+    sgG2 "14"
+    sgG5 "41"
+    spectral "16"
   ]
   node
   [
@@ -5493,6 +6938,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "43"
+    sgG1 "2"
+    sgG2 "14"
+    sgG5 "41"
+    spectral "16"
   ]
   node
   [
@@ -5512,6 +6962,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "54"
+    spectral "5"
   ]
   node
   [
@@ -5531,6 +6986,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "39"
+    infomap "5"
+    sgG1 "23"
+    sgG2 "24"
+    sgG5 "29"
+    spectral "17"
   ]
   node
   [
@@ -5550,6 +7010,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "27"
+    spectral "5"
   ]
   node
   [
@@ -5569,6 +7034,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "45"
+    sgG1 "24"
+    sgG2 "25"
+    sgG5 "67"
+    spectral "36"
   ]
   node
   [
@@ -5588,6 +7058,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "25"
+    sgG1 "14"
+    sgG2 "32"
+    sgG5 "30"
+    spectral "15"
   ]
   node
   [
@@ -5607,6 +7082,11 @@ graph
     Trubetskoy2022priortisedcoding "TRUE"
     SynapseLocations "111"
     SchizophreniaGeneCount "5"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "54"
+    spectral "5"
   ]
   node
   [
@@ -5626,6 +7106,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "30"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "54"
+    spectral "5"
   ]
   node
   [
@@ -5645,6 +7130,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "14"
+    sgG2 "19"
+    sgG5 "65"
+    spectral "23"
   ]
   node
   [
@@ -5664,6 +7154,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "42"
+    infomap "67"
+    sgG1 "5"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "40"
   ]
   node
   [
@@ -5683,6 +7178,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "67"
+    sgG1 "2"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "36"
   ]
   node
   [
@@ -5702,6 +7202,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "31"
+    infomap "67"
+    sgG1 "24"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "21"
   ]
   node
   [
@@ -5721,6 +7226,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "18"
+    infomap "6"
+    sgG1 "9"
+    sgG2 "2"
+    sgG5 "65"
+    spectral "21"
   ]
   node
   [
@@ -5740,6 +7250,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "67"
+    sgG1 "2"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "21"
   ]
   node
   [
@@ -5759,6 +7274,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "2"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "35"
+    spectral "38"
   ]
   node
   [
@@ -5778,6 +7298,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "22"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "4"
+    spectral "17"
   ]
   node
   [
@@ -5797,6 +7322,11 @@ graph
     Trubetskoy2022priortisedcoding "TRUE"
     SynapseLocations "101"
     SchizophreniaGeneCount "6"
+    infomap "4"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "72"
+    spectral "40"
   ]
   node
   [
@@ -5816,6 +7346,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "19"
+    spectral "39"
   ]
   node
   [
@@ -5835,6 +7370,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "36"
+    sgG1 "12"
+    sgG2 "8"
+    sgG5 "55"
+    spectral "48"
   ]
   node
   [
@@ -5854,6 +7394,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "17"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "5"
+    spectral "38"
   ]
   node
   [
@@ -5873,6 +7418,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "13"
+    sgG5 "72"
+    spectral "26"
   ]
   node
   [
@@ -5892,6 +7442,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "41"
+    infomap "6"
+    sgG1 "24"
+    sgG2 "5"
+    sgG5 "44"
+    spectral "40"
   ]
   node
   [
@@ -5911,6 +7466,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "68"
+    sgG1 "9"
+    sgG2 "34"
+    sgG5 "23"
+    spectral "36"
   ]
   node
   [
@@ -5930,6 +7490,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "68"
+    sgG1 "9"
+    sgG2 "32"
+    sgG5 "23"
+    spectral "15"
   ]
   node
   [
@@ -5949,6 +7514,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "68"
+    sgG1 "9"
+    sgG2 "34"
+    sgG5 "23"
+    spectral "35"
   ]
   node
   [
@@ -5968,6 +7538,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "2"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "35"
+    spectral "27"
   ]
   node
   [
@@ -5987,6 +7562,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "22"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "4"
+    spectral "23"
   ]
   node
   [
@@ -6006,6 +7586,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "17"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "5"
+    spectral "33"
   ]
   node
   [
@@ -6025,6 +7610,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "69"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "33"
   ]
   node
   [
@@ -6044,6 +7634,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "46"
+    infomap "14"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "33"
   ]
   node
   [
@@ -6063,6 +7658,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "41"
+    infomap "14"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "33"
   ]
   node
   [
@@ -6082,6 +7682,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "70"
+    sgG1 "14"
+    sgG2 "34"
+    sgG5 "36"
+    spectral "20"
   ]
   node
   [
@@ -6101,6 +7706,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "70"
+    sgG1 "2"
+    sgG2 "34"
+    sgG5 "36"
+    spectral "16"
   ]
   node
   [
@@ -6120,6 +7730,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "44"
+    infomap "40"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "61"
+    spectral "47"
   ]
   node
   [
@@ -6139,6 +7754,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "23"
+    sgG2 "8"
+    sgG5 "17"
+    spectral "7"
   ]
   node
   [
@@ -6158,6 +7778,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "6"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -6177,6 +7802,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "45"
+    sgG1 "24"
+    sgG2 "2"
+    sgG5 "67"
+    spectral "40"
   ]
   node
   [
@@ -6196,6 +7826,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "57"
+    infomap "6"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "65"
+    spectral "35"
   ]
   node
   [
@@ -6215,6 +7850,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "30"
+    infomap "11"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "17"
+    spectral "38"
   ]
   node
   [
@@ -6234,6 +7874,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "13"
+    infomap "36"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "55"
+    spectral "38"
   ]
   node
   [
@@ -6253,6 +7898,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "36"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "55"
+    spectral "38"
   ]
   node
   [
@@ -6272,6 +7922,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "67"
+    sgG1 "12"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "39"
   ]
   node
   [
@@ -6291,6 +7946,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "70"
+    sgG1 "14"
+    sgG2 "34"
+    sgG5 "36"
+    spectral "20"
   ]
   node
   [
@@ -6310,6 +7970,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "11"
     SchizophreniaGeneCount "5"
+    infomap "31"
+    sgG1 "24"
+    sgG2 "31"
+    sgG5 "42"
+    spectral "21"
   ]
   node
   [
@@ -6329,6 +7994,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "70"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "27"
+    spectral "5"
   ]
   node
   [
@@ -6348,6 +8018,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "70"
+    sgG1 "24"
+    sgG2 "34"
+    sgG5 "36"
+    spectral "20"
   ]
   node
   [
@@ -6367,6 +8042,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "70"
+    sgG1 "24"
+    sgG2 "34"
+    sgG5 "36"
+    spectral "20"
   ]
   node
   [
@@ -6386,6 +8066,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "30"
+    infomap "70"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "18"
   ]
   node
   [
@@ -6405,6 +8090,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "19"
+    sgG1 "17"
+    sgG2 "24"
+    sgG5 "36"
+    spectral "20"
   ]
   node
   [
@@ -6424,6 +8114,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "50"
+    sgG1 "12"
+    sgG2 "22"
+    sgG5 "9"
+    spectral "18"
   ]
   node
   [
@@ -6443,6 +8138,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "4"
+    infomap "34"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "65"
+    spectral "38"
   ]
   node
   [
@@ -6462,6 +8162,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "42"
+    sgG1 "11"
+    sgG2 "33"
+    sgG5 "12"
+    spectral "33"
   ]
   node
   [
@@ -6481,6 +8186,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "3"
+    infomap "51"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "16"
+    spectral "18"
   ]
   node
   [
@@ -6500,6 +8210,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "15"
+    sgG1 "2"
+    sgG2 "1"
+    sgG5 "34"
+    spectral "42"
   ]
   node
   [
@@ -6519,6 +8234,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "37"
+    sgG1 "8"
+    sgG2 "10"
+    sgG5 "66"
+    spectral "33"
   ]
   node
   [
@@ -6538,6 +8258,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "65"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "44"
+    spectral "48"
   ]
   node
   [
@@ -6557,6 +8282,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "10"
+    sgG1 "13"
+    sgG2 "31"
+    sgG5 "69"
+    spectral "40"
   ]
   node
   [
@@ -6576,6 +8306,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "15"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "34"
+    spectral "24"
   ]
   node
   [
@@ -6595,6 +8330,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "20"
+    sgG1 "20"
+    sgG2 "14"
+    sgG5 "4"
+    spectral "35"
   ]
   node
   [
@@ -6614,6 +8354,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "100"
     SchizophreniaGeneCount ""
+    infomap "66"
+    sgG1 "2"
+    sgG2 "33"
+    sgG5 "1"
+    spectral "17"
   ]
   node
   [
@@ -6633,6 +8378,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "51"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "67"
+    spectral "45"
   ]
   node
   [
@@ -6652,6 +8402,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "58"
+    sgG1 "9"
+    sgG2 "2"
+    sgG5 "60"
+    spectral "37"
   ]
   node
   [
@@ -6671,6 +8426,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "18"
   ]
   node
   [
@@ -6690,6 +8450,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "43"
+    infomap "14"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "33"
   ]
   node
   [
@@ -6709,6 +8474,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "56"
+    sgG1 "2"
+    sgG2 "24"
+    sgG5 "59"
+    spectral "47"
   ]
   node
   [
@@ -6728,6 +8498,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "18"
   ]
   node
   [
@@ -6747,6 +8522,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "31"
+    sgG1 "24"
+    sgG2 "31"
+    sgG5 "42"
+    spectral "21"
   ]
   node
   [
@@ -6766,6 +8546,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "100"
     SchizophreniaGeneCount ""
+    infomap "71"
+    sgG1 "3"
+    sgG2 "24"
+    sgG5 "14"
+    spectral "3"
   ]
   node
   [
@@ -6785,6 +8570,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "70"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "11"
+    spectral "18"
   ]
   node
   [
@@ -6804,6 +8594,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "100"
     SchizophreniaGeneCount ""
+    infomap "46"
+    sgG1 "9"
+    sgG2 "12"
+    sgG5 "14"
+    spectral "38"
   ]
   node
   [
@@ -6823,6 +8618,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "42"
+    sgG1 "24"
+    sgG2 "19"
+    sgG5 "44"
+    spectral "39"
   ]
   node
   [
@@ -6842,6 +8642,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "5"
   ]
   node
   [
@@ -6861,6 +8666,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "21"
+    sgG1 "24"
+    sgG2 "25"
+    sgG5 "78"
+    spectral "15"
   ]
   node
   [
@@ -6880,6 +8690,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "32"
+    sgG5 "45"
+    spectral "15"
   ]
   node
   [
@@ -6899,6 +8714,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "17"
+    spectral "38"
   ]
   node
   [
@@ -6918,6 +8738,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "23"
   ]
   node
   [
@@ -6937,6 +8762,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "40"
+    sgG1 "14"
+    sgG2 "32"
+    sgG5 "11"
+    spectral "23"
   ]
   node
   [
@@ -6956,6 +8786,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "12"
+    sgG2 "27"
+    sgG5 "76"
+    spectral "36"
   ]
   node
   [
@@ -6975,6 +8810,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "36"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "17"
+    spectral "47"
   ]
   node
   [
@@ -6994,6 +8834,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "23"
+    sgG1 "5"
+    sgG2 "8"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -7013,6 +8858,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "41"
+    infomap "68"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "23"
+    spectral "36"
   ]
   node
   [
@@ -7032,6 +8882,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "32"
   ]
   node
   [
@@ -7051,6 +8906,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "51"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "16"
+    spectral "23"
   ]
   node
   [
@@ -7070,6 +8930,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "27"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "71"
+    spectral "36"
   ]
   node
   [
@@ -7089,6 +8954,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "12"
+    sgG2 "27"
+    sgG5 "76"
+    spectral "29"
   ]
   node
   [
@@ -7108,6 +8978,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "48"
   ]
   node
   [
@@ -7127,6 +9002,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "48"
   ]
   node
   [
@@ -7146,6 +9026,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "29"
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "79"
+    spectral "16"
   ]
   node
   [
@@ -7165,6 +9050,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "9"
+    infomap "6"
+    sgG1 "2"
+    sgG2 "1"
+    sgG5 "51"
+    spectral "40"
   ]
   node
   [
@@ -7184,6 +9074,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "9"
+    sgG2 "5"
+    sgG5 "46"
+    spectral "40"
   ]
   node
   [
@@ -7203,6 +9098,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "4"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "72"
+    spectral "26"
   ]
   node
   [
@@ -7222,6 +9122,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "46"
+    sgG1 "3"
+    sgG2 "12"
+    sgG5 "14"
+    spectral "3"
   ]
   node
   [
@@ -7241,6 +9146,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "50"
+    sgG1 "24"
+    sgG2 "22"
+    sgG5 "9"
+    spectral "18"
   ]
   node
   [
@@ -7260,6 +9170,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "71"
+    sgG1 "3"
+    sgG2 "24"
+    sgG5 "14"
+    spectral "17"
   ]
   node
   [
@@ -7279,6 +9194,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "53"
+    infomap "61"
+    sgG1 "9"
+    sgG2 "5"
+    sgG5 "7"
+    spectral "38"
   ]
   node
   [
@@ -7298,6 +9218,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "24"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "51"
+    spectral "48"
   ]
   node
   [
@@ -7317,6 +9242,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "15"
+    infomap "68"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "23"
+    spectral "36"
   ]
   node
   [
@@ -7336,6 +9266,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "2"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "35"
+    spectral "42"
   ]
   node
   [
@@ -7355,6 +9290,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "28"
+    spectral "36"
   ]
   node
   [
@@ -7374,6 +9314,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "72"
+    sgG1 "4"
+    sgG2 "6"
+    sgG5 "32"
+    spectral "4"
   ]
   node
   [
@@ -7393,6 +9338,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "5"
+    infomap "72"
+    sgG1 "4"
+    sgG2 "6"
+    sgG5 "32"
+    spectral "4"
   ]
   node
   [
@@ -7412,6 +9362,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "6"
+    infomap "72"
+    sgG1 "4"
+    sgG2 "6"
+    sgG5 "32"
+    spectral "4"
   ]
   node
   [
@@ -7431,6 +9386,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "16"
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "48"
   ]
   node
   [
@@ -7450,6 +9410,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "45"
+    sgG1 "24"
+    sgG2 "15"
+    sgG5 "61"
+    spectral "18"
   ]
   node
   [
@@ -7469,6 +9434,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "39"
+    sgG1 "1"
+    sgG2 "27"
+    sgG5 "3"
+    spectral "33"
   ]
   node
   [
@@ -7488,6 +9458,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "11"
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "3"
   ]
   node
   [
@@ -7507,6 +9482,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "3"
   ]
   node
   [
@@ -7526,6 +9506,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "14"
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "3"
   ]
   node
   [
@@ -7545,6 +9530,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "48"
   ]
   node
   [
@@ -7564,6 +9554,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "73"
+    sgG1 "12"
+    sgG2 "29"
+    sgG5 "76"
+    spectral "19"
   ]
   node
   [
@@ -7583,6 +9578,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "35"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "6"
+    spectral "38"
   ]
   node
   [
@@ -7602,6 +9602,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "49"
+    infomap "25"
+    sgG1 "14"
+    sgG2 "32"
+    sgG5 "11"
+    spectral "15"
   ]
   node
   [
@@ -7621,6 +9626,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "15"
+    infomap "41"
+    sgG1 "2"
+    sgG2 "3"
+    sgG5 "26"
+    spectral "23"
   ]
   node
   [
@@ -7640,6 +9650,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "21"
+    infomap "41"
+    sgG1 "2"
+    sgG2 "3"
+    sgG5 "26"
+    spectral "1"
   ]
   node
   [
@@ -7659,6 +9674,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "24"
+    infomap "41"
+    sgG1 "2"
+    sgG2 "3"
+    sgG5 "26"
+    spectral "1"
   ]
   node
   [
@@ -7678,6 +9698,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "40"
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -7697,6 +9722,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "29"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "40"
+    spectral "40"
   ]
   node
   [
@@ -7716,6 +9746,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "33"
+    infomap "29"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "40"
+    spectral "40"
   ]
   node
   [
@@ -7735,6 +9770,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "29"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "40"
+    spectral "44"
   ]
   node
   [
@@ -7754,6 +9794,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "59"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "49"
+    spectral "44"
   ]
   node
   [
@@ -7773,6 +9818,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "33"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "58"
+    spectral "38"
   ]
   node
   [
@@ -7792,6 +9842,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "56"
+    sgG1 "5"
+    sgG2 "24"
+    sgG5 "59"
+    spectral "47"
   ]
   node
   [
@@ -7811,6 +9866,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "74"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "49"
+    spectral "15"
   ]
   node
   [
@@ -7830,6 +9890,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "32"
+    infomap "25"
+    sgG1 "9"
+    sgG2 "32"
+    sgG5 "41"
+    spectral "16"
   ]
   node
   [
@@ -7849,6 +9914,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "75"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "21"
+    spectral "5"
   ]
   node
   [
@@ -7868,6 +9938,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "76"
+    sgG1 "14"
+    sgG2 "20"
+    sgG5 "80"
+    spectral "20"
   ]
   node
   [
@@ -7887,6 +9962,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "1"
   ]
   node
   [
@@ -7906,6 +9986,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "75"
+    sgG1 "9"
+    sgG2 "2"
+    sgG5 "21"
+    spectral "40"
   ]
   node
   [
@@ -7925,6 +10010,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "77"
+    sgG1 "6"
+    sgG2 "16"
+    sgG5 "18"
+    spectral "49"
   ]
   node
   [
@@ -7944,6 +10034,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "77"
+    sgG1 "6"
+    sgG2 "16"
+    sgG5 "18"
+    spectral "49"
   ]
   node
   [
@@ -7963,6 +10058,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "77"
+    sgG1 "6"
+    sgG2 "16"
+    sgG5 "18"
+    spectral "49"
   ]
   node
   [
@@ -7982,6 +10082,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "9"
+    sgG2 "5"
+    sgG5 "58"
+    spectral "40"
   ]
   node
   [
@@ -8001,6 +10106,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "9"
+    infomap "33"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "58"
+    spectral "38"
   ]
   node
   [
@@ -8020,6 +10130,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "7"
+    spectral "40"
   ]
   node
   [
@@ -8039,6 +10154,11 @@ graph
     Trubetskoy2022priortisedcoding "TRUE"
     SynapseLocations "101"
     SchizophreniaGeneCount "5"
+    infomap "4"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "72"
+    spectral "29"
   ]
   node
   [
@@ -8058,6 +10178,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "28"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "61"
+    spectral "44"
   ]
   node
   [
@@ -8077,6 +10202,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "57"
+    sgG1 "14"
+    sgG2 "22"
+    sgG5 "12"
+    spectral "5"
   ]
   node
   [
@@ -8096,6 +10226,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "79"
+    spectral "18"
   ]
   node
   [
@@ -8115,6 +10250,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "33"
+    spectral "35"
   ]
   node
   [
@@ -8134,6 +10274,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "34"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "65"
+    spectral "35"
   ]
   node
   [
@@ -8153,6 +10298,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -8172,6 +10322,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -8191,6 +10346,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "78"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "14"
+    spectral "17"
   ]
   node
   [
@@ -8210,6 +10370,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "38"
+    infomap "27"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "71"
+    spectral "23"
   ]
   node
   [
@@ -8229,6 +10394,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "28"
+    infomap "60"
+    sgG1 "14"
+    sgG2 "27"
+    sgG5 "15"
+    spectral "18"
   ]
   node
   [
@@ -8248,6 +10418,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "27"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "71"
+    spectral "40"
   ]
   node
   [
@@ -8267,6 +10442,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "21"
+    sgG1 "14"
+    sgG2 "25"
+    sgG5 "78"
+    spectral "33"
   ]
   node
   [
@@ -8286,6 +10466,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "11"
+    infomap "16"
+    sgG1 "2"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "21"
   ]
   node
   [
@@ -8305,6 +10490,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "56"
+    sgG1 "14"
+    sgG2 "24"
+    sgG5 "59"
+    spectral "33"
   ]
   node
   [
@@ -8324,6 +10514,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "56"
+    sgG1 "14"
+    sgG2 "24"
+    sgG5 "59"
+    spectral "33"
   ]
   node
   [
@@ -8343,6 +10538,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "9"
+    sgG2 "25"
+    sgG5 "21"
+    spectral "36"
   ]
   node
   [
@@ -8362,6 +10562,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -8381,6 +10586,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "25"
+    sgG1 "9"
+    sgG2 "32"
+    sgG5 "30"
+    spectral "2"
   ]
   node
   [
@@ -8400,6 +10610,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "66"
+    sgG1 "2"
+    sgG2 "33"
+    sgG5 "1"
+    spectral "31"
   ]
   node
   [
@@ -8419,6 +10634,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "66"
+    sgG1 "5"
+    sgG2 "33"
+    sgG5 "1"
+    spectral "31"
   ]
   node
   [
@@ -8438,6 +10658,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "50"
+    sgG1 "11"
+    sgG2 "22"
+    sgG5 "9"
+    spectral "17"
   ]
   node
   [
@@ -8457,6 +10682,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "13"
+    sgG1 "14"
+    sgG2 "4"
+    sgG5 "56"
+    spectral "16"
   ]
   node
   [
@@ -8476,6 +10706,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -8495,6 +10730,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "36"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "38"
+    spectral "47"
   ]
   node
   [
@@ -8514,6 +10754,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -8533,6 +10778,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "1"
   ]
   node
   [
@@ -8552,6 +10802,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -8571,6 +10826,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "110"
     SchizophreniaGeneCount "4"
+    infomap "36"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "55"
+    spectral "47"
   ]
   node
   [
@@ -8590,6 +10850,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "50"
+    sgG1 "23"
+    sgG2 "22"
+    sgG5 "9"
+    spectral "17"
   ]
   node
   [
@@ -8609,6 +10874,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "3"
   ]
   node
   [
@@ -8628,6 +10898,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "61"
+    sgG1 "9"
+    sgG2 "5"
+    sgG5 "7"
+    spectral "38"
   ]
   node
   [
@@ -8647,6 +10922,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -8666,6 +10946,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "79"
+    sgG1 "12"
+    sgG2 "27"
+    sgG5 "2"
+    spectral "19"
   ]
   node
   [
@@ -8685,6 +10970,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "37"
+    sgG1 "8"
+    sgG2 "10"
+    sgG5 "66"
+    spectral "33"
   ]
   node
   [
@@ -8704,6 +10994,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "78"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "14"
+    spectral "5"
   ]
   node
   [
@@ -8723,6 +11018,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "43"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "17"
+    spectral "38"
   ]
   node
   [
@@ -8742,6 +11042,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "34"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "37"
+    spectral "34"
   ]
   node
   [
@@ -8761,6 +11066,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "46"
+    spectral "45"
   ]
   node
   [
@@ -8780,6 +11090,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "15"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "34"
+    spectral "24"
   ]
   node
   [
@@ -8799,6 +11114,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "28"
+    sgG1 "9"
+    sgG2 "15"
+    sgG5 "61"
+    spectral "47"
   ]
   node
   [
@@ -8818,6 +11138,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "100"
     SchizophreniaGeneCount ""
+    infomap "42"
+    sgG1 "14"
+    sgG2 "33"
+    sgG5 "12"
+    spectral "33"
   ]
   node
   [
@@ -8837,6 +11162,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "46"
+    infomap "8"
+    sgG1 "14"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -8856,6 +11186,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "28"
+    infomap "44"
+    sgG1 "17"
+    sgG2 "15"
+    sgG5 "53"
+    spectral "42"
   ]
   node
   [
@@ -8875,6 +11210,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "11"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -8894,6 +11234,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "52"
+    sgG1 "9"
+    sgG2 "27"
+    sgG5 "30"
+    spectral "2"
   ]
   node
   [
@@ -8913,6 +11258,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "29"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "49"
+    spectral "44"
   ]
   node
   [
@@ -8932,6 +11282,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "65"
+    sgG1 "24"
+    sgG2 "31"
+    sgG5 "33"
+    spectral "17"
   ]
   node
   [
@@ -8951,6 +11306,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "14"
+    infomap "67"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "34"
   ]
   node
   [
@@ -8970,6 +11330,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "1"
   ]
   node
   [
@@ -8989,6 +11354,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "48"
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -9008,6 +11378,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "57"
+    sgG1 "9"
+    sgG2 "27"
+    sgG5 "41"
+    spectral "3"
   ]
   node
   [
@@ -9027,6 +11402,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "21"
+    infomap "30"
+    sgG1 "5"
+    sgG2 "1"
+    sgG5 "15"
+    spectral "44"
   ]
   node
   [
@@ -9046,6 +11426,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "79"
+    sgG1 "12"
+    sgG2 "27"
+    sgG5 "76"
+    spectral "19"
   ]
   node
   [
@@ -9065,6 +11450,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "66"
+    sgG1 "5"
+    sgG2 "8"
+    sgG5 "1"
+    spectral "47"
   ]
   node
   [
@@ -9084,6 +11474,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "31"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "42"
+    spectral "47"
   ]
   node
   [
@@ -9103,6 +11498,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "8"
+    infomap "71"
+    sgG1 "3"
+    sgG2 "24"
+    sgG5 "14"
+    spectral "23"
   ]
   node
   [
@@ -9122,6 +11522,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "13"
+    sgG1 "14"
+    sgG2 "4"
+    sgG5 "56"
+    spectral "33"
   ]
   node
   [
@@ -9141,6 +11546,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "71"
+    sgG1 "3"
+    sgG2 "24"
+    sgG5 "14"
+    spectral "23"
   ]
   node
   [
@@ -9160,6 +11570,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "15"
+    infomap "71"
+    sgG1 "3"
+    sgG2 "24"
+    sgG5 "14"
+    spectral "19"
   ]
   node
   [
@@ -9179,6 +11594,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "10"
+    infomap "44"
+    sgG1 "17"
+    sgG2 "15"
+    sgG5 "53"
+    spectral "42"
   ]
   node
   [
@@ -9198,6 +11618,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "66"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "1"
+    spectral "18"
   ]
   node
   [
@@ -9217,6 +11642,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "80"
+    sgG1 "14"
+    sgG2 "4"
+    sgG5 "25"
+    spectral "33"
   ]
   node
   [
@@ -9236,6 +11666,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "6"
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "79"
+    spectral "28"
   ]
   node
   [
@@ -9255,6 +11690,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -9274,6 +11714,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "29"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "40"
+    spectral "44"
   ]
   node
   [
@@ -9293,6 +11738,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "48"
   ]
   node
   [
@@ -9312,6 +11762,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -9331,6 +11786,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "15"
+    spectral "45"
   ]
   node
   [
@@ -9350,6 +11810,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "64"
+    spectral "36"
   ]
   node
   [
@@ -9369,6 +11834,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "81"
+    sgG1 "10"
+    sgG2 "11"
+    sgG5 "63"
+    spectral "5"
   ]
   node
   [
@@ -9388,6 +11858,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "18"
+    sgG1 "11"
+    sgG2 "2"
+    sgG5 "60"
+    spectral "40"
   ]
   node
   [
@@ -9407,6 +11882,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "5"
+    infomap "16"
+    sgG1 "2"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "21"
   ]
   node
   [
@@ -9426,6 +11906,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "82"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "57"
+    spectral "5"
   ]
   node
   [
@@ -9445,6 +11930,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "33"
+    spectral "40"
   ]
   node
   [
@@ -9464,6 +11954,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "78"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "14"
+    spectral "40"
   ]
   node
   [
@@ -9483,6 +11978,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "52"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "35"
+    spectral "27"
   ]
   node
   [
@@ -9502,6 +12002,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "83"
+    sgG1 "22"
+    sgG2 "9"
+    sgG5 "36"
+    spectral "18"
   ]
   node
   [
@@ -9521,6 +12026,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "38"
+    sgG1 "2"
+    sgG2 "34"
+    sgG5 "47"
+    spectral "45"
   ]
   node
   [
@@ -9540,6 +12050,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "20"
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "48"
   ]
   node
   [
@@ -9559,6 +12074,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "25"
+    infomap "60"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "77"
+    spectral "16"
   ]
   node
   [
@@ -9578,6 +12098,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "1"
   ]
   node
   [
@@ -9597,6 +12122,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "58"
+    sgG1 "15"
+    sgG2 "2"
+    sgG5 "8"
+    spectral "37"
   ]
   node
   [
@@ -9616,6 +12146,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "59"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "2"
+    spectral "40"
   ]
   node
   [
@@ -9635,6 +12170,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -9654,6 +12194,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "6"
+    infomap "72"
+    sgG1 "4"
+    sgG2 "6"
+    sgG5 "32"
+    spectral "4"
   ]
   node
   [
@@ -9673,6 +12218,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "12"
+    infomap "65"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "44"
+    spectral "16"
   ]
   node
   [
@@ -9692,6 +12242,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "100"
     SchizophreniaGeneCount ""
+    infomap "76"
+    sgG1 "14"
+    sgG2 "20"
+    sgG5 "80"
+    spectral "20"
   ]
   node
   [
@@ -9711,6 +12266,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "65"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "44"
+    spectral "48"
   ]
   node
   [
@@ -9730,6 +12290,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "11"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "9"
+    sgG2 "2"
+    sgG5 "60"
+    spectral "40"
   ]
   node
   [
@@ -9749,6 +12314,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "16"
+    sgG1 "2"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "21"
   ]
   node
   [
@@ -9768,6 +12338,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "2"
   ]
   node
   [
@@ -9787,6 +12362,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "9"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -9806,6 +12386,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "24"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "51"
+    spectral "26"
   ]
   node
   [
@@ -9825,6 +12410,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -9844,6 +12434,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "9"
   ]
   node
   [
@@ -9863,6 +12458,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "9"
+    sgG2 "2"
+    sgG5 "60"
+    spectral "40"
   ]
   node
   [
@@ -9882,6 +12482,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "84"
+    sgG1 "14"
+    sgG2 "32"
+    sgG5 "2"
+    spectral "40"
   ]
   node
   [
@@ -9901,6 +12506,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "29"
+    infomap "25"
+    sgG1 "14"
+    sgG2 "32"
+    sgG5 "52"
+    spectral "15"
   ]
   node
   [
@@ -9920,6 +12530,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "34"
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "15"
   ]
   node
   [
@@ -9939,6 +12554,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "59"
+    spectral "40"
   ]
   node
   [
@@ -9958,6 +12578,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "21"
+    infomap "56"
+    sgG1 "5"
+    sgG2 "24"
+    sgG5 "59"
+    spectral "47"
   ]
   node
   [
@@ -9977,6 +12602,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "21"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "78"
+    spectral "5"
   ]
   node
   [
@@ -9996,6 +12626,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "4"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "4"
+    spectral "29"
   ]
   node
   [
@@ -10015,6 +12650,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "22"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "8"
+    spectral "17"
   ]
   node
   [
@@ -10034,6 +12674,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "10"
     SchizophreniaGeneCount ""
+    infomap "19"
+    sgG1 "17"
+    sgG2 "24"
+    sgG5 "36"
+    spectral "20"
   ]
   node
   [
@@ -10053,6 +12698,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "66"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "1"
+    spectral "31"
   ]
   node
   [
@@ -10072,6 +12722,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "2"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "1"
+    spectral "27"
   ]
   node
   [
@@ -10091,6 +12746,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "4"
+    infomap "5"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "45"
+    spectral "31"
   ]
   node
   [
@@ -10110,6 +12770,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "30"
+    sgG1 "5"
+    sgG2 "1"
+    sgG5 "15"
+    spectral "44"
   ]
   node
   [
@@ -10129,6 +12794,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "21"
+    infomap "66"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "64"
+    spectral "40"
   ]
   node
   [
@@ -10148,6 +12818,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "19"
+    sgG1 "17"
+    sgG2 "24"
+    sgG5 "29"
+    spectral "22"
   ]
   node
   [
@@ -10167,6 +12842,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "2"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "35"
+    spectral "48"
   ]
   node
   [
@@ -10186,6 +12866,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "110"
     SchizophreniaGeneCount ""
+    infomap "66"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "1"
+    spectral "31"
   ]
   node
   [
@@ -10205,6 +12890,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "28"
+    infomap "66"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "1"
+    spectral "31"
   ]
   node
   [
@@ -10224,6 +12914,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "11"
     SchizophreniaGeneCount ""
+    infomap "66"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "1"
+    spectral "31"
   ]
   node
   [
@@ -10243,6 +12938,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "12"
+    infomap "38"
+    sgG1 "2"
+    sgG2 "34"
+    sgG5 "47"
+    spectral "42"
   ]
   node
   [
@@ -10262,6 +12962,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "38"
+    sgG1 "2"
+    sgG2 "34"
+    sgG5 "47"
+    spectral "42"
   ]
   node
   [
@@ -10281,6 +12986,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "66"
+    spectral "40"
   ]
   node
   [
@@ -10300,6 +13010,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "73"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "21"
+    spectral "19"
   ]
   node
   [
@@ -10319,6 +13034,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "73"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "21"
+    spectral "19"
   ]
   node
   [
@@ -10338,6 +13058,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "42"
+    infomap "73"
+    sgG1 "17"
+    sgG2 "25"
+    sgG5 "54"
+    spectral "19"
   ]
   node
   [
@@ -10357,6 +13082,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "3"
   ]
   node
   [
@@ -10376,6 +13106,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "49"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "44"
+    spectral "18"
   ]
   node
   [
@@ -10395,6 +13130,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "19"
   ]
   node
   [
@@ -10414,6 +13154,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "2"
   ]
   node
   [
@@ -10433,6 +13178,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "51"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "16"
+    spectral "18"
   ]
   node
   [
@@ -10452,6 +13202,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "58"
+    sgG1 "9"
+    sgG2 "2"
+    sgG5 "60"
+    spectral "40"
   ]
   node
   [
@@ -10471,6 +13226,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "22"
+    infomap "9"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "43"
+    spectral "18"
   ]
   node
   [
@@ -10490,6 +13250,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "49"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "44"
+    spectral "32"
   ]
   node
   [
@@ -10509,6 +13274,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "51"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "16"
+    spectral "18"
   ]
   node
   [
@@ -10528,6 +13298,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "50"
+    sgG1 "9"
+    sgG2 "22"
+    sgG5 "23"
+    spectral "38"
   ]
   node
   [
@@ -10547,6 +13322,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "32"
   ]
   node
   [
@@ -10566,6 +13346,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "51"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "16"
+    spectral "18"
   ]
   node
   [
@@ -10585,6 +13370,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "1"
   ]
   node
   [
@@ -10604,6 +13394,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "51"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "16"
+    spectral "36"
   ]
   node
   [
@@ -10623,6 +13418,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "26"
+    infomap "11"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "19"
+    spectral "39"
   ]
   node
   [
@@ -10642,6 +13442,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "49"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "44"
+    spectral "18"
   ]
   node
   [
@@ -10661,6 +13466,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "2"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "35"
+    spectral "38"
   ]
   node
   [
@@ -10680,6 +13490,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "65"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "44"
+    spectral "2"
   ]
   node
   [
@@ -10699,6 +13514,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "69"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "33"
   ]
   node
   [
@@ -10718,6 +13538,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "34"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "37"
+    spectral "34"
   ]
   node
   [
@@ -10737,6 +13562,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "21"
+    sgG1 "24"
+    sgG2 "25"
+    sgG5 "78"
+    spectral "30"
   ]
   node
   [
@@ -10756,6 +13586,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "52"
+    sgG1 "9"
+    sgG2 "27"
+    sgG5 "30"
+    spectral "2"
   ]
   node
   [
@@ -10775,6 +13610,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "12"
+    sgG2 "8"
+    sgG5 "28"
+    spectral "38"
   ]
   node
   [
@@ -10794,6 +13634,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "61"
+    sgG1 "9"
+    sgG2 "5"
+    sgG5 "7"
+    spectral "38"
   ]
   node
   [
@@ -10813,6 +13658,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "39"
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "35"
   ]
   node
   [
@@ -10832,6 +13682,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "85"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "31"
+    spectral "38"
   ]
   node
   [
@@ -10851,6 +13706,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "110"
     SchizophreniaGeneCount ""
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "2"
+    spectral "40"
   ]
   node
   [
@@ -10870,6 +13730,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -10889,6 +13754,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "12"
+    sgG2 "5"
+    sgG5 "67"
+    spectral "36"
   ]
   node
   [
@@ -10908,6 +13778,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "65"
+    sgG1 "2"
+    sgG2 "34"
+    sgG5 "41"
+    spectral "16"
   ]
   node
   [
@@ -10927,6 +13802,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "41"
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "2"
+    spectral "33"
   ]
   node
   [
@@ -10946,6 +13826,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "8"
+    infomap "19"
+    sgG1 "17"
+    sgG2 "24"
+    sgG5 "29"
+    spectral "22"
   ]
   node
   [
@@ -10965,6 +13850,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "11"
     SchizophreniaGeneCount ""
+    infomap "84"
+    sgG1 "14"
+    sgG2 "32"
+    sgG5 "2"
+    spectral "33"
   ]
   node
   [
@@ -10984,6 +13874,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "50"
+    sgG1 "14"
+    sgG2 "25"
+    sgG5 "9"
+    spectral "23"
   ]
   node
   [
@@ -11003,6 +13898,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "41"
+    sgG1 "2"
+    sgG2 "3"
+    sgG5 "26"
+    spectral "33"
   ]
   node
   [
@@ -11022,6 +13922,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -11041,6 +13946,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "77"
+    spectral "17"
   ]
   node
   [
@@ -11060,6 +13970,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -11079,6 +13994,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -11098,6 +14018,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "24"
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -11117,6 +14042,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "37"
+    sgG1 "8"
+    sgG2 "10"
+    sgG5 "66"
+    spectral "27"
   ]
   node
   [
@@ -11136,6 +14066,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "48"
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -11155,6 +14090,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "28"
+    infomap "51"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "16"
+    spectral "18"
   ]
   node
   [
@@ -11174,6 +14114,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "9"
+    sgG2 "34"
+    sgG5 "23"
+    spectral "33"
   ]
   node
   [
@@ -11193,6 +14138,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "38"
+    sgG1 "9"
+    sgG2 "34"
+    sgG5 "47"
+    spectral "45"
   ]
   node
   [
@@ -11212,6 +14162,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "48"
   ]
   node
   [
@@ -11231,6 +14186,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "34"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "37"
+    spectral "34"
   ]
   node
   [
@@ -11250,6 +14210,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "38"
+    sgG1 "5"
+    sgG2 "34"
+    sgG5 "47"
+    spectral "45"
   ]
   node
   [
@@ -11269,6 +14234,11 @@ graph
     Trubetskoy2022priortisedcoding "TRUE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "19"
+    sgG1 "20"
+    sgG2 "24"
+    sgG5 "29"
+    spectral "22"
   ]
   node
   [
@@ -11288,6 +14258,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "57"
+    infomap "14"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "33"
   ]
   node
   [
@@ -11307,6 +14282,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -11326,6 +14306,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "67"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "52"
+    spectral "39"
   ]
   node
   [
@@ -11345,6 +14330,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -11364,6 +14354,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "31"
+    sgG1 "19"
+    sgG2 "1"
+    sgG5 "42"
+    spectral "42"
   ]
   node
   [
@@ -11383,6 +14378,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "11"
+    infomap "78"
+    sgG1 "23"
+    sgG2 "5"
+    sgG5 "14"
+    spectral "17"
   ]
   node
   [
@@ -11402,6 +14402,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "52"
+    sgG1 "9"
+    sgG2 "27"
+    sgG5 "30"
+    spectral "36"
   ]
   node
   [
@@ -11421,6 +14426,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "3"
   ]
   node
   [
@@ -11440,6 +14450,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "14"
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "34"
   ]
   node
   [
@@ -11459,6 +14474,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "86"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "74"
+    spectral "45"
   ]
   node
   [
@@ -11478,6 +14498,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "86"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "74"
+    spectral "45"
   ]
   node
   [
@@ -11497,6 +14522,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "28"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "61"
+    spectral "44"
   ]
   node
   [
@@ -11516,6 +14546,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "22"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "4"
+    spectral "23"
   ]
   node
   [
@@ -11535,6 +14570,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "22"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "4"
+    spectral "39"
   ]
   node
   [
@@ -11554,6 +14594,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "29"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "47"
+    spectral "44"
   ]
   node
   [
@@ -11573,6 +14618,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "36"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "38"
+    spectral "47"
   ]
   node
   [
@@ -11592,6 +14642,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "46"
+    infomap "26"
+    sgG1 "16"
+    sgG2 "18"
+    sgG5 "48"
+    spectral "43"
   ]
   node
   [
@@ -11611,6 +14666,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "86"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "74"
+    spectral "45"
   ]
   node
   [
@@ -11630,6 +14690,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "11"
+    infomap "36"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "55"
+    spectral "47"
   ]
   node
   [
@@ -11649,6 +14714,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "18"
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "40"
   ]
   node
   [
@@ -11668,6 +14738,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "77"
+    spectral "17"
   ]
   node
   [
@@ -11687,6 +14762,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "8"
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "1"
   ]
   node
   [
@@ -11706,6 +14786,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "5"
+    infomap "33"
+    sgG1 "14"
+    sgG2 "29"
+    sgG5 "58"
+    spectral "35"
   ]
   node
   [
@@ -11725,6 +14810,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "14"
+    infomap "63"
+    sgG1 "23"
+    sgG2 "31"
+    sgG5 "33"
+    spectral "25"
   ]
   node
   [
@@ -11744,6 +14834,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "27"
+    spectral "5"
   ]
   node
   [
@@ -11763,6 +14858,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "31"
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -11782,6 +14882,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "3"
+    infomap "28"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "61"
+    spectral "46"
   ]
   node
   [
@@ -11801,6 +14906,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "27"
+    infomap "41"
+    sgG1 "2"
+    sgG2 "3"
+    sgG5 "26"
+    spectral "23"
   ]
   node
   [
@@ -11820,6 +14930,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "23"
+    infomap "27"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "71"
+    spectral "26"
   ]
   node
   [
@@ -11839,6 +14954,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "62"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "73"
+    spectral "26"
   ]
   node
   [
@@ -11858,6 +14978,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "30"
+    sgG1 "5"
+    sgG2 "1"
+    sgG5 "15"
+    spectral "44"
   ]
   node
   [
@@ -11877,6 +15002,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "30"
+    sgG1 "5"
+    sgG2 "1"
+    sgG5 "15"
+    spectral "44"
   ]
   node
   [
@@ -11896,6 +15026,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "44"
+    sgG1 "17"
+    sgG2 "15"
+    sgG5 "53"
+    spectral "18"
   ]
   node
   [
@@ -11915,6 +15050,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "83"
+    sgG1 "14"
+    sgG2 "9"
+    sgG5 "36"
+    spectral "5"
   ]
   node
   [
@@ -11934,6 +15074,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "3"
+    infomap "79"
+    sgG1 "12"
+    sgG2 "27"
+    sgG5 "76"
+    spectral "19"
   ]
   node
   [
@@ -11953,6 +15098,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "5"
+    infomap "59"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "27"
+    spectral "5"
   ]
   node
   [
@@ -11972,6 +15122,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "35"
   ]
   node
   [
@@ -11991,6 +15146,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "27"
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "35"
   ]
   node
   [
@@ -12010,6 +15170,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "110"
     SchizophreniaGeneCount ""
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "40"
   ]
   node
   [
@@ -12029,6 +15194,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "22"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "4"
+    spectral "21"
   ]
   node
   [
@@ -12048,6 +15218,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "7"
+    spectral "40"
   ]
   node
   [
@@ -12067,6 +15242,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "30"
+    infomap "6"
+    sgG1 "21"
+    sgG2 "2"
+    sgG5 "13"
+    spectral "40"
   ]
   node
   [
@@ -12086,6 +15266,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "65"
+    spectral "35"
   ]
   node
   [
@@ -12105,6 +15290,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "17"
+    sgG1 "9"
+    sgG2 "2"
+    sgG5 "5"
+    spectral "38"
   ]
   node
   [
@@ -12124,6 +15314,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "46"
+    spectral "40"
   ]
   node
   [
@@ -12143,6 +15338,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "52"
+    sgG1 "9"
+    sgG2 "27"
+    sgG5 "30"
+    spectral "2"
   ]
   node
   [
@@ -12162,6 +15362,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "48"
   ]
   node
   [
@@ -12181,6 +15386,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "9"
+    sgG2 "2"
+    sgG5 "60"
+    spectral "40"
   ]
   node
   [
@@ -12200,6 +15410,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "9"
+    sgG2 "2"
+    sgG5 "75"
+    spectral "38"
   ]
   node
   [
@@ -12219,6 +15434,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "36"
   ]
   node
   [
@@ -12238,6 +15458,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "58"
+    sgG1 "24"
+    sgG2 "2"
+    sgG5 "60"
+    spectral "18"
   ]
   node
   [
@@ -12257,6 +15482,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "100"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "9"
+    sgG2 "2"
+    sgG5 "60"
+    spectral "40"
   ]
   node
   [
@@ -12276,6 +15506,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "51"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "16"
+    spectral "40"
   ]
   node
   [
@@ -12295,6 +15530,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "46"
+    spectral "40"
   ]
   node
   [
@@ -12314,6 +15554,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "79"
+    spectral "18"
   ]
   node
   [
@@ -12333,6 +15578,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "77"
+    spectral "17"
   ]
   node
   [
@@ -12352,6 +15602,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "2"
   ]
   node
   [
@@ -12371,6 +15626,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "2"
+    sgG5 "7"
+    spectral "40"
   ]
   node
   [
@@ -12390,6 +15650,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "15"
+    infomap "35"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "54"
+    spectral "5"
   ]
   node
   [
@@ -12409,6 +15674,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "51"
+    sgG1 "9"
+    sgG2 "35"
+    sgG5 "16"
+    spectral "36"
   ]
   node
   [
@@ -12428,6 +15698,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "9"
+    sgG2 "2"
+    sgG5 "17"
+    spectral "40"
   ]
   node
   [
@@ -12447,6 +15722,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "40"
   ]
   node
   [
@@ -12466,6 +15746,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "9"
+    sgG2 "2"
+    sgG5 "60"
+    spectral "40"
   ]
   node
   [
@@ -12485,6 +15770,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "46"
+    sgG1 "9"
+    sgG2 "33"
+    sgG5 "49"
+    spectral "3"
   ]
   node
   [
@@ -12504,6 +15794,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "46"
+    spectral "40"
   ]
   node
   [
@@ -12523,6 +15818,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "65"
+    sgG1 "9"
+    sgG2 "34"
+    sgG5 "41"
+    spectral "40"
   ]
   node
   [
@@ -12542,6 +15842,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "45"
+    sgG1 "24"
+    sgG2 "2"
+    sgG5 "67"
+    spectral "40"
   ]
   node
   [
@@ -12561,6 +15866,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "9"
+    sgG2 "19"
+    sgG5 "65"
+    spectral "5"
   ]
   node
   [
@@ -12580,6 +15890,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "6"
+    infomap "6"
+    sgG1 "9"
+    sgG2 "2"
+    sgG5 "46"
+    spectral "40"
   ]
   node
   [
@@ -12599,6 +15914,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "48"
+    infomap "80"
+    sgG1 "14"
+    sgG2 "4"
+    sgG5 "25"
+    spectral "33"
   ]
   node
   [
@@ -12618,6 +15938,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "13"
+    sgG1 "14"
+    sgG2 "4"
+    sgG5 "56"
+    spectral "16"
   ]
   node
   [
@@ -12637,6 +15962,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "67"
+    sgG1 "2"
+    sgG2 "17"
+    sgG5 "70"
+    spectral "39"
   ]
   node
   [
@@ -12656,6 +15986,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "27"
+    infomap "52"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "35"
+    spectral "27"
   ]
   node
   [
@@ -12675,6 +16010,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "55"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "13"
+    spectral "33"
   ]
   node
   [
@@ -12694,6 +16034,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "32"
+    sgG1 "12"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "19"
   ]
   node
   [
@@ -12713,6 +16058,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "73"
+    sgG1 "12"
+    sgG2 "29"
+    sgG5 "76"
+    spectral "19"
   ]
   node
   [
@@ -12732,6 +16082,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "45"
+    sgG1 "24"
+    sgG2 "25"
+    sgG5 "67"
+    spectral "36"
   ]
   node
   [
@@ -12751,6 +16106,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "45"
+    sgG1 "24"
+    sgG2 "25"
+    sgG5 "67"
+    spectral "36"
   ]
   node
   [
@@ -12770,6 +16130,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "46"
+    spectral "40"
   ]
   node
   [
@@ -12789,6 +16154,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "35"
+    infomap "58"
+    sgG1 "15"
+    sgG2 "2"
+    sgG5 "8"
+    spectral "37"
   ]
   node
   [
@@ -12808,6 +16178,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "13"
+    sgG1 "14"
+    sgG2 "4"
+    sgG5 "56"
+    spectral "33"
   ]
   node
   [
@@ -12827,6 +16202,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "17"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "33"
+    spectral "38"
   ]
   node
   [
@@ -12846,6 +16226,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "40"
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "7"
+    spectral "40"
   ]
   node
   [
@@ -12865,6 +16250,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "31"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "42"
+    spectral "47"
   ]
   node
   [
@@ -12884,6 +16274,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "31"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "42"
+    spectral "47"
   ]
   node
   [
@@ -12903,6 +16298,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "31"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "42"
+    spectral "47"
   ]
   node
   [
@@ -12922,6 +16322,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "13"
+    spectral "15"
   ]
   node
   [
@@ -12941,6 +16346,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "46"
+    spectral "40"
   ]
   node
   [
@@ -12960,6 +16370,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "44"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "53"
+    spectral "42"
   ]
   node
   [
@@ -12979,6 +16394,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "44"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "53"
+    spectral "42"
   ]
   node
   [
@@ -12998,6 +16418,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "40"
+    infomap "44"
+    sgG1 "9"
+    sgG2 "15"
+    sgG5 "53"
+    spectral "38"
   ]
   node
   [
@@ -13017,6 +16442,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "77"
+    spectral "17"
   ]
   node
   [
@@ -13036,6 +16466,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "12"
+    sgG2 "27"
+    sgG5 "76"
+    spectral "19"
   ]
   node
   [
@@ -13055,6 +16490,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "38"
+    sgG1 "2"
+    sgG2 "34"
+    sgG5 "47"
+    spectral "42"
   ]
   node
   [
@@ -13074,6 +16514,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "15"
+    sgG1 "2"
+    sgG2 "1"
+    sgG5 "34"
+    spectral "2"
   ]
   node
   [
@@ -13093,6 +16538,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "2"
   ]
   node
   [
@@ -13112,6 +16562,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "2"
   ]
   node
   [
@@ -13131,6 +16586,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "2"
   ]
   node
   [
@@ -13150,6 +16610,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "2"
   ]
   node
   [
@@ -13169,6 +16634,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "2"
+    spectral "33"
   ]
   node
   [
@@ -13188,6 +16658,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "2"
   ]
   node
   [
@@ -13207,6 +16682,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "2"
   ]
   node
   [
@@ -13226,6 +16706,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "65"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "44"
+    spectral "2"
   ]
   node
   [
@@ -13245,6 +16730,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "37"
+    sgG1 "8"
+    sgG2 "10"
+    sgG5 "66"
+    spectral "27"
   ]
   node
   [
@@ -13264,6 +16754,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "2"
   ]
   node
   [
@@ -13283,6 +16778,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "85"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "31"
+    spectral "38"
   ]
   node
   [
@@ -13302,6 +16802,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "45"
+    sgG1 "24"
+    sgG2 "25"
+    sgG5 "67"
+    spectral "36"
   ]
   node
   [
@@ -13321,6 +16826,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "17"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "5"
+    spectral "38"
   ]
   node
   [
@@ -13340,6 +16850,11 @@ graph
     Trubetskoy2022priortisedcoding "TRUE"
     SynapseLocations "111"
     SchizophreniaGeneCount "6"
+    infomap "66"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "1"
+    spectral "31"
   ]
   node
   [
@@ -13359,6 +16874,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "11"
     SchizophreniaGeneCount "3"
+    infomap "66"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "1"
+    spectral "31"
   ]
   node
   [
@@ -13378,6 +16898,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "66"
+    sgG1 "5"
+    sgG2 "12"
+    sgG5 "1"
+    spectral "31"
   ]
   node
   [
@@ -13397,6 +16922,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "11"
+    infomap "41"
+    sgG1 "2"
+    sgG2 "3"
+    sgG5 "26"
+    spectral "23"
   ]
   node
   [
@@ -13416,6 +16946,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "3"
+    infomap "54"
+    sgG1 "17"
+    sgG2 "24"
+    sgG5 "29"
+    spectral "5"
   ]
   node
   [
@@ -13435,6 +16970,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "15"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "34"
+    spectral "42"
   ]
   node
   [
@@ -13454,6 +16994,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "16"
+    infomap "1"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "79"
+    spectral "16"
   ]
   node
   [
@@ -13473,6 +17018,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "33"
+    infomap "66"
+    sgG1 "2"
+    sgG2 "33"
+    sgG5 "1"
+    spectral "31"
   ]
   node
   [
@@ -13492,6 +17042,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "15"
+    infomap "66"
+    sgG1 "2"
+    sgG2 "33"
+    sgG5 "1"
+    spectral "31"
   ]
   node
   [
@@ -13511,6 +17066,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "14"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "5"
   ]
   node
   [
@@ -13530,6 +17090,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "34"
+    infomap "41"
+    sgG1 "2"
+    sgG2 "3"
+    sgG5 "26"
+    spectral "23"
   ]
   node
   [
@@ -13549,6 +17114,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "25"
+    sgG1 "14"
+    sgG2 "32"
+    sgG5 "11"
+    spectral "15"
   ]
   node
   [
@@ -13568,6 +17138,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "27"
+    spectral "17"
   ]
   node
   [
@@ -13587,6 +17162,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -13606,6 +17186,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "87"
+    sgG1 "18"
+    sgG2 "19"
+    sgG5 "68"
+    spectral "5"
   ]
   node
   [
@@ -13625,6 +17210,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "55"
+    infomap "80"
+    sgG1 "14"
+    sgG2 "4"
+    sgG5 "25"
+    spectral "33"
   ]
   node
   [
@@ -13644,6 +17234,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "14"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "33"
   ]
   node
   [
@@ -13663,6 +17258,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "4"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "72"
+    spectral "26"
   ]
   node
   [
@@ -13682,6 +17282,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "42"
+    infomap "11"
+    sgG1 "12"
+    sgG2 "27"
+    sgG5 "76"
+    spectral "19"
   ]
   node
   [
@@ -13701,6 +17306,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -13720,6 +17330,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "26"
+    sgG1 "16"
+    sgG2 "18"
+    sgG5 "48"
+    spectral "43"
   ]
   node
   [
@@ -13739,6 +17354,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "71"
+    sgG1 "3"
+    sgG2 "24"
+    sgG5 "14"
+    spectral "17"
   ]
   node
   [
@@ -13758,6 +17378,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "37"
+    sgG1 "8"
+    sgG2 "10"
+    sgG5 "66"
+    spectral "33"
   ]
   node
   [
@@ -13777,6 +17402,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -13796,6 +17426,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "62"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "73"
+    spectral "26"
   ]
   node
   [
@@ -13815,6 +17450,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "26"
+    sgG1 "16"
+    sgG2 "18"
+    sgG5 "48"
+    spectral "27"
   ]
   node
   [
@@ -13834,6 +17474,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "48"
+    sgG1 "22"
+    sgG2 "7"
+    sgG5 "24"
+    spectral "33"
   ]
   node
   [
@@ -13853,6 +17498,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "34"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "44"
+    spectral "48"
   ]
   node
   [
@@ -13872,6 +17522,11 @@ graph
     Trubetskoy2022priortisedcoding "TRUE"
     SynapseLocations "111"
     SchizophreniaGeneCount "37"
+    infomap "5"
+    sgG1 "23"
+    sgG2 "24"
+    sgG5 "29"
+    spectral "5"
   ]
   node
   [
@@ -13891,6 +17546,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "14"
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "66"
+    spectral "17"
   ]
   node
   [
@@ -13910,6 +17570,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "74"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "49"
+    spectral "15"
   ]
   node
   [
@@ -13929,6 +17594,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "53"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "39"
+    spectral "34"
   ]
   node
   [
@@ -13948,6 +17618,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "29"
+    infomap "24"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "51"
+    spectral "48"
   ]
   node
   [
@@ -13967,6 +17642,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "54"
+    sgG1 "17"
+    sgG2 "24"
+    sgG5 "53"
+    spectral "40"
   ]
   node
   [
@@ -13986,6 +17666,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "54"
+    sgG1 "17"
+    sgG2 "24"
+    sgG5 "29"
+    spectral "22"
   ]
   node
   [
@@ -14005,6 +17690,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "40"
+    infomap "66"
+    sgG1 "23"
+    sgG2 "21"
+    sgG5 "1"
+    spectral "5"
   ]
   node
   [
@@ -14024,6 +17714,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -14043,6 +17738,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "7"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -14062,6 +17762,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "47"
   ]
   node
   [
@@ -14081,6 +17786,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "34"
+    infomap "16"
+    sgG1 "23"
+    sgG2 "31"
+    sgG5 "77"
+    spectral "17"
   ]
   node
   [
@@ -14100,6 +17810,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -14119,6 +17834,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "5"
   ]
   node
   [
@@ -14138,6 +17858,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "12"
+    sgG2 "27"
+    sgG5 "64"
+    spectral "19"
   ]
   node
   [
@@ -14157,6 +17882,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "13"
+    sgG1 "9"
+    sgG2 "4"
+    sgG5 "17"
+    spectral "38"
   ]
   node
   [
@@ -14176,6 +17906,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "13"
+    sgG1 "14"
+    sgG2 "4"
+    sgG5 "56"
+    spectral "16"
   ]
   node
   [
@@ -14195,6 +17930,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "2"
+    infomap "40"
+    sgG1 "14"
+    sgG2 "32"
+    sgG5 "11"
+    spectral "23"
   ]
   node
   [
@@ -14214,6 +17954,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "40"
+    infomap "70"
+    sgG1 "14"
+    sgG2 "34"
+    sgG5 "36"
+    spectral "33"
   ]
   node
   [
@@ -14233,6 +17978,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "35"
   ]
   node
   [
@@ -14252,6 +18002,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -14271,6 +18026,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "19"
+    spectral "33"
   ]
   node
   [
@@ -14290,6 +18050,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "14"
+    sgG2 "19"
+    sgG5 "65"
+    spectral "5"
   ]
   node
   [
@@ -14309,6 +18074,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "65"
+    sgG1 "24"
+    sgG2 "34"
+    sgG5 "23"
+    spectral "33"
   ]
   node
   [
@@ -14328,6 +18098,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "44"
+    sgG1 "7"
+    sgG2 "27"
+    sgG5 "53"
+    spectral "42"
   ]
   node
   [
@@ -14347,6 +18122,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "15"
+    infomap "9"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "64"
+    spectral "20"
   ]
   node
   [
@@ -14366,6 +18146,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "77"
+    spectral "17"
   ]
   node
   [
@@ -14385,6 +18170,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "63"
+    spectral "17"
   ]
   node
   [
@@ -14404,6 +18194,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "63"
+    spectral "17"
   ]
   node
   [
@@ -14423,6 +18218,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "3"
+    infomap "2"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "35"
+    spectral "27"
   ]
   node
   [
@@ -14442,6 +18242,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "73"
+    sgG1 "17"
+    sgG2 "25"
+    sgG5 "54"
+    spectral "19"
   ]
   node
   [
@@ -14461,6 +18266,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "45"
+    sgG1 "24"
+    sgG2 "5"
+    sgG5 "19"
+    spectral "36"
   ]
   node
   [
@@ -14480,6 +18290,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "35"
+    sgG1 "23"
+    sgG2 "26"
+    sgG5 "6"
+    spectral "5"
   ]
   node
   [
@@ -14499,6 +18314,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "16"
+    sgG1 "2"
+    sgG2 "31"
+    sgG5 "21"
+    spectral "21"
   ]
   node
   [
@@ -14518,6 +18338,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "4"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "72"
+    spectral "27"
   ]
   node
   [
@@ -14537,6 +18362,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "14"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "33"
   ]
   node
   [
@@ -14556,6 +18386,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "28"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "12"
   ]
   node
   [
@@ -14575,6 +18410,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "14"
   ]
   node
   [
@@ -14594,6 +18434,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "9"
   ]
   node
   [
@@ -14613,6 +18458,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "11"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "10"
   ]
   node
   [
@@ -14632,6 +18482,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "9"
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "8"
   ]
   node
   [
@@ -14651,6 +18506,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -14670,6 +18530,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "11"
     SchizophreniaGeneCount ""
+    infomap "42"
+    sgG1 "11"
+    sgG2 "33"
+    sgG5 "12"
+    spectral "33"
   ]
   node
   [
@@ -14689,6 +18554,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "49"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "44"
+    spectral "32"
   ]
   node
   [
@@ -14708,6 +18578,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "12"
+    infomap "10"
+    sgG1 "13"
+    sgG2 "31"
+    sgG5 "69"
+    spectral "40"
   ]
   node
   [
@@ -14727,6 +18602,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "10"
+    sgG1 "13"
+    sgG2 "31"
+    sgG5 "69"
+    spectral "40"
   ]
   node
   [
@@ -14746,6 +18626,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "9"
+    infomap "20"
+    sgG1 "20"
+    sgG2 "14"
+    sgG5 "4"
+    spectral "35"
   ]
   node
   [
@@ -14765,6 +18650,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "73"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "76"
+    spectral "18"
   ]
   node
   [
@@ -14784,6 +18674,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "48"
   ]
   node
   [
@@ -14803,6 +18698,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "36"
+    sgG1 "2"
+    sgG2 "8"
+    sgG5 "55"
+    spectral "1"
   ]
   node
   [
@@ -14822,6 +18722,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "51"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "16"
+    spectral "18"
   ]
   node
   [
@@ -14841,6 +18746,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "46"
+    sgG1 "3"
+    sgG2 "12"
+    sgG5 "14"
+    spectral "3"
   ]
   node
   [
@@ -14860,6 +18770,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "17"
+    sgG1 "9"
+    sgG2 "1"
+    sgG5 "17"
+    spectral "38"
   ]
   node
   [
@@ -14879,6 +18794,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "28"
+    sgG1 "12"
+    sgG2 "29"
+    sgG5 "61"
+    spectral "29"
   ]
   node
   [
@@ -14898,6 +18818,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "20"
+    sgG1 "2"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "36"
   ]
   node
   [
@@ -14917,6 +18842,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "14"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "49"
+    spectral "33"
   ]
   node
   [
@@ -14936,6 +18866,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -14955,6 +18890,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "20"
+    infomap "25"
+    sgG1 "14"
+    sgG2 "32"
+    sgG5 "11"
+    spectral "15"
   ]
   node
   [
@@ -14974,6 +18914,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "35"
+    sgG1 "23"
+    sgG2 "26"
+    sgG5 "6"
+    spectral "38"
   ]
   node
   [
@@ -14993,6 +18938,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "33"
+    sgG1 "8"
+    sgG2 "30"
+    sgG5 "58"
+    spectral "38"
   ]
   node
   [
@@ -15012,6 +18962,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "51"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "16"
+    spectral "18"
   ]
   node
   [
@@ -15031,6 +18986,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "58"
+    infomap "76"
+    sgG1 "14"
+    sgG2 "20"
+    sgG5 "80"
+    spectral "20"
   ]
   node
   [
@@ -15050,6 +19010,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "38"
+    sgG1 "2"
+    sgG2 "34"
+    sgG5 "47"
+    spectral "42"
   ]
   node
   [
@@ -15069,6 +19034,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "11"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "21"
+    spectral "19"
   ]
   node
   [
@@ -15088,6 +19058,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -15107,6 +19082,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "16"
+    spectral "18"
   ]
   node
   [
@@ -15126,6 +19106,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "51"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "16"
+    spectral "18"
   ]
   node
   [
@@ -15145,6 +19130,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "57"
+    sgG1 "23"
+    sgG2 "5"
+    sgG5 "12"
+    spectral "17"
   ]
   node
   [
@@ -15164,6 +19154,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "66"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "1"
+    spectral "48"
   ]
   node
   [
@@ -15183,6 +19178,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "66"
+    sgG1 "5"
+    sgG2 "33"
+    sgG5 "1"
+    spectral "31"
   ]
   node
   [
@@ -15202,6 +19202,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "13"
+    sgG1 "14"
+    sgG2 "4"
+    sgG5 "56"
+    spectral "33"
   ]
   node
   [
@@ -15221,6 +19226,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "24"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "51"
+    spectral "17"
   ]
   node
   [
@@ -15240,6 +19250,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "65"
+    sgG1 "2"
+    sgG2 "34"
+    sgG5 "44"
+    spectral "48"
   ]
   node
   [
@@ -15259,6 +19274,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "21"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "78"
+    spectral "39"
   ]
   node
   [
@@ -15278,6 +19298,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "67"
+    sgG1 "24"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "5"
   ]
   node
   [
@@ -15297,6 +19322,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -15316,6 +19346,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "51"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "16"
+    spectral "18"
   ]
   node
   [
@@ -15335,6 +19370,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "9"
+    sgG1 "14"
+    sgG2 "2"
+    sgG5 "67"
+    spectral "33"
   ]
   node
   [
@@ -15354,6 +19394,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "12"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -15373,6 +19418,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "5"
+    infomap "18"
+    sgG1 "11"
+    sgG2 "17"
+    sgG5 "50"
+    spectral "34"
   ]
   node
   [
@@ -15392,6 +19442,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "76"
+    sgG1 "14"
+    sgG2 "20"
+    sgG5 "80"
+    spectral "20"
   ]
   node
   [
@@ -15411,6 +19466,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "11"
     SchizophreniaGeneCount ""
+    infomap "33"
+    sgG1 "11"
+    sgG2 "30"
+    sgG5 "58"
+    spectral "48"
   ]
   node
   [
@@ -15430,6 +19490,11 @@ graph
     Trubetskoy2022priortisedcoding "TRUE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "46"
+    sgG1 "23"
+    sgG2 "33"
+    sgG5 "49"
+    spectral "3"
   ]
   node
   [
@@ -15449,6 +19514,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "79"
+    sgG1 "14"
+    sgG2 "27"
+    sgG5 "47"
+    spectral "19"
   ]
   node
   [
@@ -15468,6 +19538,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "26"
+    infomap "12"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "62"
+    spectral "45"
   ]
   node
   [
@@ -15487,6 +19562,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "7"
+    sgG1 "2"
+    sgG2 "33"
+    sgG5 "1"
+    spectral "40"
   ]
   node
   [
@@ -15506,6 +19586,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "31"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "42"
+    spectral "47"
   ]
   node
   [
@@ -15525,6 +19610,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "80"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "25"
+    spectral "47"
   ]
   node
   [
@@ -15544,6 +19634,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "31"
+    infomap "56"
+    sgG1 "11"
+    sgG2 "24"
+    sgG5 "59"
+    spectral "47"
   ]
   node
   [
@@ -15563,6 +19658,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "59"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "27"
+    spectral "5"
   ]
   node
   [
@@ -15582,6 +19682,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "46"
+    sgG1 "23"
+    sgG2 "33"
+    sgG5 "49"
+    spectral "3"
   ]
   node
   [
@@ -15601,6 +19706,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "71"
+    sgG1 "3"
+    sgG2 "24"
+    sgG5 "14"
+    spectral "19"
   ]
   node
   [
@@ -15620,6 +19730,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "81"
+    sgG1 "10"
+    sgG2 "11"
+    sgG5 "63"
+    spectral "5"
   ]
   node
   [
@@ -15639,6 +19754,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "4"
+    infomap "82"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "57"
+    spectral "5"
   ]
   node
   [
@@ -15658,6 +19778,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "83"
+    sgG1 "22"
+    sgG2 "9"
+    sgG5 "36"
+    spectral "18"
   ]
   node
   [
@@ -15677,6 +19802,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "22"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "8"
+    spectral "1"
   ]
   node
   [
@@ -15696,6 +19826,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "24"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "51"
+    spectral "48"
   ]
   node
   [
@@ -15715,6 +19850,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "27"
+    sgG1 "2"
+    sgG2 "28"
+    sgG5 "71"
+    spectral "26"
   ]
   node
   [
@@ -15734,6 +19874,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "21"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "78"
+    spectral "5"
   ]
   node
   [
@@ -15753,6 +19898,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "30"
+    infomap "39"
+    sgG1 "1"
+    sgG2 "27"
+    sgG5 "3"
+    spectral "33"
   ]
   node
   [
@@ -15772,6 +19922,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "4"
+    sgG1 "12"
+    sgG2 "13"
+    sgG5 "72"
+    spectral "26"
   ]
   node
   [
@@ -15791,6 +19946,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "19"
+    sgG1 "17"
+    sgG2 "24"
+    sgG5 "29"
+    spectral "22"
   ]
   node
   [
@@ -15810,6 +19970,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "19"
+    sgG1 "17"
+    sgG2 "24"
+    sgG5 "29"
+    spectral "22"
   ]
   node
   [
@@ -15829,6 +19994,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "19"
+    sgG1 "17"
+    sgG2 "24"
+    sgG5 "29"
+    spectral "22"
   ]
   node
   [
@@ -15848,6 +20018,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "19"
+    sgG1 "17"
+    sgG2 "24"
+    sgG5 "30"
+    spectral "22"
   ]
   node
   [
@@ -15867,6 +20042,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -15886,6 +20066,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "10"
+    infomap "73"
+    sgG1 "12"
+    sgG2 "25"
+    sgG5 "21"
+    spectral "19"
   ]
   node
   [
@@ -15905,6 +20090,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "17"
+    sgG1 "24"
+    sgG2 "22"
+    sgG5 "58"
+    spectral "27"
   ]
   node
   [
@@ -15924,6 +20114,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "29"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "40"
+    spectral "40"
   ]
   node
   [
@@ -15943,6 +20138,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "3"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "24"
+    spectral "1"
   ]
   node
   [
@@ -15962,6 +20162,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "110"
     SchizophreniaGeneCount ""
+    infomap "69"
+    sgG1 "14"
+    sgG2 "12"
+    sgG5 "43"
+    spectral "33"
   ]
   node
   [
@@ -15981,6 +20186,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "32"
   ]
   node
   [
@@ -16000,6 +20210,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "7"
+    infomap "65"
+    sgG1 "9"
+    sgG2 "34"
+    sgG5 "23"
+    spectral "33"
   ]
   node
   [
@@ -16019,6 +20234,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "67"
+    sgG1 "2"
+    sgG2 "31"
+    sgG5 "7"
+    spectral "40"
   ]
   node
   [
@@ -16038,6 +20258,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -16057,6 +20282,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -16076,6 +20306,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "3"
+    infomap "23"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "10"
+    spectral "33"
   ]
   node
   [
@@ -16095,6 +20330,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "23"
+    sgG1 "5"
+    sgG2 "7"
+    sgG5 "46"
+    spectral "33"
   ]
   node
   [
@@ -16114,6 +20354,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "36"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "55"
+    spectral "40"
   ]
   node
   [
@@ -16133,6 +20378,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "55"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "13"
+    spectral "33"
   ]
   node
   [
@@ -16152,6 +20402,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "5"
+    sgG1 "23"
+    sgG2 "11"
+    sgG5 "63"
+    spectral "5"
   ]
   node
   [
@@ -16171,6 +20426,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "36"
+    sgG1 "9"
+    sgG2 "8"
+    sgG5 "55"
+    spectral "40"
   ]
   node
   [
@@ -16190,6 +20450,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "36"
+    sgG1 "14"
+    sgG2 "27"
+    sgG5 "38"
+    spectral "47"
   ]
   node
   [
@@ -16209,6 +20474,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "45"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -16228,6 +20498,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "2"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "35"
+    spectral "27"
   ]
   node
   [
@@ -16247,6 +20522,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "38"
+    sgG1 "2"
+    sgG2 "34"
+    sgG5 "47"
+    spectral "41"
   ]
   node
   [
@@ -16266,6 +20546,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "11"
     SchizophreniaGeneCount "9"
+    infomap "19"
+    sgG1 "17"
+    sgG2 "24"
+    sgG5 "29"
+    spectral "22"
   ]
   node
   [
@@ -16285,6 +20570,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "5"
   ]
   node
   [
@@ -16304,6 +20594,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "67"
+    sgG1 "2"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "36"
   ]
   node
   [
@@ -16323,6 +20618,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "83"
+    sgG1 "22"
+    sgG2 "9"
+    sgG5 "36"
+    spectral "18"
   ]
   node
   [
@@ -16342,6 +20642,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "29"
+    sgG1 "5"
+    sgG2 "15"
+    sgG5 "61"
+    spectral "44"
   ]
   node
   [
@@ -16361,6 +20666,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "38"
+    sgG1 "5"
+    sgG2 "34"
+    sgG5 "47"
+    spectral "45"
   ]
   node
   [
@@ -16380,6 +20690,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "22"
+    spectral "13"
   ]
   node
   [
@@ -16399,6 +20714,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "84"
+    sgG1 "14"
+    sgG2 "32"
+    sgG5 "2"
+    spectral "33"
   ]
   node
   [
@@ -16418,6 +20738,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount "43"
+    infomap "5"
+    sgG1 "23"
+    sgG2 "31"
+    sgG5 "33"
+    spectral "17"
   ]
   node
   [
@@ -16437,6 +20762,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "16"
+    sgG1 "2"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "21"
   ]
   node
   [
@@ -16456,6 +20786,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "67"
+    sgG1 "2"
+    sgG2 "31"
+    sgG5 "70"
+    spectral "36"
   ]
   node
   [
@@ -16475,6 +20810,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "83"
+    sgG1 "14"
+    sgG2 "9"
+    sgG5 "36"
+    spectral "5"
   ]
   node
   [
@@ -16494,6 +20834,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "64"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "2"
+    spectral "33"
   ]
   node
   [
@@ -16513,6 +20858,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "2"
+    sgG1 "12"
+    sgG2 "1"
+    sgG5 "35"
+    spectral "27"
   ]
   node
   [
@@ -16532,6 +20882,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "46"
+    spectral "40"
   ]
   node
   [
@@ -16551,6 +20906,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "67"
+    spectral "40"
   ]
   node
   [
@@ -16570,6 +20930,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "6"
+    sgG1 "5"
+    sgG2 "5"
+    sgG5 "7"
+    spectral "40"
   ]
   node
   [
@@ -16589,6 +20954,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "47"
+    sgG1 "24"
+    sgG2 "23"
+    sgG5 "37"
+    spectral "2"
   ]
   node
   [
@@ -16608,6 +20978,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "85"
+    sgG1 "22"
+    sgG2 "35"
+    sgG5 "31"
+    spectral "38"
   ]
   node
   [
@@ -16627,6 +21002,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "5"
+    infomap "17"
+    sgG1 "9"
+    sgG2 "26"
+    sgG5 "5"
+    spectral "38"
   ]
   node
   [
@@ -16646,6 +21026,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "66"
+    sgG1 "5"
+    sgG2 "21"
+    sgG5 "1"
+    spectral "31"
   ]
   node
   [
@@ -16665,6 +21050,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "111"
     SchizophreniaGeneCount ""
+    infomap "30"
+    sgG1 "5"
+    sgG2 "1"
+    sgG5 "15"
+    spectral "44"
   ]
   node
   [
@@ -16684,6 +21074,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "53"
+    sgG1 "14"
+    sgG2 "7"
+    sgG5 "39"
+    spectral "35"
   ]
   node
   [
@@ -16703,6 +21098,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "23"
+    infomap "75"
+    sgG1 "9"
+    sgG2 "2"
+    sgG5 "21"
+    spectral "40"
   ]
   node
   [
@@ -16722,6 +21122,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "13"
+    infomap "43"
+    sgG1 "12"
+    sgG2 "14"
+    sgG5 "4"
+    spectral "39"
   ]
   node
   [
@@ -16741,6 +21146,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount "5"
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "54"
+    spectral "5"
   ]
   node
   [
@@ -16760,6 +21170,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "8"
+    sgG1 "23"
+    sgG2 "19"
+    sgG5 "54"
+    spectral "5"
   ]
   node
   [
@@ -16779,6 +21194,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "87"
+    sgG1 "18"
+    sgG2 "19"
+    sgG5 "68"
+    spectral "5"
   ]
   node
   [
@@ -16798,6 +21218,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "35"
   ]
   node
   [
@@ -16817,6 +21242,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "35"
   ]
   node
   [
@@ -16836,6 +21266,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "1"
     SchizophreniaGeneCount ""
+    infomap "32"
+    sgG1 "20"
+    sgG2 "29"
+    sgG5 "20"
+    spectral "35"
   ]
   node
   [
@@ -16855,6 +21290,11 @@ graph
     Trubetskoy2022priortisedcoding "FALSE"
     SynapseLocations "101"
     SchizophreniaGeneCount ""
+    infomap "55"
+    sgG1 "21"
+    sgG2 "2"
+    sgG5 "13"
+    spectral "36"
   ]
   edge
   [

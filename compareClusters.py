@@ -7,11 +7,11 @@ from itertools import combinations
 
 
 if __name__ == "__main__":
-    file_path = "PostsynapticNetwork/FullPSDDBNetwork.gml"
+    file_path = "PostsynapticNetwork/SynGoNetwork.gml"
     graph = nx.read_gml(file_path, label = 'id')
     df = pd.DataFrame.from_dict(graph.nodes, orient='index')
 
-    algorithms = ['wt', 'fc', 'infomap', 'louvain', 'sgG1', 'sgG2', 'sgG5', 'spectral']
+    algorithms = ['infomap', 'sgG1', 'sgG2', 'sgG5', 'spectral']
 
     matrix_size = len(algorithms)
     rand_index_matrix = pd.DataFrame(index=algorithms, columns=algorithms)
@@ -33,7 +33,7 @@ if __name__ == "__main__":
     print("Adjusted Rand Index Matrix:")
     print(rand_index_matrix)
 
-    rand_index_matrix.to_csv('rand_index_matrix.csv')
+    rand_index_matrix.to_csv('SynGO/rand_index_matrix.csv')
     print("Matrix saved as rand_index_matrix.csv")
 
 

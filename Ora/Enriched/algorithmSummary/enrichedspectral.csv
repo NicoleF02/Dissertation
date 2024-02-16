@@ -1,0 +1,4 @@
+alg,clNo,clustsize,no.Trubetskoy Broad,Enrichment,Broad pval,Broad padj,no. Trubetskoy Priortised,Prior pval,Prior padj,Molecular Function,Molecular padj,Biological Function,Biological padj,Diseases,Diseases padj
+spectral,13,11,3,Positive,0.0078817002808882,0.0157634005617766,0,0,0,[],[],"['activation of protein kinase C activity', 'CD40 signaling pathway', 'RIG-I signaling pathway']",[],[],[]
+spectral,76,34,4,Positive,0.0431712334335262,0.0863424668670524,0,0,0,"['armadillo repeat domain binding', 'protein phosphatase 2A binding']","[0.0031765411426447, 0.0043816407224673]",[],"[0.0031765411426447, 0.0043816407224673]",[],[]
+spectral,3,1,1,Positive,0.0394383646500102,0.0788767293000203,0,0,0,[],[],[],[],[],[]
