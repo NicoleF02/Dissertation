@@ -5,7 +5,6 @@ from sklearn.metrics import adjusted_rand_score
 from itertools import combinations
 
 
-
 if __name__ == "__main__":
     file_path = "PostsynapticNetwork/SynGoNetwork.gml"
     graph = nx.read_gml(file_path, label = 'id')

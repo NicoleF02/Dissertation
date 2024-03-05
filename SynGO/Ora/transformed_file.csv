@@ -1,0 +1,177 @@
+alg, clNo, clustsize, no.Trubetskoy Broad, Enrichment, Broad pval, Broad padj, no. Trubetskoy Priortised, Prior pval, Prior padj, Molecular Function, Molecular padj, Biological Function, Biological padj, Diseases, Diseases padj
+infomap, 5, 52, 7, Positive, 0.01791885097, 0.03583770194, 0, 0, 0, protein tyrosine kinase activity, 3.65038510016152e-11, peptidyl-tyrosine phosphorylation, 4.84766620213743e-08, autistic_disorder, 0.0087039393956684
+, , , , , , , , , , non-membrane spanning protein tyrosine kinase activity, 1.48590543316569e-06, protein autophosphorylation, 0.0035554986368234, autism_spectrum_disorder, 0.0087039393956684
+, , , , , , , , , , SH3 domain binding, 1.12908225592614e-05, protein phosphorylation, 0.0037666812566328
+, , , , , , , , , , ephrin receptor binding, 0.0004610207534926, regulation of cell adhesion mediated by integrin, 0.0078970914550988
+, , , , , , , , , , SH2 domain binding, 0.0049690147404448, cellular response to transforming growth factor beta stimulus, 0.0078970914550988
+, , , , , , , , , , signaling adaptor activity, 0.0160446769615948, positive regulation of cell migration, 0.0078970914550988
+, , , , , , , , , , scaffold protein binding, 0.0160446769615948, ephrin receptor signaling pathway, 0.0078970914550988
+, , , , , , , , , , protein self-association, 0.0160446769615948, epidermal growth factor receptor signaling pathway, 0.0140613291419228
+, , , , , , , , , , Fc-gamma receptor signaling pathway involved in phagocytosis, 0.0255387386346005
+, , , , , , , , , , response to ethanol, 0.0255387386346005
+, , , , , , , , , , signal transduction, 0.0355620112826306
+, , , , , , , , , , positive regulation of peptidyl-tyrosine phosphorylation, 0.0355620112826306
+, , , , , , , , , , cellular response to lipopolysaccharide, 0.0355620112826306
+, , , , , , , , , , negative regulation of inflammatory response to antigenic stimulus, 0.0415115548572141
+, , , , , , , , , , signal complex assembly, 0.0424414046509122
+, , , , , , , , , , growth hormone receptor signaling pathway, 0.0424414046509122
+, , , , , , , , , , growth hormone receptor signaling pathway via JAK-STAT, 0.0424414046509122
+, , , , , , , , , , interleukin-6-mediated signaling pathway, 0.0424414046509122
+, , , , , , , , , , regulation of cell adhesion, 0.0426315243576683
+infomap, 8, 53, 8, Positive, 0.005568026272, 0.01113605254, 3, 0.03763044543, 0.07526089086, glutamate-gated calcium ion channel activity, 0.0005613647823925, embryo development, 0.0001383228368836
+, , , , , , , , , , NMDA glutamate receptor activity, 0.0016077181863078, positive regulation of excitatory postsynaptic potential, 0.000511159334372
+, , , , , , , , , , positive regulation of synaptic transmission< glutamatergic, 0.0005969669051648
+, , , , , , , , , , monoatomic cation transmembrane transport, 0.0006354205319341
+, , , , , , , , , , regulation of monoatomic cation transmembrane transport, 0.0020797826545715
+, , , , , , , , , , calcium ion transmembrane import into cytosol, 0.0020797826545715
+, , , , , , , , , , excitatory chemical synaptic transmission, 0.0020797826545715
+, , , , , , , , , , receptor clustering, 0.0022805747146728
+, , , , , , , , , , chemical synaptic transmission, 0.0036057455012198
+, , , , , , , , , , receptor localization to synapse, 0.0045802149363088
+, , , , , , , , , , ionotropic glutamate receptor signaling pathway, 0.0050337061303365
+, , , , , , , , , , establishment or maintenance of epithelial cell apical/basal polarity, 0.0080431950320424
+, , , , , , , , , , cell-cell adhesion, 0.0192218394711379
+, , , , , , , , , , calcium-mediated signaling, 0.0362824172318456
+, , , , , , , , , , neurotransmitter receptor localization to postsynaptic specialization membrane, 0.0418276731832992
+infomap, 4, 17, 4, Positive, 0.01068299099, 0.02136598197, 3, 0.001488712689, 0.002977425378, protein serine kinase activity, 8.57974684830098e-07, interleukin-1-mediated signaling pathway, 0.0047012017459472
+, , , , , , , , , , ATP binding, 0.0001289854967169, intracellular signal transduction, 0.0047012017459472
+, , , , , , , , , , MAP kinase kinase activity, 0.0004014720365345, apoptotic process, 0.0047012017459472
+, , , , , , , , , , protein serine/threonine kinase activity, 0.0010383238196065, protein phosphorylation, 0.0047012017459472
+, , , , , , , , , , MAP kinase activity, 0.0010383238196065, regulation of ossification, 0.0047012017459472
+, , , , , , , , , , histone H3S10 kinase activity, 0.0437579323977027, peptidyl-serine phosphorylation, 0.0077557612671666
+, , , , , , , , , , histone H3S28 kinase activity, 0.0437579323977027, regulation of DNA-templated transcription, 0.0077557612671666
+, , , , , , , , , , cellular response to tumor necrosis factor, 0.0141322749697956
+, , , , , , , , , , stress-activated MAPK cascade, 0.0255009961106375
+, , , , , , , , , , positive regulation of transcription by RNA polymerase II, 0.0412331559004903
+, , , , , , , , , , lipopolysaccharide-mediated signaling pathway, 0.0412331559004903
+infomap, 10, 4, 2, Positive, 0.01605307078, 0.03210614156, 0, 0, 0, [], [], [], [], [], []
+, , , , , , , , , , , , , , , 
+, , , , , , , , , , , , , , , 
+alg, clNo, clustsize, no.Trubetskoy Broad, Enrichment, Broad pval, Broad padj, no. Trubetskoy Priortised, Prior pval, Prior padj, Molecular Function, Molecular padj, Biological Function, Biological padj, Diseases, Diseases padj
+sgG1, 23, 126, 14, Positive, 0.004397555551, 0.008795111102, 6, 0.005357736523, 0.01071547305, scaffold protein binding, 3.48466015482925e-06, positive regulation of excitatory postsynaptic potential, 8.43918813849805e-07, autistic_disorder, 8.26694951447575e-06
+, , , , , , , , , , protein tyrosine kinase activity, 3.48466015482925e-06, positive regulation of synaptic transmission< glutamatergic, 8.99169013103896e-07, autism_spectrum_disorder, 8.26694951447575e-06
+, , , , , , , , , , SH3 domain binding, 0.0004384597064208, peptidyl-tyrosine phosphorylation, 4.55069500716879e-06, epilepsy_syndrome, 0.0101973091142188
+, , , , , , , , , , NMDA glutamate receptor activity, 0.0013906324267493, social behavior, 0.0018538081191129, schizophrenia, 0.0129001561218393
+, , , , , , , , , , ephrin receptor binding, 0.0013906324267493, neuromuscular process controlling balance, 0.00629634365422, intellectual_disability, 0.0129001561218393
+, , , , , , , , , , delayed rectifier potassium channel activity, 0.006824939958446, response to ethanol, 0.0129323657969625
+, , , , , , , , , , glutamate-gated calcium ion channel activity, 0.006824939958446, cellular response to transforming growth factor beta stimulus, 0.0222620073142801
+, , , , , , , , , , non-membrane spanning protein tyrosine kinase activity, 0.0091820559248871, postsynaptic membrane assembly, 0.0222620073142801
+, , , , , , , , , , monoatomic cation transmembrane transport, 0.0222620073142801
+, , , , , , , , , , ephrin receptor signaling pathway, 0.0222620073142801
+, , , , , , , , , , chemical synaptic transmission, 0.0270570711036703
+, , , , , , , , , , vocalization behavior, 0.027715629447098
+, , , , , , , , , , potassium ion transmembrane transport, 0.0286943593391914
+, , , , , , , , , , epidermal growth factor receptor signaling pathway, 0.0463114983945048
+sgG1, 20, 20, 0, Positive, 0, 0, 2, 0.03247873497, 0.06495746994, protein tyrosine phosphatase activity, 0.0498625655814108, synaptic membrane adhesion, 3.77497560909001e-05
+, , , , , , , , , , regulation of presynapse assembly, 0.0131357107607348
+, , , , , , , , , , trans-synaptic signaling by trans-synaptic complex, 0.0131357107607348
+, , , , , , , , , , positive regulation of synapse assembly, 0.0244170597867157
+, , , , , , , , , , transmembrane receptor protein tyrosine phosphatase signaling pathway, 0.0310710081455842
+sgG1, 9, 88, 87, Negative, 0.03796233246, 0.07592466493, 0, 0, 0, cadherin binding, 1.43751802700153e-06, cytoskeleton-dependent cytokinesis, 0.0032652305897409
+, , , , , , , , , , actin binding, 6.6458103844639e-05
+, , , , , , , , , , actin filament binding, 0.001746313690798
+sgG1, 13, 4, 2, Positive, 0.01605307078, 0.03210614156, 0, 0, 0, [], [], [], [], [], []
+, , , , , , , , , , , , , , , 
+, , , , , , , , , , , , , , , 
+alg, clNo, clustsize, no.Trubetskoy Broad, Enrichment, Broad pval, Broad padj, no. Trubetskoy Priortised, Prior pval, Prior padj, Molecular Function, Molecular padj, Biological Function, Biological padj, Diseases, Diseases padj
+sgG2, 19, 59, 7, Positive, 0.03407934563, 0.06815869126, 3, 0.04958163302, 0.09916326603, glutamate-gated calcium ion channel activity, 0.0009793440002867, positive regulation of excitatory postsynaptic potential, 1.43035511309003e-05, autistic_disorder, 0.0098205955526166
+, , , , , , , , , , NMDA glutamate receptor activity, 0.0027881324089796, positive regulation of synaptic transmission< glutamatergic, 0.0001021521337502, autism_spectrum_disorder, 0.0098205955526166
+, , , , , , , , , , neurexin family protein binding, 0.0061739121654437, monoatomic cation transmembrane transport, 0.0013226948640627, intellectual_disability, 0.0301759757902163
+, , , , , , , , , , voltage-gated potassium channel activity, 0.0117185702267672, chemical synaptic transmission, 0.0013226948640627, epilepsy_syndrome, 0.0396459094537677
+, , , , , , , , , , delayed rectifier potassium channel activity, 0.0124495396400091, potassium ion transmembrane transport, 0.0025247562853743, schizophrenia, 0.0493847461641442
+, , , , , , , , , , glutamate binding, 0.0124495396400091, regulation of monoatomic ion transmembrane transport, 0.0025247562853743
+, , , , , , , , , , signaling receptor activity, 0.0168460252857527, embryo development, 0.0025247562853743
+, , , , , , , , , , voltage-gated monoatomic ion channel activity involved in regulation of postsynaptic membrane potential, 0.0310246958194742, regulation of monoatomic cation transmembrane transport, 0.0025247562853743
+, , , , , , , , , , calcium ion transmembrane import into cytosol, 0.0025247562853743
+, , , , , , , , , , excitatory chemical synaptic transmission, 0.0025247562853743
+, , , , , , , , , , receptor localization to synapse, 0.0064508125285354
+, , , , , , , , , , postsynaptic membrane assembly, 0.0064508125285354
+, , , , , , , , , , presynaptic membrane assembly, 0.0064508125285354
+, , , , , , , , , , ionotropic glutamate receptor signaling pathway, 0.0082743152453746
+, , , , , , , , , , social behavior, 0.0124492062421268
+, , , , , , , , , , positive regulation of synapse assembly, 0.0178599077829991
+, , , , , , , , , , brain development, 0.0178599077829991
+, , , , , , , , , , neuron cell-cell adhesion, 0.0251778903378108
+, , , , , , , , , , receptor clustering, 0.0281007530918868
+, , , , , , , , , , calcium-mediated signaling, 0.0430135677466815
+sgG2, 13, 23, 4, Positive, 0.03125482081, 0.06250964162, 3, 0.003683001473, 0.007366002946, MAP kinase kinase activity, 1.99259390295212e-05, apoptotic process, 0.0062104206162368
+, , , , , , , , , , protein serine kinase activity, 1.99259390295212e-05, cellular response to tumor necrosis factor, 0.0062104206162368
+, , , , , , , , , , protein serine/threonine kinase activity, 0.0013240518856624, interleukin-1-mediated signaling pathway, 0.0066888669432326
+, , , , , , , , , , MAP kinase activity, 0.0030037023977377, regulation of ossification, 0.0076524157096254
+, , , , , , , , , , ATP binding, 0.0030037023977377, thyroid gland development, 0.0076524157096254
+, , , , , , , , , , regulation of stress-activated MAPK cascade, 0.0076524157096254
+, , , , , , , , , , face development, 0.0076524157096254
+, , , , , , , , , , regulation of Golgi inheritance, 0.0076524157096254
+, , , , , , , , , , chemotaxis, 0.0100495839862889
+, , , , , , , , , , intracellular signal transduction, 0.0143435348834788
+, , , , , , , , , , Bergmann glial cell differentiation, 0.0171616103193703
+, , , , , , , , , , trachea formation, 0.0171616103193703
+, , , , , , , , , , ERK1 and ERK2 cascade, 0.0171616103193703
+, , , , , , , , , , regulation of early endosome to late endosome transport, 0.0171616103193703
+, , , , , , , , , , regulation of DNA-templated transcription, 0.0171616103193703
+, , , , , , , , , , protein phosphorylation, 0.0171616103193703
+, , , , , , , , , , stress-activated MAPK cascade, 0.0347997814810772
+, , , , , , , , , , , , , , , 
+, , , , , , , , , , , , , , , 
+alg, clNo, clustsize, no.Trubetskoy Broad, Enrichment, Broad pval, Broad padj, no. Trubetskoy Priortised, Prior pval, Prior padj, Molecular Function, Molecular padj, Biological Function, Biological padj, Diseases, Diseases padj
+sgG5, 22, 38, 5, Positive, 0.04878336072, 0.09756672144, 0, 0, 0, glutamate-gated calcium ion channel activity, 9.81893697753113e-05, monoatomic cation transmembrane transport, 0.0004445704007792, schizophrenia, 0.0459479579691494
+, , , , , , , , , , NMDA glutamate receptor activity, 0.0002853837295, regulation of monoatomic cation transmembrane transport, 0.0006460636181392
+, , , , , , , , , , transmitter-gated monoatomic ion channel activity involved in regulation of postsynaptic membrane potential, 0.0155435793399867, calcium ion transmembrane import into cytosol, 0.0006460636181392
+, , , , , , , , , , excitatory chemical synaptic transmission, 0.0006460636181392
+, , , , , , , , , , ionotropic glutamate receptor signaling pathway, 0.001042305454509
+, , , , , , , , , , calcium-mediated signaling, 0.015936827922986
+, , , , , , , , , , positive regulation of excitatory postsynaptic potential, 0.0175067915558953
+, , , , , , , , , , embryo development, 0.0203353710686392
+, , , , , , , , , , regulation of monoatomic ion transmembrane transport, 0.0211129228526531
+, , , , , , , , , , excitatory postsynaptic potential, 0.0211129228526531
+, , , , , , , , , , regulation of neuronal synaptic plasticity, 0.0256429451652572
+, , , , , , , , , , potassium ion transmembrane transport, 0.0370061747227733
+, , , , , , , , , , chemical synaptic transmission, 0.0385774423246599
+, , , , , , , , , , receptor clustering, 0.0478029442169885
+sgG5, 72, 15, 4, Positive, 0.006640549248, 0.0132810985, 3, 0.001013313692, 0.002026627383, protein serine kinase activity, 1.4330417748119e-07, intracellular signal transduction, 0.0014016189229396
+, , , , , , , , , , MAP kinase kinase activity, 1.74568027115521e-06, interleukin-1-mediated signaling pathway, 0.0014016189229396
+, , , , , , , , , , ATP binding, 1.16964698688797e-05, apoptotic process, 0.0014016189229396
+, , , , , , , , , , protein serine/threonine kinase activity, 1.74168423822323e-05, protein phosphorylation, 0.0014016189229396
+, , , , , , , , , , MAP kinase activity, 0.0006947607910602, regulation of ossification, 0.0017475872503316
+, , , , , , , , , , histone H3S10 kinase activity, 0.0337836978070499, thyroid gland development, 0.0017475872503316
+, , , , , , , , , , histone H3S28 kinase activity, 0.0337836978070499, regulation of stress-activated MAPK cascade, 0.0017475872503316
+, , , , , , , , , , face development, 0.0017475872503316
+, , , , , , , , , , regulation of Golgi inheritance, 0.0017475872503316
+, , , , , , , , , , regulation of DNA-templated transcription, 0.0027062292755074
+, , , , , , , , , , Bergmann glial cell differentiation, 0.0043786061880786
+, , , , , , , , , , trachea formation, 0.0043786061880786
+, , , , , , , , , , ERK1 and ERK2 cascade, 0.0043786061880786
+, , , , , , , , , , regulation of early endosome to late endosome transport, 0.0043786061880786
+, , , , , , , , , , cellular response to tumor necrosis factor, 0.0043786061880786
+, , , , , , , , , , stress-activated MAPK cascade, 0.0096310136916215
+, , , , , , , , , , lipopolysaccharide-mediated signaling pathway, 0.0179443163985741
+, , , , , , , , , , peptidyl-serine phosphorylation, 0.0229745049692076
+, , , , , , , , , , insulin-like growth factor receptor signaling pathway, 0.0278107822679485
+, , , , , , , , , , chemotaxis, 0.0396567876036804
+, , , , , , , , , , thymus development, 0.0396567876036804
+, , , , , , , , , , cellular response to lipoteichoic acid, 0.0396567876036804
+, , , , , , , , , , defense response to tumor cell, 0.0396567876036804
+, , , , , , , , , , outer ear morphogenesis, 0.0396567876036804
+, , , , , , , , , , cardiac neural crest cell development involved in heart development, 0.0396567876036804
+, , , , , , , , , , response to epidermal growth factor, 0.0396567876036804
+, , , , , , , , , , positive regulation of CREB transcription factor activity, 0.0396567876036804
+, , , , , , , , , , cellular senescence, 0.0443734376850943
+sgG5, 29, 13, 3, Positive, 0.02900913834, 0.05801827667, 2, 0.01413038709, 0.02826077419, negative regulation of dopamine secretion, 0.0392098932816175
+sgG5, 69, 4, 2, Positive, 0.01605307078, 0.03210614156, 0, 0, 0, [], [], [], [], [], []
+sgG5, 39, 5, 2, Positive, 0.02583482943, 0.05166965887, 0, 0, 0, [], [], [], [], [], []
+, , , , , , , , , , , , , , , 
+, , , , , , , , , , , , , , , 
+alg, clNo, clustsize, no.Trubetskoy Broad, Enrichment, Broad pval, Broad padj, no. Trubetskoy Priortised, Prior pval, Prior padj, Molecular Function, Molecular padj, Biological Function, Biological padj, Diseases, Diseases padj
+spectral, 5, 82, 0, Positive, 0, 0, 4, 0.02540692191, 0.05081384383, glutamate-gated calcium ion channel activity, 0.0053375289295329, positive regulation of excitatory postsynaptic potential, 6.22648576453893e-05, intellectual_disability, 0.0378871233950603
+, , , , , , , , , , NMDA glutamate receptor activity, 0.0148476499190578, positive regulation of synaptic transmission< glutamatergic, 0.0001105841014313, schizophrenia, 0.0378871233950603
+, , , , , , , , , , neurexin family protein binding, 0.0321273184218243, monoatomic cation transmembrane transport, 0.0080555474277357
+, , , , , , , , , , embryo development, 0.019207274649125
+, , , , , , , , , , regulation of monoatomic cation transmembrane transport, 0.019207274649125
+, , , , , , , , , , calcium ion transmembrane import into cytosol, 0.019207274649125
+, , , , , , , , , , excitatory chemical synaptic transmission, 0.019207274649125
+, , , , , , , , , , chemical synaptic transmission, 0.0208078269268431
+, , , , , , , , , , social behavior, 0.0208078269268431
+, , , , , , , , , , receptor localization to synapse, 0.0273578783795795
+, , , , , , , , , , positive regulation of synapse assembly, 0.0283524407020556
+, , , , , , , , , , postsynaptic membrane assembly, 0.0335682307473924
+, , , , , , , , , , presynaptic membrane assembly, 0.0335682307473924

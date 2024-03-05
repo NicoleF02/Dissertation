@@ -23,9 +23,9 @@ def generate_dataframe(path):
 
     dfs = []
     for csv_file in all_csv_files:
-        df = pd.read_csv(os.path.join(folder_path, csv_file))
-        df['ontology_csv'] = csv_file
-        dfs.append(df)
+        df1 = pd.read_csv(os.path.join(folder_path, csv_file))
+        df1['ontology_csv'] = csv_file
+        dfs.append(df1)
 
     # Concatenate all dataframes into one
     combined_df = pd.concat(dfs, ignore_index=True)
@@ -206,7 +206,7 @@ def generate_alg_table(dataframe, alg):
             'Molecular Function': gomfids,
             'Molecular padj': gomfidspadj,
             'Biological Function': gobpids,
-            'Biological padj': gomfidspadj,
+            'Biological padj': gobpidadj,
             'Diseases': dieases,
             'Diseases padj': diseasespadj,
 
@@ -229,6 +229,7 @@ def expand_lists(row):
                     new_rows.append(new_row)
             expanded_rows = new_rows
     return expanded_rows
+
 
 def fix_csv(input_file, output_file):
     with open(input_file, 'r') as csv_file, open(output_file, 'w') as output:
@@ -259,7 +260,7 @@ def get_ids(table, primary_key):
 
 
 if __name__ == "__main__":
-    path = "Ora/Enriched"
+    path = "SynGO/Ora/Enriched"
 
     combined_df = generate_dataframe(path)
 
@@ -277,30 +278,14 @@ if __name__ == "__main__":
 
     for alg in algs:
         print(alg)
-        fix_csv(f"{path}/algorithmSummary/enriched{alg}.csv", f"{path}/algorithmSummary/fixedEnriched{alg}.csv")
+        df = pd.DataFrame(generate_alg_table(combined_df, alg))
 
-        # print(alg)
-        # algTable = generate_alg_table(combined_df, alg)
-        #
-        # algdf = pd.DataFrame(algTable)
-        #
-        # columns_to_explode = ['alg', 'clNo', 'clustsize', 'no.Trubetskoy Broad', 'Enrichment', 'Broad pval', 'Broad padj', 'no. Trubetskoy Priortised', 'Prior pval', 'Prior padj', 'Molecular Function', 'Molecular padj', 'Biological Function', 'Biological padj', 'Diseases', 'Diseases padj']
-        # df_expanded = algdf.copy()
+        # Save the result to a new CSV file
+        df.to_csv(f"{path}/algorithmSummary/enriched{alg}.csv", index=False)
 
-        # for col in columns_to_explode:
-        #     print(col)
-        #     df_expanded[col] = df_expanded[col].apply(lambda x: [x] if isinstance(x, str) else x)
-        #     df_expanded = df_expanded.explode(col)
-        #
-        #
-        #     # Replace repeated values with blank for the exploded column
-        #     df_expanded[col] = df_expanded[col].mask(df_expanded[col].duplicated(), '')
+# now we want make the table with a few things: alg
 
-        # df_expanded.to_csv(f"{path}/algorithmSummary/enriched{alg}.csv", index=False)
-
-    # now we want make the table with a few things: alg
-
-    # do it for all, then have enriched turn on or off after, shouldn't be too difficult
+# do it for all, then have enriched turn on or off after, shouldn't be too difficult
 
 # Check enriched cluster simularity indivudually
 # Check biological terms correlations between clusters
