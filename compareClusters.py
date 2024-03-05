@@ -16,7 +16,7 @@ if __name__ == "__main__":
     rand_index_matrix = pd.DataFrame(index=algorithms, columns=algorithms)
 
 
-
+    # todo fix this to use name
     for algo1, algo2 in combinations(algorithms, 2):
         true_labels = df[algo1].tolist()
         predicted_labels = df[algo2].tolist()
