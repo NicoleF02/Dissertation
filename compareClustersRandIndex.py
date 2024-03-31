@@ -109,7 +109,7 @@ def main():
     graph = nx.read_gml(file_path, label='name')
     df = pd.DataFrame.from_dict(graph.nodes, orient='index')
 
-    algorithms = ['infomap', 'sgG1', 'sgG2', 'sgG5', 'spectral']
+    algorithms = ['infomap', 'sgG1', 'sgG2', 'sgG5', 'spectral', 'wt', 'louvain']
 
     matrix_size = len(algorithms)
     rand_index_matrix = pd.DataFrame(index=algorithms, columns=algorithms)
