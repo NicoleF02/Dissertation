@@ -19,7 +19,6 @@ library(randomcoloR)
 gFull <- igraph::read.graph("PostsynapticNetwork/FullPSDDBNetwork.gml",format="gml") #graph from gml
 gConsensus <- igraph::read.graph("PostsynapticNetwork/ConsensusPSDDBNetwork.gml",format="gml")
 
-
 oraLouvian <- clusterORA(gFull, 'louvain', name = 'Trubetskoy2022broadcoding',
                          vid = "name", alpha = 1, col = COLLAPSE)
 
@@ -60,16 +59,24 @@ names(statsR1Consensus)
 View(head(statsR1Consensus$CAN))
 
 #
-# plots<-plotRatio(x=statsR1Full, desc="p.values",LEGtextSize=0.75, LEGlineSize=2)
-# View(plots$ranktable)
+plots<-plotRatio(x=statsR1Full, desc="p.values",LEGtextSize=0.75, LEGlineSize=2)
+View(plots$ranktable)
 # print(plots$p3)
 
 
 
 #
-# plots<-plotRatio(x=statsR1Consensus, desc="p.values",LEGtextSize=0.75, LEGlineSize=2)
-# View(plots$ranktable)
+plots<-plotRatio(x=statsR1Consensus, desc="p.values",LEGtextSize=0.75, LEGlineSize=2)
+View(plots$ranktable)
 # print(plots$p3)
 
 
 
+orafc <- clusterORA(gFull, 'fc', name = 'Trubetskoy2022broadcoding',
+                    vid = "name", alpha = 1, col = COLLAPSE)
+FeMaxConsensus<-log2(max(sapply(orafc,function(d){max(d$Fe)})))
+FcMaxConsensus<-log2(max(sapply(orafc,function(d){max(d$Fc)})))
+
+summaryfc <- summaryStats(orafc, 0.1, usePadj=FALSE, FeMAX=FeMaxConsensus, FcMAX=FcMaxConsensus)
+fitres<-fitSigmoid(summaryfc)
+print(fitres[['0']]$gridplot)

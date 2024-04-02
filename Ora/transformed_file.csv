@@ -1,0 +1,171 @@
+alg, clNo, clustsize, no.Trubetskoy Broad, Enrichment, Broad pval, Broad padj, no. Trubetskoy Priortised, Prior pval, Prior padj, Molecular Function, Molecular padj, Biological Function, Biological padj, Diseases, Diseases padj
+infomap, 5, 120, 9, Positive, 0.046266221, 0.092532442, 0, 0, 0, protein serine kinase activity, 7.715940017312941e-25, MAPK cascade, 1.64129748063668e-13, Alzheimer's_disease, 4.19270528345067e-06
+, , , , , , , , , , protein serine/threonine kinase activity, 2.68911256927944e-21, protein phosphorylation, 4.3322194281591695e-12, hypertension, 0.0006559105418292
+, , , , , , , , , , MAP kinase kinase activity, 2.14822594861049e-11, stress-activated MAPK cascade, 4.271824119741e-11, Huntington's_disease, 0.0008043236596856
+, , , , , , , , , , protein kinase activity, 1.22785475609716e-10, p38MAPK cascade, 4.07184307402184e-07, schizophrenia, 0.0076325664186489
+, , , , , , , , , , MAP kinase activity, 5.00824608082449e-10, face development, 2.23416818657308e-06
+, , , , , , , , , , ATP binding, 7.33985515528402e-10, insulin-like growth factor receptor signaling pathway, 5.31316979792805e-06
+, , , , , , , , , , MAP kinase kinase kinase activity, 2.63310200035492e-06, thyroid gland development, 6.25441730636477e-06
+, , , , , , , , , , DNA-binding transcription factor binding, 7.10476893745953e-06, positive regulation of JUN kinase activity, 7.27442695916524e-06
+, , , , , , , , , , histone deacetylase binding, 6.50672239129071e-05, positive regulation of transcription by RNA polymerase II, 8.03056422866196e-06
+, , , , , , , , , , enzyme binding, 0.000414491715504, cellular senescence, 8.77437435603382e-06
+, , , , , , , , , , transcription coactivator binding, 0.0004498772482278, cellular response to tumor necrosis factor, 8.77437435603382e-06
+, , , , , , , , , , phosphoserine residue binding, 0.0010886541432186, intracellular signal transduction, 1.12399515932766e-05
+, , , , , , , , , , protein serine/threonine/tyrosine kinase activity, 0.0011495535934882, peptidyl-threonine phosphorylation, 2.15175053775949e-05
+, , , , , , , , , , protein tyrosine kinase activity, 0.0011818300140043, peptidyl-serine phosphorylation, 2.48973863351631e-05
+, , , , , , , , , , 14-3-3 protein binding, 0.0015869775399632, anoikis, 2.68651944313376e-05
+, , , , , , , , , , magnesium ion binding, 0.0021224787198643, JNK cascade, 2.95621391090254e-05
+, , , , , , , , , , scaffold protein binding, 0.0027476695215875, phosphorylation, 4.73336993507418e-05
+, , , , , , , , , , MAP-kinase scaffold activity, 0.0032584700015454, signal transduction, 5.51392708785167e-05
+, , , , , , , , , , protein kinase activator activity, 0.0040053739890224, cellular response to cadmium ion, 7.27629265954242e-05
+, , , , , , , , , , protein kinase binding, 0.0048038859642655, regulation of Golgi inheritance, 0.0001429179191859
+, , , , , , , , , , histone acetyltransferase activity, 0.0048038859642655, negative regulation of TORC1 signaling, 0.0002287558189637
+, , , , , , , , , , nuclear receptor binding, 0.0048038859642655, negative regulation of transcription by RNA polymerase II, 0.0003754342168524
+, , , , , , , , , , RNA polymerase II cis-regulatory region sequence-specific DNA binding, 0.0064067014904632, cellular response to lipopolysaccharide, 0.0004124726665151
+, , , , , , , , , , tau-protein kinase activity, 0.0079519253985209, heart development, 0.0004483214816516
+, , , , , , , , , , transcription coactivator activity, 0.0151001029707245, cellular response to reactive oxygen species, 0.0005091479611659
+, , , , , , , , , , DNA-binding transcription factor activity, 0.0151001029707245, trachea formation, 0.0005391427250072
+, , , , , , , , , , DNA-binding transcription factor activity< RNA polymerase II-specific, 0.0244496467534845, thymus development, 0.0008769033066781
+, , , , , , , , , , protein sequestering activity, 0.0244496467534845, phosphatidylinositol 3-kinase/protein kinase B signal transduction, 0.0010526579914152
+, , , , , , , , , , JUN kinase kinase kinase activity, 0.0244496467534845, ERK1 and ERK2 cascade, 0.0025053236391888
+, , , , , , , , , , tau protein binding, 0.0247741472187217, Fc-epsilon receptor signaling pathway, 0.0025053236391888
+, , , , , , , , , , RNA polymerase II-specific DNA-binding transcription factor binding, 0.042018402511377, non-canonical NF-kappaB signal transduction, 0.0027413298417345
+, , , , , , , , , , peptide N-acetyltransferase activity, 0.0451884335418382, positive regulation of telomere capping, 0.0027413298417345
+, , , , , , , , , , histone H2B acetyltransferase activity, 0.0451884335418382, regulation of stress-activated MAPK cascade, 0.0027413298417345
+, , , , , , , , , , JUN kinase kinase activity, 0.0451884335418382, regulation of early endosome to late endosome transport, 0.0027413298417345
+, , , , , , , , , , T cell receptor signaling pathway, 0.0027413298417345
+, , , , , , , , , , cellular response to interleukin-1, 0.0028839805247455
+, , , , , , , , , , endothelial cell apoptotic process, 0.0028839805247455
+, , , , , , , , , , positive regulation of cyclase activity, 0.0028839805247455
+, , , , , , , , , , cellular response to UV-B, 0.0028839805247455
+, , , , , , , , , , cellular response to nicotine, 0.0028839805247455
+, , , , , , , , , , cellular response to sorbitol, 0.0028839805247455
+, , , , , , , , , , cellular response to vascular endothelial growth factor stimulus, 0.0040123229849166
+, , , , , , , , , , inflammatory response, 0.0042087837042986
+, , , , , , , , , , interleukin-1-mediated signaling pathway, 0.0042087837042986
+, , , , , , , , , , positive regulation of MAPK cascade, 0.0044736208975622
+, , , , , , , , , , positive regulation of JNK cascade, 0.0067818256327323
+, , , , , , , , , , positive regulation of gene expression, 0.0067818256327323
+, , , , , , , , , , response to muscle stretch, 0.0068116609170592
+, , , , , , , , , , apoptotic process, 0.0082049216769857
+, , , , , , , , , , regulation of ossification, 0.009287954618142
+, , , , , , , , , , positive regulation of DNA-binding transcription factor activity, 0.0095002722674342
+, , , , , , , , , , stimulatory C-type lectin receptor signaling pathway, 0.0102791625532062
+, , , , , , , , , , cellular response to amino acid starvation, 0.0113692213177695
+, , , , , , , , , , positive regulation of DNA-templated transcription, 0.0117489635851352
+, , , , , , , , , , neuron differentiation, 0.0144817616692784
+, , , , , , , , , , lipopolysaccharide-mediated signaling pathway, 0.0147126668527747
+, , , , , , , , , , insulin receptor signaling pathway, 0.0151608888869051
+, , , , , , , , , , regulation of cell cycle, 0.0151608888869051
+, , , , , , , , , , protein autophosphorylation, 0.0152362787034174
+, , , , , , , , , , positive regulation of protein phosphorylation, 0.0180947263649599
+, , , , , , , , , , stress-activated protein kinase signaling cascade, 0.0180947263649599
+, , , , , , , , , , peptidyl-serine autophosphorylation, 0.0180947263649599
+, , , , , , , , , , dopamine biosynthetic process, 0.0180947263649599
+, , , , , , , , , , positive regulation of peptidyl-serine phosphorylation, 0.0229072345154688
+, , , , , , , , , , cellular response to insulin stimulus, 0.0265234227510214
+, , , , , , , , , , negative regulation of apoptotic process, 0.031475367884251
+, , , , , , , , , , type B pancreatic cell proliferation, 0.0324447586270628
+, , , , , , , , , , I-kappaB phosphorylation, 0.0324447586270628
+, , , , , , , , , , response to osmotic stress, 0.0324447586270628
+, , , , , , , , , , negative regulation of cell population proliferation, 0.0340422217893509
+, , , , , , , , , , learning or memory, 0.034420448053222
+, , , , , , , , , , positive regulation of telomerase activity, 0.0438245555419184
+infomap, 19, 83, 9, Positive, 0.0050301997, 0.0100603994, 0, 0, 0, glutamate-gated calcium ion channel activity, 2.14840391437128e-06, positive regulation of excitatory postsynaptic potential, 1.57979146850455e-09, schizophrenia, 0.0006402485467853
+, , , , , , , , , , delayed rectifier potassium channel activity, 2.14840391437128e-06, positive regulation of synaptic transmission< glutamatergic, 3.39007467545614e-09, intellectual_disability, 0.0040405038622603
+, , , , , , , , , , NMDA glutamate receptor activity, 2.25261207926645e-05, embryo development, 1.54481277717553e-05, autistic_disorder, 0.0080294984599882
+, , , , , , , , , , outward rectifier potassium channel activity, 0.0030630909067324, calcium ion transmembrane import into cytosol, 1.54481277717553e-05, autism_spectrum_disorder, 0.0080294984599882
+, , , , , , , , , , PDZ domain binding, 0.0341393027966016, chemical synaptic transmission, 3.32884609010257e-05, epilepsy_syndrome, 0.0080294984599882
+, , , , , , , , , , glutamate binding, 0.0393420727087402, regulation of monoatomic cation transmembrane transport, 3.55614503040757e-05, bipolar_disorder, 0.0085980375219102
+, , , , , , , , , , receptor clustering, 6.39421970120324e-05
+, , , , , , , , , , excitatory chemical synaptic transmission, 6.39421970120324e-05
+, , , , , , , , , , regulation of monoatomic ion transmembrane transport, 6.39421970120324e-05
+, , , , , , , , , , receptor localization to synapse, 6.39421970120324e-05
+, , , , , , , , , , potassium ion transport, 0.0002156490530721
+, , , , , , , , , , establishment or maintenance of epithelial cell apical/basal polarity, 0.0002208116532741
+, , , , , , , , , , protein localization to synapse, 0.0003420818797507
+, , , , , , , , , , potassium ion transmembrane transport, 0.0007675567249531
+, , , , , , , , , , monoatomic cation transmembrane transport, 0.0018257288964188
+, , , , , , , , , , regulation of neuronal synaptic plasticity, 0.003433055823931
+, , , , , , , , , , regulation of presynaptic membrane potential, 0.0077745092614774
+, , , , , , , , , , AMPA glutamate receptor clustering, 0.0084901028254865
+, , , , , , , , , , cell-cell adhesion, 0.0085572946856148
+, , , , , , , , , , ionotropic glutamate receptor signaling pathway, 0.0085572946856148
+, , , , , , , , , , brain development, 0.0156053903639077
+, , , , , , , , , , calcium-mediated signaling, 0.0156053903639077
+, , , , , , , , , , positive regulation of dendritic spine development, 0.0176628128014563
+, , , , , , , , , , visual learning, 0.0206882831695457
+, , , , , , , , , , excitatory postsynaptic potential, 0.0206882831695457
+, , , , , , , , , , regulation of synaptic plasticity, 0.0237630098168293
+, , , , , , , , , , cellular response to potassium ion, 0.0276037302327762
+, , , , , , , , , , protein homooligomerization, 0.0320722857763278
+, , , , , , , , , , regulation of long-term neuronal synaptic plasticity, 0.0320722857763278
+, , , , , , , , , , glutamate receptor signaling pathway, 0.0320722857763278
+, , , , , , , , , , dendritic spine morphogenesis, 0.0320722857763278
+, , , , , , , , , , neurotransmitter receptor localization to postsynaptic specialization membrane, 0.0402543840105369
+infomap, 14, 11, 3, Positive, 0.007881700281, 0.01576340056, 0, 0, 0, inositol 1<4<5 trisphosphate binding, 4.55594249072025e-06, activation of protein kinase C activity, 0.0373211595721892
+, , , , , , , , , , inositol 1<4<5-trisphosphate-sensitive calcium-release channel activity, 0.0177305960834735, CD40 signaling pathway, 0.0373211595721892
+, , , , , , , , , , store-operated calcium channel activity, 0.0236114940689584, RIG-I signaling pathway, 0.0373211595721892
+infomap, 33, 82, 7, Positive, 0.04182813292, 0.08365626584, 0, 0, 0, positive regulation of ubiquitin-dependent protein catabolic process, 0.0404483053497417
+infomap, 167, 7, 2, Positive, 0.02850836072, 0.05701672145, 0, 0, 0, photoreceptor cell development, 0.0427732697801817
+infomap, 222, 8, 3, Positive, 0.002920143123, 0.005840286245, 0, 0, 0, cuprous ion binding, 7.45605177372769e-05
+infomap, 126, 6, 2, Positive, 0.02090009608, 0.04180019216, 0, 0, 0, [], [], [], [], [], []
+infomap, 176, 14, 3, Positive, 0.01593619634, 0.03187239268, 0, 0, 0, armadillo repeat domain binding, 9.84138800684519e-05
+, , , , , , , , , , protein phosphatase 2A binding, 9.84138800684519e-05
+infomap, 188, 11, 3, Positive, 0.007881700281, 0.01576340056, 0, 0, 0, [], [], [], [], [], []
+infomap, 93, 7, 2, Positive, 0.02850836072, 0.05701672145, 0, 0, 0, [], [], [], [], [], []
+, , , , , , , , , , , , , , , 
+, , , , , , , , , , , , , , , 
+, , , , , , , , , , , , , , , 
+alg, clNo, clustsize, no.Trubetskoy Broad, Enrichment, Broad pval, Broad padj, no. Trubetskoy Priortised, Prior pval, Prior padj, Molecular Function, Molecular padj, Biological Function, Biological padj, Diseases, Diseases padj
+sgG2, 5, 13, 3, Positive, 0.01288965491, 0.02577930982, 0, 0, 0, inositol 1<4<5 trisphosphate binding, 9.85487920090312e-06
+, , , , , , , , , , inositol 1<4<5-trisphosphate-sensitive calcium-release channel activity, 0.0251382747728408
+, , , , , , , , , , store-operated calcium channel activity, 0.0334669275610971
+, , , , , , , , , , , , , , , 
+, , , , , , , , , , , , , , , 
+alg, clNo, clustsize, no.Trubetskoy Broad, Enrichment, Broad pval, Broad padj, no. Trubetskoy Priortised, Prior pval, Prior padj, Molecular Function, Molecular padj, Biological Function, Biological padj, Diseases, Diseases padj
+sgG5, 116, 33, 5, Positive, 0.008739642476, 0.01747928495, 0, 0, 0, DNA-binding transcription factor binding, 5.05836526616212e-08, negative regulation of transcription by RNA polymerase II, 2.79442860489282e-07
+, , , , , , , , , , nuclear receptor binding, 9.18138639135872e-07, positive regulation of transcription by RNA polymerase II, 4.15094188170896e-07
+, , , , , , , , , , histone deacetylase binding, 3.17268076322884e-06, toll-like receptor 4 signaling pathway, 0.0001637392895168
+, , , , , , , , , , chromatin DNA binding, 1.66334471426315e-05, circadian regulation of gene expression, 0.001267753509565
+, , , , , , , , , , chromatin binding, 2.11595348867646e-05, chromatin remodeling, 0.0027803595004736
+, , , , , , , , , , transcription cis-regulatory region binding, 6.17176288399411e-05, locomotor rhythm, 0.0032512214939193
+, , , , , , , , , , transcription coactivator binding, 0.000131444830024, negative regulation of miRNA transcription, 0.0032512214939193
+, , , , , , , , , , transcription corepressor activity, 0.0006163847287508, canonical NF-kappaB signal transduction, 0.0078916325078449
+, , , , , , , , , , transcription coactivator activity, 0.0039322280504412, non-canonical NF-kappaB signal transduction, 0.0078916325078449
+, , , , , , , , , , histone acetyltransferase activity, 0.0055426024072091, cellular response to angiotensin, 0.0078916325078449
+, , , , , , , , , , RNA polymerase II cis-regulatory region sequence-specific DNA binding, 0.0055426024072091, negative regulation of DNA-templated transcription, 0.0087224131327916
+, , , , , , , , , , RNA polymerase II transcription regulatory region sequence-specific DNA binding, 0.0068566616889805, interleukin-1-mediated signaling pathway, 0.0104732903782369
+, , , , , , , , , , peptide N-acetyltransferase activity, 0.0081154737789423, stimulatory C-type lectin receptor signaling pathway, 0.0202872078313702
+, , , , , , , , , , histone H3K9me/H3K9me2 demethylase activity, 0.0081154737789423, N-terminal peptidyl-lysine acetylation, 0.0202872078313702
+, , , , , , , , , , DNA-binding transcription factor activity, 0.0120714642353605, nucleotide-binding oligomerization domain containing 2 signaling pathway, 0.0202872078313702
+, , , , , , , , , , peptide-lysine-N-acetyltransferase activity, 0.0212121737301436, cellular response to peptidoglycan, 0.0202872078313702
+, , , , , , , , , , NF-kappaB binding, 0.0220272667532304, TRIF-dependent toll-like receptor signaling pathway, 0.0202872078313702
+, , , , , , , , , , DNA binding, 0.0220272667532304, positive regulation of interleukin-1 beta production, 0.0202872078313702
+, , , , , , , , , , RNA polymerase II-specific DNA-binding transcription factor binding, 0.0221346418240171, regulation of transcription by RNA polymerase II, 0.0216325227504217
+, , , , , , , , , , histone H3K9 demethylase activity, 0.0337946425148653, regulation of DNA-templated transcription, 0.0274417205952117
+, , , , , , , , , , nuclear receptor coactivator activity, 0.0423761653776032, tumor necrosis factor-mediated signaling pathway, 0.0378294599517482
+, , , , , , , , , , DNA-binding transcription activator activity< RNA polymerase II-specific, 0.0431416413696245, positive regulation of DNA-templated transcription, 0.0463001318432958
+, , , , , , , , , , protein lysine deacetylase activity, 0.0431416413696245, cellular response to lipoteichoic acid, 0.0465908220880798
+, , , , , , , , , , nuclear glucocorticoid receptor binding, 0.0431416413696245
+, , , , , , , , , , nuclear retinoid X receptor binding, 0.0431416413696245
+, , , , , , , , , , histone acetyltransferase binding, 0.0431416413696245
+, , , , , , , , , , sequence-specific double-stranded DNA binding, 0.0494632446759514
+sgG5, 112, 26, 4, Positive, 0.01774235624, 0.03548471247, 0, 0, 0, multiple_sclerosis, 0.0434132565571266
+, , , , , , , , , , schizophrenia, 0.0462553781312736
+, , , , , , , , , , , , , , , 
+, , , , , , , , , , , , , , , 
+alg, clNo, clustsize, no.Trubetskoy Broad, Enrichment, Broad pval, Broad padj, no. Trubetskoy Priortised, Prior pval, Prior padj, Molecular Function, Molecular padj, Biological Function, Biological padj, Diseases, Diseases padj
+spectral, 13, 11, 3, Positive, 0.007881700281, 0.01576340056, 0, 0, 0, activation of protein kinase C activity, 0.0373211595721892
+, , , , , , , , , , CD40 signaling pathway, 0.0373211595721892
+, , , , , , , , , , RIG-I signaling pathway, 0.0373211595721892
+spectral, 76, 34, 4, Positive, 0.04317123343, 0.08634246687, 0, 0, 0, armadillo repeat domain binding, 0.0031765411426447
+, , , , , , , , , , protein phosphatase 2A binding, 0.0043816407224673
+spectral, 3, 1, 1, Positive, 0.03943836465, 0.0788767293, 0, 0, 0, [], [], [], [], [], []
+, , , , , , , , , , , , , , , 
+, , , , , , , , , , , , , , , 
+alg, clNo, clustsize, no.Trubetskoy Broad, Enrichment, Broad pval, Broad padj, no. Trubetskoy Priortised, Prior pval, Prior padj, Molecular Function, Molecular padj, Biological Function, Biological padj, Diseases, Diseases padj
+sgG1, 30, 130, 129, Negative, 0.03228949105, 0.06457898209, 0, 0, 0, heparin binding, 0.0004112960319926,"","", Alzheimer's_disease, 0.0002381400374634
+, , , , , , , , , , semaphorin receptor activity, 0.0036839082565177,"","", multiple_sclerosis, 0.0014708947301826
+, , , , , , , , , , hypertension, 0.0092979268701602
+, , , , , , , , , , Parkinson's_disease, 0.0185471587367848

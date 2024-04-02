@@ -1,0 +1,372 @@
+,alg,cluster,Ontology1,FL1,Ontology2,FL2,OverlappedGenes,NoOverlappedGenes
+0,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0048488,{'6622'},1
+1,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0050808,{'6622'},1
+2,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0014059,{'6622'},1
+3,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0007268,{'6622'},1
+4,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0008344,{'6622'},1
+5,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0006638,{'6622'},1
+6,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0010517,{'6622'},1
+7,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0032769,{'6622'},1
+8,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0035543,{'6622'},1
+9,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0050812,{'6622'},1
+10,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0051585,{'6622'},1
+11,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0051622,{'6622'},1
+12,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:1902957,{'6622'},1
+13,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:1903284,{'6622'},1
+14,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:1904715,{'6622'},1
+15,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0051402,{'6622'},1
+16,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0022898,{'6622'},1
+17,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0051621,{'6622'},1
+18,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0070495,{'6622'},1
+19,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0014048,{'6622'},1
+20,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0032026,{'6622'},1
+21,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0032410,{'6622'},1
+22,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0060732,{'6622'},1
+23,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:1903285,{'6622'},1
+24,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:1903421,{'6622'},1
+25,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:1903426,{'6622'},1
+26,infomap,222,Trubetskoy2022broadcoding,True,GOBPID,GO:0043524,{'6622'},1
+27,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:2000463,"{' 2903', ' 85358'}",2
+28,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0051968,{' 85358'},1
+29,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0009790,{' 23513'},1
+30,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0007268,{' 2903'},1
+31,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0043113,{' 23513'},1
+32,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0034765,{' 3745'},1
+33,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0045197,{' 23513'},1
+34,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0071805,{' 3745'},1
+35,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0097113,{' 85358'},1
+36,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0098609,{' 23513'},1
+37,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0007420,{' 2903'},1
+38,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0060999,{' 85358'},1
+39,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0051260,{' 3745'},1
+40,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0007215,{' 3745'},1
+41,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0060997,{' 85358'},1
+42,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0007416,{' 85358'},1
+43,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0098900,{' 3745'},1
+44,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0001964,{' 2903'},1
+45,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0035176,{' 85358'},1
+46,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0097114,{' 85358'},1
+47,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0032232,{' 85358'},1
+48,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0051835,{' 9758'},1
+49,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0071625,{' 85358'},1
+50,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0016080,{' 23513'},1
+51,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0098962,{'9228'},1
+52,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0097623,{' 3745'},1
+53,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0007270,{'9228'},1
+54,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0035556,{' 8525'},1
+55,infomap,19,Trubetskoy2022broadcoding,True,GOBPID,GO:0007205,{' 8525'},1
+56,infomap,14,Trubetskoy2022broadcoding,True,GOBPID,GO:0051972,{'23293'},1
+57,infomap,167,Trubetskoy2022broadcoding,True,GOBPID,GO:0042461,{'403'},1
+58,infomap,167,Trubetskoy2022broadcoding,True,GOBPID,GO:0006892,{'403'},1
+59,infomap,33,Trubetskoy2022broadcoding,True,GOBPID,GO:0007018,{' 23046'},1
+60,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0000165,"{' 5595', ' 4208'}",2
+61,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0006468,"{' 5595', ' 4140'}",2
+62,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0051403,{' 5595'},1
+63,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0060324,{' 5595'},1
+64,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0048009,{' 5595'},1
+65,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0030878,{' 5595'},1
+66,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0045944,"{' 4208', ' 5595', ' 8204', ' 5970'}",4
+67,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0071356,"{' 5595', ' 5970'}",2
+68,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0035556,"{'7531', ' 5595', ' 4140', ' 5970'}",4
+69,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0018105,{' 4140'},1
+70,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0016310,{' 5595'},1
+71,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0071276,{' 5595'},1
+72,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0090170,{' 5595'},1
+73,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:1904262,{' 5595'},1
+74,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0000122,"{' 4208', ' 8204', ' 5970'}",3
+75,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0071222,"{' 4208', ' 5970'}",2
+76,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0007507,{' 4208'},1
+77,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0034614,"{' 5595', ' 4137'}",2
+78,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0060440,{' 5595'},1
+79,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0048538,{' 5595'},1
+80,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0070371,{' 5595'},1
+81,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0038061,{' 5970'},1
+82,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:1904355,{' 5595'},1
+83,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0032872,{' 5595'},1
+84,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:2000641,{' 5595'},1
+85,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0071347,{' 5970'},1
+86,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0031281,{' 5595'},1
+87,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0071316,{' 5970'},1
+88,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0035924,{' 5970'},1
+89,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0006954,{' 5970'},1
+90,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0070498,{' 5595'},1
+91,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0043410,"{' 2911', ' 4208'}",2
+92,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0010628,"{' 4208', ' 5970'}",2
+93,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0035994,{' 5970'},1
+94,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0006915,"{' 5595', ' 4208'}",2
+95,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0030278,{' 5595'},1
+96,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0034198,{' 5595'},1
+97,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0045893,"{' 4208', ' 5970'}",2
+98,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0030182,{' 4208'},1
+99,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0031663,{' 5595'},1
+100,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0008286,{' 5595'},1
+101,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0001934,{' 5595'},1
+102,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0036289,{' 4140'},1
+103,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0043066,{' 5970'},1
+104,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0007611,{' 4208'},1
+105,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0051973,{' 5595'},1
+106,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0034142,{' 5970'},1
+107,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0061308,{' 5595'},1
+108,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:1901522,{' 5970'},1
+109,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0070178,{' 63826'},1
+110,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0060020,{' 5595'},1
+111,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0007623,{' 8204'},1
+112,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0001649,{' 4208'},1
+113,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0006355,"{' 4208', ' 5970'}",2
+114,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0032212,{' 5595'},1
+115,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0008284,{' 5970'},1
+116,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0009887,{' 5970'},1
+117,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0006605,{'7531'},1
+118,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0007249,{' 5970'},1
+119,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0035331,{' 4140'},1
+120,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0070374,{' 5595'},1
+121,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0071223,{' 5970'},1
+122,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0042473,{' 5595'},1
+123,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0070849,{' 5595'},1
+124,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0051591,{' 5970'},1
+125,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:1900034,{' 4137'},1
+126,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0032735,{' 5970'},1
+127,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0045892,{' 5970'},1
+128,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0045663,{' 4208'},1
+129,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0071260,{' 5595'},1
+130,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0001889,{' 5970'},1
+131,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0002931,"{' 4208', ' 5970'}",2
+132,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0070301,{' 5970'},1
+133,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0032495,{' 5970'},1
+134,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0030641,{' 5595'},1
+135,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0060425,{' 5595'},1
+136,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0072584,{' 5595'},1
+137,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0120041,{' 5595'},1
+138,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0033209,{' 5970'},1
+139,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0003151,{' 4208'},1
+140,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0007519,{' 4208'},1
+141,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0021762,{'7531'},1
+142,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0042770,{' 5595'},1
+143,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0006968,{' 5970'},1
+144,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0038083,{' 5595'},1
+145,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0060045,{' 4208'},1
+146,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0010575,{' 5970'},1
+147,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0010759,{' 5595'},1
+148,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0009410,"{' 5970', ' 63826'}",2
+149,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0010629,"{' 4137', ' 4208'}",2
+150,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0006357,{' 5970'},1
+151,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0006974,{' 4137'},1
+152,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0043330,{' 5595'},1
+153,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0046627,{' 5970'},1
+154,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0032755,{' 5970'},1
+155,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:1901224,{' 5970'},1
+156,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0032496,{' 63826'},1
+157,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0019221,{' 5970'},1
+158,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0002062,{' 4208'},1
+159,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:1904706,{' 4208'},1
+160,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0032868,{' 5970'},1
+161,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0001568,{' 4208'},1
+162,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0043200,{' 5970'},1
+163,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0033554,{' 5970'},1
+164,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0030220,{' 4208'},1
+165,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:1990090,{' 4137'},1
+166,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0048666,{' 4208'},1
+167,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0034605,"{'7531', ' 4137'}",2
+168,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0048167,"{' 4137', ' 4208'}",2
+169,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:1900181,{' 4140'},1
+170,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:1901020,{'7531'},1
+171,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0071466,{' 4208'},1
+172,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0051092,{' 5970'},1
+173,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0046827,{'7531'},1
+174,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0007049,{' 5595'},1
+175,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0061564,{' 4137'},1
+176,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0019233,{' 5595'},1
+177,infomap,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0003064,{'7531'},1
+178,louvain,8,Trubetskoy2022broadcoding,True,GOBPID,GO:0070588,"{' 7223', ' 783'}",2
+179,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0042982,"{'5663', ' 23385', ' 9911', ' 348'}",4
+180,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0002265,"{'5663', ' 4035', ' 351'}",3
+181,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:1901166,"{' 8829', ' 8828'}",2
+182,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:1902287,"{' 5364', ' 8829', ' 5361'}",3
+183,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0006953,"{' 12', ' 2', ' 3240'}",3
+184,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:1900223,"{' 4043', ' 348'}",2
+185,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0032489,"{' 8829', ' 335'}",2
+186,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0021828,"{' 8828', ' 5361'}",2
+187,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:1905908,"{'5663', ' 351', ' 348'}",3
+188,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0048846,"{' 8828', ' 214'}",2
+189,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0043277,"{' 7301', ' 7052'}",2
+190,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0051563,"{'5663', ' 351'}",2
+191,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0034384,{' 335'},1
+192,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0090205,{' 335'},1
+193,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0021649,{' 8828'},1
+194,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0036486,{' 8828'},1
+195,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0060385,{' 4882'},1
+196,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0061551,{' 8828'},1
+197,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0097374,{' 8828'},1
+198,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0097491,{' 8828'},1
+199,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:1902285,{' 8828'},1
+200,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:1903375,{' 8828'},1
+201,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:1904835,{' 8828'},1
+202,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:1902043,{' 7057'},1
+203,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0071526,"{' 5364', ' 8829', ' 57556'}",3
+204,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0008203,"{' 114876', ' 335', ' 348'}",3
+205,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0021675,"{' 6323', ' 8828'}",2
+206,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0010875,"{' 335', ' 348'}",2
+207,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0045332,"{' 10396', ' 55754'}",2
+208,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0030514,"{' 6653', ' 5654'}",2
+209,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0034205,"{'5663', ' 23385'}",2
+210,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0042987,"{'5663', ' 23385'}",2
+211,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0060666,{' 5361'},1
+212,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0010544,{' 4846'},1
+213,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0034375,{' 335'},1
+214,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:1902995,{' 335'},1
+215,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0038179,{' 2674'},1
+216,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0061549,{' 8828'},1
+217,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0021612,{' 8828'},1
+218,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0097490,{' 8828'},1
+219,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0006432,{' 10056'},1
+220,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0006957,{' 718'},1
+221,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0014910,{' 6653'},1
+222,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0061092,{' 55754'},1
+223,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0018149,"{' 7052', ' 7057'}",2
+224,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0007595,"{' 7372', ' 540'}",2
+225,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0050919,"{' 8828', ' 335'}",2
+226,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0010468,"{'5663', ' 321', ' 5178', ' 351', ' 6272'}",5
+227,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0007220,"{'5663', ' 23385'}",2
+228,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0051208,"{'5663', ' 540'}",2
+229,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0097242,{' 718'},1
+230,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0042158,{' 335'},1
+231,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:1905920,{' 335'},1
+232,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0003016,{' 5864'},1
+233,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0070863,{' 55754'},1
+234,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0006508,"{' 354', ' 5654', ' 3075', ' 6907', ' 23385', ' 7052'}",6
+235,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0007218,"{' 6653', ' 7301'}",2
+236,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0051402,"{'5663', ' 4882', ' 351', ' 7301', ' 23385'}",5
+237,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0051649,"{' 6323', ' 7301', ' 540'}",3
+238,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0030194,{' 7057'},1
+239,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0033700,{' 335'},1
+240,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0043691,{' 335'},1
+241,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0070328,{' 335'},1
+242,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0060304,{' 9110'},1
+243,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0015949,{' 2987'},1
+244,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0140331,{' 55754'},1
+245,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0016485,"{'5663', ' 23385', ' 8473'}",3
+246,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0006898,"{' 6653', ' 54413', ' 348'}",3
+247,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0070050,"{'5663', ' 7301', ' 351'}",3
+248,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0001974,{' 4882'},1
+249,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0043589,"{'5663', ' 1277'}",2
+250,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0048143,"{'5663', ' 351'}",2
+251,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0007263,{' 4846'},1
+252,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:1903671,{' 7057'},1
+253,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0034380,{' 335'},1
+254,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0048844,{' 8829'},1
+255,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0006956,{' 718'},1
+256,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0003148,{' 8828'},1
+257,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0006622,"{' 6272', ' 6653'}",2
+258,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0045766,"{' 718', ' 4846', ' 7057'}",3
+259,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0007399,"{' 321', ' 3897', ' 1995', ' 93185', ' 4916', ' 7301', ' 2674', ' 2335'}",8
+260,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0006878,{' 540'},1
+261,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0016322,{' 718'},1
+262,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0048843,{' 8829'},1
+263,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0045807,{' 348'},1
+264,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0150093,{' 4043'},1
+265,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0048662,{' 4846'},1
+266,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0006882,{' 540'},1
+267,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0050808,"{'5663', ' 3897', ' 54413', ' 351'}",4
+268,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0006915,"{' 8473', ' 5178', ' 7416', ' 84299', ' 7057', ' 57556', ' 3956', ' 8682'}",8
+269,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:1904646,"{'5663', ' 4035', ' 351'}",3
+270,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0007162,"{' 5364', ' 5361'}",2
+271,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0050728,"{' 7301', ' 335'}",2
+272,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0007626,"{' 2548', ' 57679', ' 321'}",3
+273,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0007612,"{' 10396', ' 54413', ' 7416'}",3
+274,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0034446,"{' 8829', ' 7301'}",2
+275,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:1900272,{' 348'},1
+276,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0046889,{' 8473'},1
+277,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0002040,{' 7057'},1
+278,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0001958,{' 4882'},1
+279,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0006493,{' 8473'},1
+280,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0050884,{' 6323'},1
+281,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0060627,{' 5337'},1
+282,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0019430,{' 4846'},1
+283,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0007155,"{' 8828', ' 3897', ' 7057', ' 7301', ' 214', ' 7087', ' 10319', ' 2335'}",8
+284,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0043087,"{' 5364', ' 57679', ' 5361'}",3
+285,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0006909,"{' 7087', ' 7301'}",2
+286,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0032868,"{' 6272', ' 8473'}",2
+287,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0050772,"{' 5364', ' 5361'}",2
+288,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0007219,"{'5663', ' 23385', ' 351'}",3
+289,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0032092,"{'5663', ' 4035', ' 351'}",3
+290,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0006509,"{'5663', ' 23385'}",2
+291,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0001568,"{'5663', ' 1277'}",2
+292,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0001756,"{'5663', ' 5362'}",2
+293,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0043085,"{'5663', ' 23385'}",2
+294,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0050673,"{'5663', ' 23385'}",2
+295,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:1990535,"{'5663', ' 351'}",2
+296,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0042311,{' 4846'},1
+297,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0043537,{' 7057'},1
+298,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0033554,{' 389840'},1
+299,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0033344,{' 335'},1
+300,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0030512,"{' 8473', ' 9110'}",2
+301,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0001934,"{'5663', ' 351', ' 81532', ' 4916', ' 718'}",5
+302,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0050820,{'5663'},1
+303,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:1904797,{'5663'},1
+304,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0007186,"{' 335', ' 5332', ' 6272', ' 718', ' 334'}",5
+305,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0007005,"{' 30968', ' 9361', ' 4846'}",3
+306,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0098693,"{'5663', ' 5337'}",2
+307,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0051963,{' 7087'},1
+308,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0050730,{' 9361'},1
+309,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0042327,{' 7057'},1
+310,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0032438,{' 8546'},1
+311,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0007611,"{'5663', ' 23385', ' 351'}",3
+312,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0006979,"{'5663', ' 351', ' 57679', ' 7001'}",4
+313,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0010595,"{' 8828', ' 7057'}",2
+314,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0031175,"{' 3897', ' 348', ' 2674', ' 80303'}",4
+315,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0051290,{' 10056'},1
+316,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0010596,{' 7057'},1
+317,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0030199,{' 1277'},1
+318,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0051897,"{' 5364', ' 4916', ' 7057'}",3
+319,sgG1,30,Trubetskoy2022broadcoding,False,GOBPID,GO:0032760,"{'5663', ' 351', ' 7057'}",3
+320,sgG2,5,Trubetskoy2022broadcoding,True,GOBPID,GO:0051972,{'23293'},1
+321,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0000122,"{' 4208', ' 5970', ' 1958'}",3
+322,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0045944,"{' 4208', ' 5970', ' 1958'}",3
+323,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0034142,{' 5970'},1
+324,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0032922,"{'8204', ' 1958'}",2
+325,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0006338,{' 51780'},1
+326,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0045475,{' 1958'},1
+327,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0007249,{' 5970'},1
+328,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0038061,{' 5970'},1
+329,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0045892,{' 5970'},1
+330,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0070498,{' 1958'},1
+331,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0032731,{' 1958'},1
+332,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0006357,"{' 51780', ' 1958'}",2
+333,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0006355,"{' 4208', ' 5970'}",2
+334,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0033209,{' 5970'},1
+335,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0045893,"{' 4208', ' 5970', ' 1958'}",3
+336,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0051092,{' 5970'},1
+337,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0001666,{' 1958'},1
+338,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0002931,"{' 4208', ' 1958'}",2
+339,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0043123,{' 5970'},1
+340,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0071356,{' 5970'},1
+341,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0043200,{' 5970'},1
+342,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:1902895,{' 1958'},1
+343,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0030220,{' 4208'},1
+344,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0032722,{' 1958'},1
+345,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0071392,{'8204'},1
+346,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0006954,{' 5970'},1
+347,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0043523,{' 1958'},1
+348,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0007519,{' 4208'},1
+349,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0045087,{' 5970'},1
+350,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0008284,{' 5970'},1
+351,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0001543,{'8204'},1
+352,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:1901224,{' 5970'},1
+353,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0009887,{' 5970'},1
+354,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0032868,{' 1958'},1
+355,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0007611,{' 4208'},1
+356,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0006915,{' 4208'},1
+357,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0071222,{' 4208'},1
+358,sgG5,116,Trubetskoy2022broadcoding,True,GOBPID,GO:0019915,{'8204'},1
+359,sgG5,112,Trubetskoy2022broadcoding,True,GOBPID,GO:0007155,{' 4978'},1
+360,sgG5,112,Trubetskoy2022broadcoding,True,GOBPID,GO:0008038,{' 4978'},1
+361,spectral,13,Trubetskoy2022broadcoding,True,GOBPID,GO:0007088,{'23113'},1
+362,wt,52,Trubetskoy2022broadcoding,True,GOBPID,GO:0042461,{'403'},1
+363,wt,52,Trubetskoy2022broadcoding,True,GOBPID,GO:0006892,{'403'},1
+364,wt,15,Trubetskoy2022broadcoding,True,GOBPID,GO:0043113,{' 23513'},1
+365,wt,15,Trubetskoy2022broadcoding,True,GOBPID,GO:0009790,{' 23513'},1
+366,wt,15,Trubetskoy2022broadcoding,True,GOBPID,GO:0098609,{' 23513'},1
+367,wt,15,Trubetskoy2022broadcoding,True,GOBPID,GO:0045197,{' 23513'},1
+368,wt,15,Trubetskoy2022broadcoding,True,GOBPID,GO:0016080,{' 23513'},1
+369,wt,15,Trubetskoy2022broadcoding,True,GOBPID,GO:0048488,{' 23513'},1
+370,wt,15,Trubetskoy2022broadcoding,True,GOBPID,GO:0090630,{' 23513'},1

@@ -55,12 +55,20 @@ networkSetup <- function(network){
   return(network)
 }
 
-generateGraph <- function(count=1, localisation="Postsynaptic", filename){
-  geneTable <- initGeneTable(count=count, localisation=localisation)
+generateGraph <- function(count=1, localisation="Postsynaptic", filename, synGoOnly = FALSE){
+  if (synGoOnly){
+    print("SynGO Only")
+    geneTable <- synGoOnly()
+  }else{
+    geneTable <- initGeneTable(count=count, localisation=localisation)
+
+  }
+
   g <- graphFromSynaptomeByEntrez(geneTable$HumanEntrez)
   networkGene <- networkSetup(g)
-  write_graph(networkGene, file=filename, format="gml")
-  return (networkGene)
+  network <- findLCC(networkGene)
+  write_graph(network, file=filename, format="gml")
+  return (network)
 }
 
 networkProperties <- function(network){
@@ -89,6 +97,25 @@ compareNetwork <- function(network){
 }
 
 
+synGoOnly <- function(){
+  data <- read.table("Files/SynGO.txt")
+  colnames(data) <- c("HumanEntrez", "synGo")
+  return(data)
+}
+
+
+# SynGO graph
+gg <- generateGraph(count = 1, file='PostsynapticNetwork/SynGoNetwork.gml', synGoOnly=TRUE)
+algs <- c("infomap", "sgG1", "sgG2", "sgG5", "spectral")
+
+for (alg in algs){
+  print(alg)
+  gg <- calcClustering(gg, alg)
+}
+
+write_graph(gg, file='PostsynapticNetwork/SynGoNetwork.gml', format="gml")
+
+
 # Postsynaptic Graphs
 
 # # Graph for Schziphrenia Genes that appear >= 2 that are Postsynaptic
@@ -105,45 +132,45 @@ compareNetwork <- function(network){
 # Clustering calculations for algorithm "lec" failed. NULL is returned
 
 
-# Graph for all Genes that appear that are Postsynaptic
-fullGraph <- generateGraph(count = 1, filename="PostsynapticNetwork/FullPSDDBNetwork.gml")
-fullGraph <- findLCC(fullGraph)
-# Graph for Genes that appear >= 2 that are Postsynaptic
-consensusGraph <- generateGraph(count = 2, filename="PostsynapticNetwork/ConsensusPSDDBNetwork.gml")
-consensusGraph <- findLCC(consensusGraph)
-# consensusGraph <- read.graph("PostsynapticNetwork/ConsensusPSDDBNetwork.gml", type="gml")
+# # Graph for all Genes that appear that are Postsynaptic
+# fullGraph <- generateGraph(count = 1, filename="PostsynapticNetwork/FullPSDDBNetwork.gml")
+# fullGraph <- findLCC(fullGraph)
+# # Graph for Genes that appear >= 2 that are Postsynaptic
+# consensusGraph <- generateGraph(count = 2, filename="PostsynapticNetwork/ConsensusPSDDBNetwork.gml")
+# consensusGraph <- findLCC(consensusGraph)
+# # consensusGraph <- read.graph("PostsynapticNetwork/ConsensusPSDDBNetwork.gml", type="gml")
+# #
+# consensusGraph <- calcAllClustering(consensusGraph)
+# #Warning in getClustering(gg, alg, weights = weights) :
+# # Clustering calculations for algorithm "sgG1" failed. NULL is returned
+# # Warning in getClustering(gg, alg, weights = weights) :
+# # Clustering calculations for algorithm "sgG2" failed. NULL is returned
+# # Warning in getClustering(gg, alg, weights = weights) :
+# # Clustering calculations for algorithm "sgG5" failed. NULL is returned
 #
-consensusGraph <- calcAllClustering(consensusGraph)
-#Warning in getClustering(gg, alg, weights = weights) :
-# Clustering calculations for algorithm "sgG1" failed. NULL is returned
-# Warning in getClustering(gg, alg, weights = weights) :
-# Clustering calculations for algorithm "sgG2" failed. NULL is returned
-# Warning in getClustering(gg, alg, weights = weights) :
-# Clustering calculations for algorithm "sgG5" failed. NULL is returned
-
-
-summary(consensusGraph)
-write_graph(consensusGraph, file="PostsynapticNetwork/ConsensusPSDDBNetwork.gml", format="gml")
-
-fullGraph <- calcAllClustering(fullGraph)
-summary(fullGraph)
-write_graph(fullGraph, file="PostsynapticNetwork/FullPSDDBNetwork.gml", format="gml")
-
-# Warning in igraph::leading.eigenvector.community(ugg, weights = weights) :
-# At core/linalg/arpack.c:805 : ARPACK solver failed to converge (10001 iterations, 0/1 eigenvectors converged).
-# Warning in getClustering(gg, alg, weights = weights) :
-# Clustering calculations for algorithm "lec" failed. NULL is returned
-# Warning in getClustering(gg, alg, weights = weights) :
-# Clustering calculations for algorithm "sgG1" failed. NULL is returned
-# Warning in getClustering(gg, alg, weights = weights) :
-# Clustering calculations for algorithm "sgG2" failed. NULL is returned
-# Warning in getClustering(gg, alg, weights = weights) :
-# Clustering calculations for algorithm "sgG5" failed. NULL is returned
+#
+# summary(consensusGraph)
+# write_graph(consensusGraph, file="PostsynapticNetwork/ConsensusPSDDBNetwork.gml", format="gml")
+#
+# fullGraph <- calcAllClustering(fullGraph)
+# summary(fullGraph)
+# write_graph(fullGraph, file="PostsynapticNetwork/FullPSDDBNetwork.gml", format="gml")
+#
+# # Warning in igraph::leading.eigenvector.community(ugg, weights = weights) :
+# # At core/linalg/arpack.c:805 : ARPACK solver failed to converge (10001 iterations, 0/1 eigenvectors converged).
+# # Warning in getClustering(gg, alg, weights = weights) :
+# # Clustering calculations for algorithm "lec" failed. NULL is returned
+# # Warning in getClustering(gg, alg, weights = weights) :
+# # Clustering calculations for algorithm "sgG1" failed. NULL is returned
+# # Warning in getClustering(gg, alg, weights = weights) :
+# # Clustering calculations for algorithm "sgG2" failed. NULL is returned
+# # Warning in getClustering(gg, alg, weights = weights) :
+# # Clustering calculations for algorithm "sgG5" failed. NULL is returned
 
 
 #
-consensusM <- clusteringSummary(consensusGraph)
-fullM <- clusteringSummary(fullGraph)
+# consensusM <- clusteringSummary(consensusGraph)
+# fullM <- clusteringSummary(fullGraph)
 
 # View(consensusM)
 # View(fullM)
