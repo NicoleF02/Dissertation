@@ -96,6 +96,7 @@ def generate_alg_table(dataframe, alg):
 
     diseaseDict = dict(get_ids("Disease", "HDOID"))
 
+
     broken = []
 
     goDict = dict(get_ids("GO", "GOID"))
@@ -117,6 +118,9 @@ def generate_alg_table(dataframe, alg):
         gomfidspadj = []
 
         synapselocations = []
+
+        synGOIDs = []
+        synGOIDspadj = []
 
         trubGenes = 0
         trubPadj = 0
@@ -148,8 +152,6 @@ def generate_alg_table(dataframe, alg):
                     trubPval = row2['pval']
                     trubPadj = row2['padj']
 
-
-
             elif row2['ontology_csv'] == "GOBPID_significant_rows_sorted.csv":
                 try:
                     if row2['padj'] <= 0.05:
@@ -178,6 +180,15 @@ def generate_alg_table(dataframe, alg):
                 except:
                     broken.append(row2["FL"])
 
+            elif row2["ontology_csv"] == "syngo_significant_rows_sorted.csv":
+                try:
+                    if row2['padj'] <= 0.05:
+                        synGOIDs.append(row2["FL"])
+                        synGOIDspadj.append(row2['padj'])
+                except:
+                    print(row2["FL"])
+
+
             elif row2['ontology_csv'] == "Trubetskoy2022priortisedcoding_significant_rows_sorted.csv":
                 trubGenesPrior = row2['Mu']
                 trubPriorPval = row2['pval']
@@ -189,8 +200,12 @@ def generate_alg_table(dataframe, alg):
 
         if falseTrub:
             enrichment = "Negative"
+            # trubGenes here would give the overlap genes, which are the enriched genes (i.e. not trub)
+            trubGenes = row2['Cn'] - trubGenes
         else:
             enrichment = "Positive"
+
+
 
         dictonary = {
             'alg': row2['alg'],
@@ -207,9 +222,10 @@ def generate_alg_table(dataframe, alg):
             'Molecular padj': gomfidspadj,
             'Biological Function': gobpids,
             'Biological padj': gobpidadj,
+            'SynGO': synGOIDs,
+            'SynGO padj': synGOIDspadj,
             'Diseases': dieases,
             'Diseases padj': diseasespadj,
-
         }
 
         complied_table.append(dictonary)
@@ -260,7 +276,7 @@ def get_ids(table, primary_key):
 
 
 if __name__ == "__main__":
-    path = "SynGO/Ora/Enriched"
+    path = "SynGO/Ora/Enriched/"
 
     combined_df = generate_dataframe(path)
 
@@ -272,9 +288,7 @@ if __name__ == "__main__":
                  'syngo_significant_rows_sorted.csv', 'TopOntoOVGHOID_significant_rows_sorted.csv',
                  'GOMFID_significant_rows_sorted.csv', "Trubetskoy2022priortisedcoding_significant_rows_sorted.csv"]
 
-    algs = ["spectral", "sgG1", "sgG2", "sgG5", "infomap"]
-
-    print()
+    algs = ["spectral", "sgG1", "sgG2", "sgG5", "infomap", "louvain","wt","fc"]
 
     for alg in algs:
         print(alg)

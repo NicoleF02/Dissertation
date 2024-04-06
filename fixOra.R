@@ -4,7 +4,7 @@ gFull <- igraph::read.graph("PostsynapticNetwork/FullPSDDBNetwork.gml",format="g
 
 algs<-c('infomap','sgG1', 'sgG2', 'sgG5', 'spectral','louvain','fc','wt')
 
-list_ontologies <- c("Trubetskoy2022broadcoding","Trubetskoy2022priortisedcoding")#,"SynapseLocations","GOMFID","syngo","TopOntoOVGHDOID","GOBPID")
+list_ontologies <- c("Trubetskoy2022broadcoding","Trubetskoy2022priortisedcoding","SynapseLocations","GOMFID","syngo","TopOntoOVGHDOID","GOBPID")
 
 runORA <- function(ontology){
   print("Starting for ontology:")

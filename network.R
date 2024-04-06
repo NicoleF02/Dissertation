@@ -35,22 +35,22 @@ networkSetup <- function(network){
 
   afile<-system.file("extdata", "flatfile_human_gene2HDO.csv", package = "BioNAR")
   dis <- read.table(afile,sep="\t",skip=1,header=FALSE,strip.white=TRUE,quote="")
-  network <- annotateTopOntoOVG(network, dis)
+  network <- annotateTopOntoOVG(network, dis, idatt="name")
 
   sg <- read.table("Files/SynGO.txt", sep = "\t", header = T, stringsAsFactors = F)
   network <- annotateVertex(network, name = "syngo", values = sg, idatt = "name")
 
   trubetskoyBroad<- read.table("Files/Trubetskoy_2022_broad_coding.txt", sep = "\t", header = T, stringsAsFactors = F)
-  network <- annotateVertex(network, name="Trubetskoy_2022_broad_coding", trubetskoyBroad[,c(1,2)])
+  network <- annotateVertex(network, name="Trubetskoy_2022_broad_coding", trubetskoyBroad[,c(1,2)], idatt="name")
 
   trubetskoyPriortised<- read.table("Files/Trubetskoy_2022_priortised_coding.txt", sep = "\t", header = T, stringsAsFactors = F)
-  network <- annotateVertex(network, "Trubetskoy_2022_priortised_coding", trubetskoyPriortised[,c(1,2)])
+  network <- annotateVertex(network, "Trubetskoy_2022_priortised_coding", trubetskoyPriortised[,c(1,2)], idatt="name")
 
   reducedRatDB <- read.table("Files/ReducedRatDB.txt", sep="\t", header= T, stringsAsFactors = F)
   network <- annotateVertex(network, name="Synapse Locations", values =reducedRatDB , idatt="name")
 
   priortisedSchizophreniaDB <- read.table("Files/SchizphreniaPriortisedDB.txt", sep="\t", header= T, stringsAsFactors = F)
-  network <- annotateVertex(network, "SchizophreniaGeneCount", priortisedSchizophreniaDB[,c(1,2)])
+  network <- annotateVertex(network, "SchizophreniaGeneCount", priortisedSchizophreniaDB[,c(1,2)], idatt="name")
 
   return(network)
 }

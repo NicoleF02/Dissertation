@@ -16,7 +16,7 @@ def get_gene_info(entrez_id):
     return official_symbol, summary
 
 
-data = pd.read_csv("Ora/Enriched/Trubetskoy2022broadcoding_significant_rows_sorted.csv")
+data = pd.read_csv("Consensus/Trubetskoy2022broadcoding_significant_rows_sorted.csv")
 
 # Only positive enrichment
 data = data[data['FL'] == True]
@@ -90,7 +90,8 @@ def visualise(pivot_data):
     plt.xticks(rotation=90, fontsize=12)
     plt.yticks(fontsize=12)
 
-    plt.savefig("BroadCodingEnrichmentHeatmapReduced.png")
+    plt.savefig("ConsensusBroadCodingEnrichmentHeatmapReduced.png")
 
 
 gen_latex_table(pivot_data)
+visualise(pivot_data)
