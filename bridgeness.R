@@ -101,7 +101,7 @@ calculateBridgeness <- function (graph, algorithm){
 
   print("Plotting Bridgeness")
 
-  plotName <- paste0("Bridgeness/",paste0(algorithm,"Bridgeness.png"))
+  plotName <- paste0("Bridgeness/SynGO/",paste0(algorithm,"Bridgeness.png"))
   g <- plotBridgeness2(graph,alg = algorithm,
                  VIPs=prCl$V3,
                  Xatt='SL',
@@ -124,12 +124,12 @@ calculateBridgeness <- function (graph, algorithm){
 
 # Due to earlier results, we will be using louvain, sgG2 and spectral
 
-gFull <- igraph::read.graph("PostsynapticNetwork/FullPSDDBNetwork.gml",format="gml") #graph from gml
-gConsensus <- igraph::read.graph("PostsynapticNetwork/ConsensusPSDDBNetwork.gml",format="gml")
+gFull <- igraph::read.graph("PostsynapticNetwork/SynGoNetwork.gml",format="gml") #graph from gml
+#gConsensus <- igraph::read.graph("PostsynapticNetwork/ConsensusPSDDBNetwork.gml",format="gml")
 
 gFull <- calcCentrality(gFull)
 gFullLCC <- findLCC(gFull)
-algsFull<-c('infomap','spectral')
+algsFull<-c('infomap','sgG1','sgG2','sgG2')
 
 
 for (algorithm in algsFull){

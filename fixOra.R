@@ -1,6 +1,6 @@
 library(BioNAR)
 
-gFull <- igraph::read.graph("PostsynapticNetwork/FullPSDDBNetwork.gml",format="gml") #graph from gml
+gFull <- igraph::read.graph("PostsynapticNetwork/SynGoNetwork.gml",format="gml") #graph from gml
 
 algs<-c('infomap','sgG1', 'sgG2', 'sgG5', 'spectral','louvain','fc','wt')
 
