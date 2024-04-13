@@ -16,23 +16,6 @@ def get_gene_info(entrez_id):
     return official_symbol, summary
 
 
-data = pd.read_csv("Consensus/Trubetskoy2022broadcoding_significant_rows_sorted.csv")
-
-# Only positive enrichment
-data = data[data['FL'] == True]
-
-data['alg_cl'] = data['alg'] + '_' + data['cl'].astype(str)
-
-# Makes each gene into own row
-data = data.assign(overlapGenes=data['overlapGenes'].str.split(', ')).explode('overlapGenes')
-
-# Create a pivot table to prepare data for heatmap
-pivot_data = data.pivot_table(index='alg_cl', columns='overlapGenes', values='pval', aggfunc='mean')
-
-
-# Tablefor pivot data, counter for each gene
-
-
 def gene_frequency_table(pivot_data):
     frequency_table = {}
 
@@ -71,9 +54,10 @@ def gen_latex_table(pivot_data):
     print(latexPandas.to_latex(index=False))
 
 
-def visualise(pivot_data):
+def visualise(pivot_data, filename, reduced=True):
     # Disregard rows and columns with only one value
-    pivot_data = pivot_data.loc[:, pivot_data.nunique() > 1]
+    if reduced:
+        pivot_data = pivot_data.loc[:, pivot_data.nunique() > 1]
     pivot_data = pivot_data.dropna(axis=0, how='all')
     pivot_data = pivot_data.dropna(axis=1, how='all')
 
@@ -90,8 +74,34 @@ def visualise(pivot_data):
     plt.xticks(rotation=90, fontsize=12)
     plt.yticks(fontsize=12)
 
-    plt.savefig("ConsensusBroadCodingEnrichmentHeatmapReduced.png")
+    plt.savefig(filename)
 
 
-gen_latex_table(pivot_data)
-visualise(pivot_data)
+csvs = ["Trubetskoy2022broadcoding_significant_rows_sorted.csv",
+        "Trubetskoy2022priortisedcoding_significant_rows_sorted.csv"]
+types = ["broad", "prioritised"]
+
+networks = ["Consensus", "SynGO"]
+filepaths = ["Consensus/", "SynGO/Ora/Enriched/"]
+reduced = [True, False]
+
+for i, network in enumerate(networks):
+    for j, csv in enumerate(csvs):
+        for reduce in reduced:
+            print("Network: ", network, "Type: ", types[j], "Reduced: ", reduce)
+            data = pd.read_csv(f"{filepaths[i]}{csv}")
+
+            # Only positive enrichment
+            data = data[data['FL'] == True]
+
+            data['alg_cl'] = data['alg'] + '_' + data['cl'].astype(str)
+
+            # Makes each gene into own row
+            data = data.assign(overlapGenes=data['overlapGenes'].str.split(', ')).explode('overlapGenes')
+
+            # Create a pivot table to prepare data for heatmap
+            pivot_data = data.pivot_table(index='alg_cl', columns='overlapGenes', values='pval', aggfunc='mean')
+
+            gen_latex_table(pivot_data)
+            visualise(pivot_data, f"{network}{types[j]}CodingEnrichmentHeatmap{reduce}.png", reduced=reduce)
+            print("-------------")

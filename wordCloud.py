@@ -94,6 +94,11 @@ def createWordCloud(dataframe, column, column_pval):
         wordcloud = WordCloud(width=500, height=300, colormap="tab10", background_color='white').generate_from_frequencies(
             word_dict)
         plt.figure(figsize=(10, 5))
+    elif column == "SynGO":
+        wordcloud = WordCloud(width=700, height=250, colormap="tab10", background_color='white').generate_from_frequencies(
+            word_dict)
+        plt.figure(figsize=(10, 5))
+
     else:
         wordcloud = WordCloud(width=700, height=500, colormap="tab10", background_color='white').generate_from_frequencies(
             word_dict)
@@ -106,6 +111,8 @@ def createWordCloud(dataframe, column, column_pval):
     wordcloud.to_file(f'wordcloud{network}{column.strip(" ")}.png')
 
     print_latex(word_dict, dict_frequency, column)
+
+    return word_dict, dict_frequency
 
 
 df = read_csv_files("Consensus/algorithmSummary")
@@ -139,3 +146,5 @@ for i in range(0, 3):
     elif i == 1:
         network = "Full"
         df = read_csv_files("Ora/Enriched/algorithmSummary")
+
+
