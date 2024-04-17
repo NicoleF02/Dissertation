@@ -16,10 +16,9 @@ ReadTrubetskoyFile <- function(){
   # Initialize a list to store the rows of Table 2
   table2 <- list()
 
-  # Determine the maximum number of columns
+  # Determine the max no of columns
   max_cols <- 0
 
-  # Iterate through each line in Table 1
   for (line in data) {
     # Split the line based on the tab character "\t" to separate the row header
     parts <- strsplit(line, "\t")[[1]]
@@ -30,7 +29,7 @@ ReadTrubetskoyFile <- function(){
     # The rest of the parts are space-separated values
     values <- strsplit(parts[-1], " ")[[1]]
 
-    # Update the maximum number of columns if needed
+    # Update the max cols if needed
     max_cols <- max(max_cols, length(values))
 
     # Append the row to Table 2

@@ -23,10 +23,8 @@ def saveORAEnrichment(dataframe, ontology):
     condition2 = dataframe['pval'] <= 0.05
     significant_rows = dataframe[condition1 | condition2]
 
-    # Specify columns to print
     columns_to_print = ['alg', 'cl', 'Cn', 'Mu', 'FL', 'padj', 'pval', 'overlapGenes']
 
-    # Sort the DataFrame by 'alg' and 'padj'
     df = significant_rows_sorted = significant_rows.sort_values(by=['alg', 'padj'])
 
     significant_rows_sorted[columns_to_print].to_csv(f'{filePath}/Enriched/{ontology}_significant_rows_sorted.csv',

@@ -103,17 +103,18 @@ synGoOnly <- function(){
   return(data)
 }
 
-
+filename <- "PostsynapticNetwork/SynGoNetwork.gml"
 # SynGO graph
-gg <- generateGraph(count = 1, file='PostsynapticNetwork/SynGoNetwork.gml', synGoOnly=TRUE)
+gg <- generateGraph(count = 1, file=filename, synGoOnly=TRUE)
+
+
 algs <- c("infomap", "sgG1", "sgG2", "sgG5", "spectral")
 
 for (alg in algs){
   print(alg)
   gg <- calcClustering(gg, alg)
 }
-
-write_graph(gg, file='PostsynapticNetwork/SynGoNetwork.gml', format="gml")
+write_graph(gg, file=filename, format="gml")
 
 
 # Postsynaptic Graphs
