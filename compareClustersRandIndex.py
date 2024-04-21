@@ -105,11 +105,11 @@ def calculate_rand_index(pair):
 
 
 def main():
-    file_path = "PostsynapticNetwork/FullPSDDBNetwork.gml"
+    file_path = "PostsynapticNetwork/SynGoNetwork.gml"
     graph = nx.read_gml(file_path, label='name')
     df = pd.DataFrame.from_dict(graph.nodes, orient='index')
 
-    algorithms = ['infomap', 'sgG1', 'sgG2', 'sgG5', 'spectral', 'wt', 'louvain']
+    algorithms = ['infomap', 'sgG1', 'sgG2', 'sgG5', 'spectral'] #'wt', 'louvain']
 
     matrix_size = len(algorithms)
     rand_index_matrix = pd.DataFrame(index=algorithms, columns=algorithms)
@@ -133,7 +133,7 @@ def main():
     print("Adjusted Rand Index Matrix:")
     print(rand_index_matrix)
 
-    rand_index_matrix.to_csv('rand_index_matrix_full.csv')
+    rand_index_matrix.to_csv('SynGO/rand_index_matrix_syngo.csv')
 
 
 if __name__ == "__main__":

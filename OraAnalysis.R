@@ -20,7 +20,7 @@ runORA <- function(ontology){
 
 }
 
-# Loop through the ontologies and perform an ORA analysis
+#Loop through the ontologies and perform an ORA analysis
 for (ontology in list_ontologies) {
   output_folder <- ""
   output_folder <- paste0("Ora/",ontology)
