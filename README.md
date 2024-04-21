@@ -5,6 +5,8 @@ I will also explain the files and the contents. Thanks for reading, and goodluck
 
 ### Useful files
 
+FinalDissertationNicoleFerguson.pdf: The actual report!! Read this!!
+
 network.R: This is the main file that generates the networks and performs the clustering. It is the most important file in the project.
 
 ORAAnalysis.R: This is the file that generates the ORA analysis and saves the csvs.
