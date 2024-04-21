@@ -1,4 +1,4 @@
-alg,clNo,clustsize,no.Trubetskoy Broad,Enrichment,Broad pval,Broad padj,no. Trubetskoy Priortised,Prior pval,Prior padj,Molecular Function,Molecular padj,Biological Function,Biological padj,Diseases,Diseases padj
-spectral,13.0,11.0,3.0,Positive,0.0078817002808882,0.0157634005617766,0,0,0,[],[],"['activation of protein kinase C activity', 'CD40 signaling pathway', 'RIG-I signaling pathway']","[0.0373211595721892, 0.0373211595721892, 0.0373211595721892]",[],[]
-spectral,76.0,34.0,4.0,Positive,0.0431712334335262,0.0863424668670524,0,0,0,"['armadillo repeat domain binding', 'protein phosphatase 2A binding']","[0.0031765411426447, 0.0043816407224673]",[],[],[],[]
-spectral,3.0,1.0,1.0,Positive,0.0394383646500102,0.0788767293000203,0,0,0,[],[],[],[],[],[]
+alg,clNo,clustsize,no.Trubetskoy Broad,Enrichment,Broad pval,Broad padj,no. Trubetskoy Priortised,Prior pval,Prior padj,Molecular Function,Molecular padj,Biological Function,Biological padj,SynGO,SynGO padj,Diseases,Diseases padj
+spectral,13.0,11.0,3.0,Positive,0.0078817002808882,0.0157634005617766,0.0,0.0,0.0,[],[],"['activation of protein kinase C activity', 'CD40 signaling pathway', 'RIG-I signaling pathway']","[0.0373211595721892, 0.0373211595721892, 0.0373211595721892]",['extrinsic component of presynaptic active zone membrane (GO:0098891)'],[0.0033170199569558],[],[]
+spectral,3.0,1.0,1.0,Positive,0.0394383646500102,0.0788767293000203,1.0,0.0094982448895312,0.0189964897790624,[],[],[],[],[],[],[],[]
+spectral,76.0,34.0,4.0,Positive,0.0431712334335262,0.0863424668670524,0.0,0.0,0.0,"['armadillo repeat domain binding', 'protein phosphatase 2A binding']","[0.0031765411426447, 0.0043816407224673]",[],[],[],[],[],[]

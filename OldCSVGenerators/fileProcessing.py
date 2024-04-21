@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Initialize lists
 graphFile = []
 trubetskoyBroad = []
 trubetskoyBroadCross = []

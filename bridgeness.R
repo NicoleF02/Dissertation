@@ -125,11 +125,13 @@ calculateBridgeness <- function (graph, algorithm){
 # Due to earlier results, we will be using louvain, sgG2 and spectral
 
 gFull <- igraph::read.graph("PostsynapticNetwork/FullPSDDBNetwork.gml",format="gml") #graph from gml
-gConsensus <- igraph::read.graph("PostsynapticNetwork/ConsensusPSDDBNetwork.gml",format="gml")
+#gConsensus <- igraph::read.graph("PostsynapticNetwork/ConsensusPSDDBNetwork.gml",format="gml")
 
 gFull <- calcCentrality(gFull)
 gFullLCC <- findLCC(gFull)
-algsFull<-c('infomap','spectral')
+algsFull<-c('infomap','sgG1','sgG2','sgG5')
+
+
 
 
 for (algorithm in algsFull){

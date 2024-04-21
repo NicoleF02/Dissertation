@@ -13,13 +13,12 @@ def process_text_file(input_file):
             if inside_data:
                 # Check if the line contains data (not dashes or empty)
                 if line.strip() and not line.startswith('-'):
-                    # Split the line into columns
                     columns = line.split()
 
-                    # Extract relevant information
+                    # Extract relevant information, algorithm, cluster number, cluster size, crob and crob scaled.
                     alg, C, Cn, Crob, CrobScaled = columns[0], columns[1], columns[2], columns[3], columns[4]
 
-                    # Append the data as a tuple
+                    # Append the data as a tuple, easier to access later on.
                     data.append((alg, C, Cn, Crob, CrobScaled))
 
             # Check if the line starts the data section
@@ -35,7 +34,6 @@ def write_to_csv(data, output_file):
 
         csv_writer.writerow(['alg', 'C', 'Cn', 'Crob', 'CrobScaled'])
 
-        # Write data
         csv_writer.writerows(data)
 
 

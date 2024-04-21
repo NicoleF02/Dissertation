@@ -1,2 +1,0 @@
-alg,clNo,clustsize,no.Trubetskoy Broad,Enrichment,Broad pval,Broad padj,no. Trubetskoy Priortised,Prior pval,Prior padj,Molecular Function,Molecular padj,Biological Function,Biological padj,Diseases,Diseases padj
-sgG2,5,13,3,Positive,0.0128896549110084,0.0257793098220168,0,0,0,['inositol 1,4,5 trisphosphate binding', 'inositol 1,4,5-trisphosphate-sensitive calcium-release channel activity', 'store-operated calcium channel activity'],[9.85487920090312e-06, 0.0251382747728408, 0.0334669275610971],[],[9.85487920090312e-06, 0.0251382747728408, 0.0334669275610971],[],[]

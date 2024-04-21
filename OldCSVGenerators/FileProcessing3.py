@@ -17,7 +17,6 @@ def process_csv_file(file_path):
     # Replace NaN values in the 'OR' column with 'NA'
     df['OR'].fillna('NA', inplace=True)
 
-    # Print the values for the 'OR' column in the desired format
     or_values = ", ".join(map(str, df['OR']))
     print(or_values)
 
@@ -25,7 +24,6 @@ def process_csv_file(file_path):
 algs = ['wt', 'fc', 'infomap', 'louvain',
         'sgG1', 'sgG2', 'sgG5', 'spectral']
 
-# Process each CSV file
 for alg in algs:
     csv_file = f"FullDBClustered/{alg}.csv"
     print(f"Algorithm {alg}")
